@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE } from "../config/site.mjs";
+---
+
+<Layout
+  title={`Contact - ${SITE.title}`}
+  description={`Contact InfinitySignal`}
+  canonicalURL={`${SITE.url}/contact`}
+>
+  <Header />
+  <main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold text-gray-900 mb-6">Contact Us</h1>
+    <p class="text-lg text-gray-600 mb-8">
+      We would love to hear from you. Please reach out through the channels below.
+    </p>
+    <div class="space-y-6">
+      <div>
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">Email</h2>
+        <p class="text-gray-600">contact@infinitysignal.cn (placeholder)</p>
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">Address</h2>
+        <p class="text-gray-600">Placeholder Address, China</p>
+      </div>
+      <div>
+        <h2 class="text-xl font-semibold text-gray-900 mb-2">GitHub</h2>
+        <a
+          href="https://github.com/InfinitySignal"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-blue-600 hover:underline"
+        >
+          https://github.com/InfinitySignal
+        </a>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>

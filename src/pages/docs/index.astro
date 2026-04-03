@@ -1,0 +1,79 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE } from "../../config/site.mjs";
+import { getCollection } from "astro:content";
+
+const docs = await getCollection("docs");
+
+// Root-level docs (no slash in id)
+const rootDocs = docs.filter((d) => !d.id.includes("/"));
+rootDocs.sort((a, b) => {
+  if (a.data.order !== b.data.order) return a.data.order - b.data.order;
+  return a.data.title.localeCompare(b.data.title);
+});
+
+// Top-level directories
+const dirSet = new Set<string>();
+for (const doc of docs) {
+  if (doc.id.includes("/")) {
+    dirSet.add(doc.id.split("/")[0]);
+  }
+}
+const directories = Array.from(dirSet).sort((a, b) => a.localeCompare(b));
+---
+
+<Layout
+  title={`Documentation - ${SITE.title}`}
+  description={`Product documentation for InfinitySignal projects`}
+  canonicalURL={`${SITE.url}/docs`}
+>
+  <Header />
+  <main id="main-content" role="main" class="max-w-4xl mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Documentation</h1>
+    <p class="text-lg text-gray-600 mb-12">
+      Explore product documentation for all InfinitySignal projects.
+    </p>
+
+    <div class="space-y-12">
+      {directories.length > 0 && (
+        <section>
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Projects</h2>
+          <div class="grid sm:grid-cols-2 gap-4">
+            {directories.map((dir) => (
+              <a
+                href={`/docs/${dir}`}
+                class="block p-5 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:shadow-sm transition-all"
+              >
+                <h3 class="text-lg font-medium text-gray-900 capitalize">{dir.replace(/-/g, " ")}</h3>
+                <p class="text-gray-600 mt-1 text-sm">View project documentation &rarr;</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {rootDocs.length > 0 && (
+        <section>
+          <ul class="space-y-3">
+            {rootDocs.map((doc) => (
+              <li>
+                <a
+                  href={`/docs/${doc.id}`}
+                  class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:shadow-sm transition-all"
+                >
+                  <h3 class="text-lg font-medium text-gray-900">{doc.data.title}</h3>
+                  {doc.data.description && (
+                    <p class="text-gray-600 mt-1">{doc.data.description}</p>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+  </main>
+  <Footer />
+</Layout>

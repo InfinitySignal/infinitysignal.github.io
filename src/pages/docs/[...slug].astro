@@ -1,0 +1,47 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE } from "../../config/site.mjs";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const docs = await getCollection("docs");
+  return docs.map((doc) => ({
+    params: { slug: doc.id },
+    props: { doc },
+  }));
+}
+
+const { doc } = Astro.props;
+const { Content } = await render(doc);
+---
+
+<Layout
+  title={`${doc.data.title} - ${SITE.title}`}
+  description={doc.data.description || SITE.description}
+  canonicalURL={`${SITE.url}/docs/${doc.id}`}
+>
+  <Header />
+  <main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
+    <a
+      href="/docs"
+      class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
+    >
+      &larr; Back to Documentation
+    </a>
+    <article class="prose prose-lg max-w-none">
+      <h1>{doc.data.title}</h1>
+      <Content />
+    </article>
+    <div class="mt-12 pt-8 border-t border-gray-200">
+      <a
+        href="/docs"
+        class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+      >
+        &larr; Back to Documentation
+      </a>
+    </div>
+  </main>
+  <Footer />
+</Layout>

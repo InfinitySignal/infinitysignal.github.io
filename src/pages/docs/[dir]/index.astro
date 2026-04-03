@@ -1,0 +1,65 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+import { SITE } from "../../../config/site.mjs";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const docs = await getCollection("docs");
+  const dirSet = new Set<string>();
+  for (const doc of docs) {
+    if (doc.id.includes("/")) {
+      dirSet.add(doc.id.split("/")[0]);
+    }
+  }
+  return Array.from(dirSet).map((dir) => ({ params: { dir } }));
+}
+
+const { dir } = Astro.params;
+const docs = await getCollection("docs");
+const dirDocs = docs.filter((d) => d.id.startsWith(`${dir}/`));
+dirDocs.sort((a, b) => {
+  if (a.data.order !== b.data.order) return a.data.order - b.data.order;
+  return a.data.title.localeCompare(b.data.title);
+});
+
+const displayName = dir.replace(/-/g, " ");
+---
+
+<Layout
+  title={`${displayName} - Documentation - ${SITE.title}`}
+  description={`Documentation for ${displayName}`}
+  canonicalURL={`${SITE.url}/docs/${dir}`}
+>
+  <Header />
+  <main id="main-content" role="main" class="max-w-4xl mx-auto px-4 py-16">
+    <a
+      href="/docs"
+      class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
+    >
+      &larr; Back to Documentation
+    </a>
+    <h1 class="text-4xl font-bold text-gray-900 mb-4 capitalize">{displayName}</h1>
+    <p class="text-lg text-gray-600 mb-8">
+      Browse documentation for this project.
+    </p>
+
+    <ul class="space-y-3">
+      {dirDocs.map((doc) => (
+        <li>
+          <a
+            href={`/docs/${doc.id}`}
+            class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:shadow-sm transition-all"
+          >
+            <h3 class="text-lg font-medium text-gray-900">{doc.data.title}</h3>
+            {doc.data.description && (
+              <p class="text-gray-600 mt-1">{doc.data.description}</p>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </main>
+  <Footer />
+</Layout>
