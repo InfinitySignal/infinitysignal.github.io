@@ -1,0 +1,80 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { Icon } from "astro-icon/components";
+import { SITE } from "../../config/site.mjs";
+import {
+	getProductHtmlFiles,
+	getProducts,
+	type Product,
+} from "../../utils/products";
+
+export function getStaticPaths() {
+	return getProducts().map((product) => ({
+		params: { slug: product.slug },
+		props: { product },
+	}));
+}
+
+const { product } = Astro.props as { product: Product };
+const htmlFiles = getProductHtmlFiles(product.slug);
+---
+
+<Layout
+	title={`${product.title} - Products - ${SITE.title}`}
+	description={product.description ||
+		`Published HTML outputs for ${product.title}`}
+	canonicalURL={`${SITE.url}/products/${product.slug}`}
+>
+	<Header />
+	<main id="main-content" role="main" class="max-w-4xl mx-auto px-4 py-16">
+		<a
+			href="/products"
+			class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
+		>
+			&larr; Back to Products
+		</a>
+
+		<h1 class="text-4xl font-bold text-gray-900 mb-4">{product.title}</h1>
+		<p class="text-lg text-gray-600 mb-10">{product.description}</p>
+
+		<section aria-label="Published HTML files">
+			{
+				htmlFiles.length > 0 ? (
+					<ul class="space-y-3" role="list">
+						{htmlFiles.map((file) => (
+							<li>
+								<a
+									href={file.href}
+									class="group flex items-center justify-between gap-4 p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:shadow-sm transition-all"
+								>
+									<span class="font-medium text-gray-900 break-all">
+										{file.fileName}
+									</span>
+									<Icon
+										name="tabler:arrow-up-right"
+										class="w-5 h-5 text-gray-400 group-hover:text-gray-700 transition-colors shrink-0"
+										aria-hidden="true"
+									/>
+								</a>
+							</li>
+						))}
+					</ul>
+				) : (
+					<div class="bg-white border border-gray-200 rounded-lg p-6">
+						<h3 class="text-lg font-medium text-gray-900">
+							No HTML files published yet.
+						</h3>
+						<p class="text-gray-600 mt-2">
+							Commit HTML files to{" "}
+							<code>public/products/{product.slug}/items/</code> and rebuild the
+							site to list them here.
+						</p>
+					</div>
+				)
+			}
+		</section>
+	</main>
+	<Footer />
+</Layout>
