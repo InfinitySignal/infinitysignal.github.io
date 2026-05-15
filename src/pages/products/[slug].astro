@@ -6,6 +6,7 @@ import { Icon } from "astro-icon/components";
 import { SITE } from "../../config/site.mjs";
 import {
 	getProductHtmlFiles,
+	getProductLogo,
 	getProducts,
 	type Product,
 } from "../../utils/products";
@@ -13,11 +14,12 @@ import {
 export function getStaticPaths() {
 	return getProducts().map((product) => ({
 		params: { slug: product.slug },
-		props: { product },
 	}));
 }
 
-const { product } = Astro.props as { product: Product };
+const product = getProducts().find(
+	(candidate) => candidate.slug === Astro.params.slug
+) as Product;
 const htmlFiles = getProductHtmlFiles(product.slug);
 ---
 
@@ -25,18 +27,26 @@ const htmlFiles = getProductHtmlFiles(product.slug);
 	title={`${product.title} - Products - ${SITE.title}`}
 	description={product.description ||
 		`Published HTML outputs for ${product.title}`}
-	canonicalURL={`${SITE.url}/products/${product.slug}`}
+	canonicalURL={`${SITE.url}/products/${product.slug}/`}
+	ogImage={getProductLogo(product)}
 >
 	<Header />
 	<main id="main-content" role="main" class="max-w-4xl mx-auto px-4 py-16">
 		<a
-			href="/products"
+			href="/products/"
 			class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
 		>
-			&larr; Back to Products
+			&larr; Products
 		</a>
 
-		<h1 class="text-4xl font-bold text-gray-900 mb-4">{product.title}</h1>
+		<div class="mb-4 flex items-center gap-4">
+			<img
+				src={getProductLogo(product)}
+				alt={`${product.title} logo`}
+				class="h-14 w-14 shrink-0 rounded-xl border border-gray-200 object-contain p-2"
+			/>
+			<h1 class="text-4xl font-bold text-gray-900">{product.title}</h1>
+		</div>
 		<p class="text-lg text-gray-600 mb-10">{product.description}</p>
 
 		<section aria-label="Published HTML files">

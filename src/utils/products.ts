@@ -6,6 +6,7 @@ export interface Product {
 	slug: string;
 	title: string;
 	description: string;
+	logo?: string;
 	order?: number;
 }
 
@@ -15,6 +16,7 @@ export interface ProductHtmlFile {
 }
 
 const PRODUCT_SLUG_PATTERN = /^[a-z0-9-]+$/;
+const DEFAULT_PRODUCT_LOGO = "/logo.png";
 
 function assertValidProduct(product: Product): void {
 	if (!PRODUCT_SLUG_PATTERN.test(product.slug)) {
@@ -33,6 +35,14 @@ export function getProducts(): Product[] {
 		if (orderDiff !== 0) return orderDiff;
 		return a.title.localeCompare(b.title);
 	});
+}
+
+export function getProductHref(product: Product): string {
+	return `/products/${product.slug}/`;
+}
+
+export function getProductLogo(product: Product): string {
+	return product.logo || DEFAULT_PRODUCT_LOGO;
 }
 
 export function getProductHtmlFiles(slug: string): ProductHtmlFile[] {

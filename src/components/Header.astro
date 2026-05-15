@@ -1,5 +1,10 @@
 ---
 import { Icon } from "astro-icon/components";
+import ProductMenuItems from "./ProductMenuItems.astro";
+import { getProducts } from "../utils/products";
+
+const products = getProducts();
+const isProductsActive = Astro.url.pathname.startsWith("/products");
 ---
 
 <header
@@ -54,15 +59,31 @@ import { Icon } from "astro-icon/components";
 				</a>
 			</li>
 			<li>
-				<a
-					href="/products"
-					class="text-gray-600 hover:text-gray-900 transition-colors"
-					aria-current={Astro.url.pathname.startsWith("/products")
-						? "page"
-						: undefined}
-				>
-					Products
-				</a>
+				<div class="relative group">
+					<button
+						type="button"
+						class={`inline-flex cursor-default items-center gap-1 rounded text-gray-600 transition-colors hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-4 ${
+							isProductsActive ? "text-gray-900" : ""
+						}`}
+						aria-haspopup="menu"
+					>
+						Products
+						<Icon
+							name="tabler:chevron-down"
+							class="h-4 w-4 transition-transform group-hover:rotate-180 group-focus-within:rotate-180"
+							aria-hidden="true"
+						/>
+					</button>
+					<div
+						class="invisible pointer-events-none absolute left-1/2 top-full z-50 w-80 -translate-x-1/2 translate-y-1 pt-3 opacity-0 transition-all duration-150 group-hover:visible group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:pointer-events-auto group-focus-within:translate-y-0 group-focus-within:opacity-100"
+					>
+						<div
+							class="rounded-xl border border-gray-200 bg-white p-2 shadow-lg"
+						>
+							<ProductMenuItems products={products} class="space-y-1" />
+						</div>
+					</div>
+				</div>
 			</li>
 			<li>
 				<a
@@ -119,16 +140,18 @@ import { Icon } from "astro-icon/components";
 				</a>
 			</li>
 			<li>
-				<a
-					href="/products"
-					class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
-					role="menuitem"
-					aria-current={Astro.url.pathname.startsWith("/products")
-						? "page"
-						: undefined}
+				<div
+					class={`flex items-center justify-between gap-3 px-4 py-3 font-medium ${
+						isProductsActive ? "text-gray-900" : "text-gray-600"
+					}`}
 				>
-					Products
-				</a>
+					<span>Products</span>
+					<Icon name="tabler:chevron-down" class="h-4 w-4" aria-hidden="true" />
+				</div>
+				<ProductMenuItems
+					products={products}
+					class="mx-4 mb-2 space-y-1 border-l border-gray-200 pl-3"
+				/>
 			</li>
 			<li>
 				<a

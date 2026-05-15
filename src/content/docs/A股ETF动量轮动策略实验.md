@@ -1,7 +1,7 @@
 ---
 title: A股ETF动量轮动策略实验
 description: A股ETF动量轮动策略实验
-order: 1
+order: 20
 ---
 
 # 概述
@@ -10,7 +10,7 @@ order: 1
 
 **特别注意：本项目仅供学习使用，不作为投资建议**
 
-## 策略详情和每天的日报会自动发布到这里：[A股ETF动量轮动策略实验Notion笔记](https://infinitysignal.notion.site/A-ETF-33e2440f992f80d189a5c9dda41ea19e)
+## ~~策略详情和每天的日报会自动发布到这里~~ A股做不了价值投资，实验终止:-) [https://infinitysignal.notion.site/A-ETF-33e2440f992f80d189a5c9dda41ea19e](https://infinitysignal.notion.site/A-ETF-33e2440f992f80d189a5c9dda41ea19e)
 
 ## 策略背景
 

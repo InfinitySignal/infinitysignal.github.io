@@ -2,13 +2,15 @@
 	{
 		"slug": "us-risk-daily",
 		"title": "美股风控日报",
-		"description": "Daily US market risk control reports.",
+		"description": "策略说明: https://infinitysignal.cn/docs/",
+		"logo": "/products/us-risk-daily/logo.png",
 		"order": 10
 	},
 	{
 		"slug": "a-share-morning-report",
 		"title": "A股每日晨报",
 		"description": "Daily A-share morning market briefings.",
+		"logo": "/logo.png",
 		"order": 20
 	}
 ]
