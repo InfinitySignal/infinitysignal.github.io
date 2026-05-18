@@ -61,6 +61,6 @@ export function getProductHtmlFiles(slug: string): ProductHtmlFile[] {
 			href: `/products/${slug}/items/${encodeURIComponent(entry.name)}`,
 		}))
 		.sort((a, b) =>
-			a.fileName.localeCompare(b.fileName, undefined, { numeric: true })
+			b.fileName.localeCompare(a.fileName, undefined, { numeric: true })
 		);
 }
