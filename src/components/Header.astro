@@ -140,18 +140,29 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 				</a>
 			</li>
 			<li>
-				<div
-					class={`flex items-center justify-between gap-3 px-4 py-3 font-medium ${
+				<button
+					type="button"
+					id="mobile-products-button"
+					class={`flex w-full items-center justify-between gap-3 px-4 py-3 text-left font-medium transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black ${
 						isProductsActive ? "text-gray-900" : "text-gray-600"
 					}`}
+					aria-expanded="false"
+					aria-controls="mobile-products-menu"
 				>
 					<span>Products</span>
-					<Icon name="tabler:chevron-down" class="h-4 w-4" aria-hidden="true" />
+					<Icon
+						name="tabler:chevron-down"
+						class="h-4 w-4 transition-transform"
+						aria-hidden="true"
+						data-mobile-products-chevron
+					/>
+				</button>
+				<div id="mobile-products-menu" class="hidden">
+					<ProductMenuItems
+						products={products}
+						class="mx-4 mb-2 space-y-1 border-l border-gray-200 pl-3"
+					/>
 				</div>
-				<ProductMenuItems
-					products={products}
-					class="mx-4 mb-2 space-y-1 border-l border-gray-200 pl-3"
-				/>
 			</li>
 			<li>
 				<a
@@ -184,13 +195,43 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 	// Mobile menu toggle functionality
 	const menuButton = document.getElementById("mobile-menu-button");
 	const mobileMenu = document.getElementById("mobile-menu");
+	const mobileProductsButton = document.getElementById(
+		"mobile-products-button"
+	);
+	const mobileProductsMenu = document.getElementById("mobile-products-menu");
+	const mobileProductsChevron = document.querySelector(
+		"[data-mobile-products-chevron]"
+	);
+
+	const closeMobileProductsMenu = () => {
+		if (!mobileProductsButton || !mobileProductsMenu) return;
+
+		mobileProductsButton.setAttribute("aria-expanded", "false");
+		mobileProductsMenu.classList.add("hidden");
+		mobileProductsChevron?.classList.remove("rotate-180");
+	};
 
 	if (menuButton && mobileMenu) {
 		menuButton.addEventListener("click", () => {
 			const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
 			menuButton.setAttribute("aria-expanded", String(!isExpanded));
 			mobileMenu.classList.toggle("hidden");
+
+			if (isExpanded) {
+				closeMobileProductsMenu();
+			}
 		});
+
+		if (mobileProductsButton && mobileProductsMenu) {
+			mobileProductsButton.addEventListener("click", () => {
+				const isExpanded =
+					mobileProductsButton.getAttribute("aria-expanded") === "true";
+
+				mobileProductsButton.setAttribute("aria-expanded", String(!isExpanded));
+				mobileProductsMenu.classList.toggle("hidden", isExpanded);
+				mobileProductsChevron?.classList.toggle("rotate-180", !isExpanded);
+			});
+		}
 
 		// Close menu when clicking outside
 		document.addEventListener("click", (e) => {
@@ -201,6 +242,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 			) {
 				menuButton.setAttribute("aria-expanded", "false");
 				mobileMenu.classList.add("hidden");
+				closeMobileProductsMenu();
 			}
 		});
 
@@ -209,6 +251,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 			if (e.key === "Escape" && !mobileMenu.classList.contains("hidden")) {
 				menuButton.setAttribute("aria-expanded", "false");
 				mobileMenu.classList.add("hidden");
+				closeMobileProductsMenu();
 				menuButton.focus();
 			}
 		});

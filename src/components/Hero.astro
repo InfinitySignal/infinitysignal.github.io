@@ -16,7 +16,7 @@ const products = getProducts();
 			id="hero-heading"
 			class="text-5xl md:text-6xl font-bold text-gray-900 mb-6"
 		>
-			Making Sense of the Infinite Signal
+			Transforming Chaos into Clear Signal
 		</h1>
 	</ScrollReveal>
 	<ScrollReveal client:load delay={0.2}>
@@ -31,28 +31,34 @@ const products = getProducts();
 				href="https://github.com/InfinitySignal"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="inline-flex items-center gap-2 px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium"
+				class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-medium"
 				aria-label="Visit our GitHub (opens in new tab)"
 			>
 				<Icon name="tabler:brand-github" class="w-5 h-5" aria-hidden="true" />
 				<span>GitHub</span>
 			</a>
-			<div class="relative group">
+			<div class="relative group" data-hero-products>
 				<button
 					type="button"
-					class="inline-flex w-full cursor-default items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-8 py-3 font-medium text-gray-900 transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 sm:w-auto"
+					class="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border border-gray-300 bg-white px-8 py-3 font-medium text-gray-900 transition-colors hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 sm:w-auto"
 					aria-haspopup="menu"
+					aria-expanded="false"
+					aria-controls="hero-products-menu"
+					data-hero-products-button
 				>
 					<Icon name="tabler:apps" class="w-5 h-5" aria-hidden="true" />
 					<span>Products</span>
 					<Icon
 						name="tabler:chevron-down"
-						class="h-4 w-4 transition-transform group-hover:rotate-180 group-focus-within:rotate-180"
+						class="h-4 w-4 transition-transform md:group-hover:rotate-180"
 						aria-hidden="true"
+						data-hero-products-chevron
 					/>
 				</button>
 				<div
-					class="invisible pointer-events-none absolute left-1/2 top-full z-40 w-[min(20rem,calc(100vw-2rem))] -translate-x-1/2 translate-y-1 pt-3 text-left opacity-0 transition-all duration-150 group-hover:visible group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:pointer-events-auto group-focus-within:translate-y-0 group-focus-within:opacity-100"
+					id="hero-products-menu"
+					class="absolute left-1/2 top-full z-40 hidden w-[min(20rem,calc(100vw-2rem))] -translate-x-1/2 pt-3 text-left transition-all duration-150 md:block md:invisible md:pointer-events-none md:translate-y-1 md:opacity-0 md:group-hover:visible md:group-hover:pointer-events-auto md:group-hover:translate-y-0 md:group-hover:opacity-100"
+					data-hero-products-menu
 				>
 					<div class="rounded-xl border border-gray-200 bg-white p-2 shadow-lg">
 						<ProductMenuItems products={products} class="space-y-1" />
@@ -61,7 +67,7 @@ const products = getProducts();
 			</div>
 			<a
 				href="/docs"
-				class="inline-flex items-center gap-2 px-8 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors font-medium"
+				class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors font-medium"
 			>
 				<Icon name="tabler:file-text" class="w-5 h-5" aria-hidden="true" />
 				<span>Documentation</span>
@@ -69,3 +75,42 @@ const products = getProducts();
 		</div>
 	</ScrollReveal>
 </section>
+
+<script>
+	const heroProducts = document.querySelector("[data-hero-products]");
+	const heroProductsButton = document.querySelector(
+		"[data-hero-products-button]"
+	);
+	const heroProductsMenu = document.querySelector("[data-hero-products-menu]");
+	const heroProductsChevron = document.querySelector(
+		"[data-hero-products-chevron]"
+	);
+
+	const setHeroProductsOpen = (isOpen: boolean) => {
+		if (!heroProductsButton || !heroProductsMenu) return;
+
+		heroProductsButton.setAttribute("aria-expanded", String(isOpen));
+		heroProductsMenu.classList.toggle("hidden", !isOpen);
+		heroProductsChevron?.classList.toggle("rotate-180", isOpen);
+	};
+
+	if (heroProducts && heroProductsButton && heroProductsMenu) {
+		heroProductsButton.addEventListener("click", () => {
+			const isExpanded =
+				heroProductsButton.getAttribute("aria-expanded") === "true";
+			setHeroProductsOpen(!isExpanded);
+		});
+
+		document.addEventListener("click", (event) => {
+			if (!heroProducts.contains(event.target as Node)) {
+				setHeroProductsOpen(false);
+			}
+		});
+
+		document.addEventListener("keydown", (event) => {
+			if (event.key === "Escape") {
+				setHeroProductsOpen(false);
+			}
+		});
+	}
+</script>
