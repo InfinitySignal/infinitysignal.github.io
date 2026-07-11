@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-07-11 S&P 500 风控报告</title>
+<style>
+body{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;margin:0;background:#f6f8fb;color:#172033;line-height:1.5}
+main{max-width:1080px;margin:0 auto;padding:28px 18px 44px}
+h1{font-size:28px;margin:0 0 6px} h2{font-size:18px;margin:28px 0 10px}
+.meta{color:#667085;margin-bottom:22px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.card{background:#fff;border:1px solid #d9e0ea;border-radius:8px;padding:14px}
+.label{font-size:12px;color:#667085} .value{font-size:22px;font-weight:700;margin-top:4px}
+.fresh{color:#027a48} .stale{color:#b42318} table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #d9e0ea}
+th,td{padding:10px 12px;border-bottom:1px solid #e7ecf3;text-align:left;font-size:14px;vertical-align:top}
+th{background:#eef3f8;color:#344054} code{background:#eef3f8;border-radius:4px;padding:2px 4px}
+ul{background:#fff;border:1px solid #d9e0ea;border-radius:8px;margin:0;padding:12px 28px}
+script{display:none}
+</style>
+</head>
+<body>
+<main>
+<h1>S&P 500 三维五因子风控报告</h1>
+<div class="meta">生成时间：<code>2026-07-11T00:00:57.301234+00:00</code> · 运行日期：<code>2026-07-11</code> · 数据日期：<code>2026-07-10</code></div>
+<section class="grid">
+<div class="card"><div class="label">正式风险等级</div><div class="value">2（普通模式）</div></div>
+<div class="card"><div class="label">当天风险等级</div><div class="value">2（普通模式）</div></div>
+<div class="card"><div class="label">目标权益仓位</div><div class="value">97.0%</div></div>
+<div class="card"><div class="label">综合风险分数</div><div class="value">-0.325</div></div>
+<div class="card"><div class="label">数据状态</div><div class="value fresh">fresh</div></div>
+</section>
+<h2>因子 Z 值</h2>
+<table><thead><tr><th>因子</th><th>数值</th></tr></thead><tbody><tr><th>VIX_Z</th><td>-0.681</td></tr><tr><th>HY_Z</th><td>-0.949</td></tr><tr><th>TS_Z</th><td>-0.024</td></tr><tr><th>DEV_Z</th><td>-0.703</td></tr><tr><th>SLOPE_Z</th><td>-0.053</td></tr></tbody></table>
+<h2>原始输入</h2>
+<table><thead><tr><th>序列</th><th>数值</th></tr></thead><tbody><tr><th>SP500</th><td>7575.390</td></tr><tr><th>VIXCLS</th><td>15.840</td></tr><tr><th>BAMLH0A0HYM2</th><td>2.700</td></tr><tr><th>DGS2</th><td>4.160</td></tr><tr><th>DGS10</th><td>4.540</td></tr></tbody></table>
+<h2>规则触发</h2>
+<table><tbody>
+<tr><th>单因子否决</th><td>无</td></tr>
+<tr><th>双因子共振候选</th><td>无</td></tr>
+<tr><th>危机组合</th><td>无</td></tr>
+<tr><th>超跌拐头修正</th><td>否</td></tr>
+</tbody></table>
+<h2>数据质量</h2>
+<table><tbody>
+<tr><th>缺失因子数</th><td>0.0</td></tr>
+<tr><th>原始缺失因子数</th><td>4.0</td></tr>
+<tr><th>允许最大滞后天数</th><td>5</td></tr>
+</tbody></table>
+<h2>数据覆盖</h2>
+<table><thead><tr><th>序列</th><th>状态</th><th>最新日期</th><th>滞后天数</th><th>新鲜度</th></tr></thead><tbody><tr><td>sp500</td><td>ok</td><td>2026-07-10</td><td>1</td><td>fresh</td></tr><tr><td>vix</td><td>ok</td><td>2026-07-09</td><td>2</td><td>fresh</td></tr><tr><td>dgs2</td><td>ok</td><td>2026-07-09</td><td>2</td><td>fresh</td></tr><tr><td>dgs10</td><td>ok</td><td>2026-07-09</td><td>2</td><td>fresh</td></tr><tr><td>hy</td><td>ok</td><td>2026-07-09</td><td>2</td><td>fresh</td></tr></tbody></table>
+<h2>告警</h2>
+<ul><li>无</li></ul>
+
+</main>
+</body>
+</html>
