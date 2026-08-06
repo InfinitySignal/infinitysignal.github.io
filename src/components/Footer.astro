@@ -70,7 +70,15 @@ import { Icon } from "astro-icon/components";
     </div>
     <div class="pt-8 border-t border-gray-200 text-center text-gray-600 space-y-2">
       <p>&copy; {new Date().getFullYear()} InfinitySignal. All rights reserved.</p>
-      <p class="text-sm">ICP备案号：占位符</p>
+      <p class="text-sm">
+        <a
+          href="https://beian.miit.gov.cn/"
+          class="hover:text-gray-900 transition-colors"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="在工信部备案管理系统查询沪ICP备2026038103号-1（在新标签页中打开）"
+        >沪ICP备2026038103号-1</a>
+      </p>
     </div>
   </div>
 </footer>
