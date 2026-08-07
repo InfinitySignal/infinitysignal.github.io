@@ -8,13 +8,16 @@ import {
 	getProductHtmlFiles,
 	getProductLogo,
 	getProducts,
+	isExternalProduct,
 	type Product,
 } from "../../utils/products";
 
 export function getStaticPaths() {
-	return getProducts().map((product) => ({
-		params: { slug: product.slug },
-	}));
+	return getProducts()
+		.filter((product) => !isExternalProduct(product))
+		.map((product) => ({
+			params: { slug: product.slug },
+		}));
 }
 
 const product = getProducts().find(

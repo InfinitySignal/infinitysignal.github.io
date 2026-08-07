@@ -7,6 +7,7 @@ export interface Product {
 	title: string;
 	description: string;
 	logo?: string;
+	href?: string;
 	order?: number;
 }
 
@@ -38,7 +39,11 @@ export function getProducts(): Product[] {
 }
 
 export function getProductHref(product: Product): string {
-	return `/products/${product.slug}/`;
+	return product.href || `/products/${product.slug}/`;
+}
+
+export function isExternalProduct(product: Product): boolean {
+	return Boolean(product.href);
 }
 
 export function getProductLogo(product: Product): string {

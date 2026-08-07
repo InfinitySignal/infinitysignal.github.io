@@ -1,16 +1,17 @@
 [
 	{
+		"slug": "qbao-global-invest",
+		"title": "Q宝全球投",
+		"description": "https://qdii.infinitysignal.cn/",
+		"href": "https://qdii.infinitysignal.cn/",
+		"logo": "/products/qbao-global-invest/logo.png",
+		"order": 0
+	},
+	{
 		"slug": "us-risk-daily",
 		"title": "美股风控日报",
 		"description": "策略说明: https://infinitysignal.cn/docs/",
 		"logo": "/products/us-risk-daily/logo.png",
 		"order": 10
-	},
-	{
-		"slug": "a-share-morning-report",
-		"title": "A股每日晨报",
-		"description": "Daily A-share morning market briefings.",
-		"logo": "/logo.png",
-		"order": 20
 	}
 ]
