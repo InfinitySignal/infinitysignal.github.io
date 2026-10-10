@@ -1,4 +1,6 @@
 ---
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
@@ -23,6 +25,15 @@ export function getStaticPaths() {
 const product = getProducts().find(
 	(candidate) => candidate.slug === Astro.params.slug
 ) as Product;
+if (product.landingPage) {
+	const html = readFileSync(
+		join(process.cwd(), "public", product.landingPage),
+		"utf-8"
+	);
+	return new Response(html, {
+		headers: { "Content-Type": "text/html; charset=utf-8" },
+	});
+}
 const htmlFiles = getProductHtmlFiles(product.slug);
 ---
 

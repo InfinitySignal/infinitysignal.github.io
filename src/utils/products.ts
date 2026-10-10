@@ -8,6 +8,7 @@ export interface Product {
 	description: string;
 	logo?: string;
 	href?: string;
+	landingPage?: string;
 	order?: number;
 }
 

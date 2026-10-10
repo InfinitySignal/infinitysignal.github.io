@@ -19,6 +19,7 @@
 		"title": "美股QDII限额实时监控",
 		"description": "跟踪美股 QDII 基金各渠道申购状态、限额及公告变更。",
 		"logo": "/products/us-qdii-limit-monitor/logo.png",
+		"landingPage": "/products/us-qdii-limit-monitor/items/monitor.html",
 		"order": 20
 	}
 ]
