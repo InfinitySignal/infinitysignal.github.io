@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>美股QDII限额实时监控</title>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				background: #f5f5f5;
+				color: rgba(0, 0, 0, 0.88);
+				font-family:
+					-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+					"Microsoft YaHei", sans-serif;
+				font-size: 14px;
+				line-height: 1.5715;
+			}
+			main {
+				max-width: 1120px;
+				margin: 0 auto;
+				padding: 40px 24px;
+			}
+			h1 {
+				margin: 0 0 20px;
+				font-size: clamp(24px, 4vw, 30px);
+				font-weight: 600;
+				line-height: 1.4;
+			}
+			blockquote {
+				margin: 0 0 24px;
+				border: 1px solid #91caff;
+				border-radius: 8px;
+				padding: 12px 16px;
+				background: #e6f4ff;
+				color: rgba(0, 0, 0, 0.65);
+			}
+			section {
+				margin-top: 24px;
+				padding: 24px;
+				border: 1px solid #f0f0f0;
+				border-radius: 8px;
+				background: #fff;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+			}
+			h2 {
+				margin: 0 0 20px;
+				padding-bottom: 16px;
+				border-bottom: 1px solid #f0f0f0;
+				font-size: 16px;
+				font-weight: 600;
+			}
+			ul {
+				margin: 0;
+				padding-left: 24px;
+			}
+			li + li {
+				margin-top: 8px;
+			}
+			.table-scroll {
+				overflow-x: auto;
+				border: 1px solid #f0f0f0;
+				border-radius: 8px;
+			}
+			.table-scroll:focus-visible {
+				outline: 2px solid #1677ff;
+				outline-offset: 4px;
+			}
+			table {
+				width: 100%;
+				min-width: 760px;
+				border-collapse: collapse;
+				text-align: left;
+			}
+			th,
+			td {
+				padding: 16px;
+				border-bottom: 1px solid #f0f0f0;
+				vertical-align: top;
+			}
+			thead th {
+				background: #fafafa;
+				color: rgba(0, 0, 0, 0.88);
+				font-size: 14px;
+				font-weight: 600;
+			}
+			tbody th {
+				font-weight: 500;
+			}
+			.channels {
+				white-space: nowrap;
+				line-height: 1.8;
+			}
+			tbody tr {
+				transition: background-color 0.2s;
+			}
+			tbody tr:hover {
+				background: #fafafa;
+			}
+			tbody tr:last-child > * {
+				border-bottom: 0;
+			}
+			a {
+				color: #1677ff;
+				text-decoration: none;
+				text-underline-offset: 3px;
+			}
+			a:hover {
+				color: #4096ff;
+				text-decoration: underline;
+			}
+			.sample-note {
+				margin: 0 0 16px;
+				color: rgba(0, 0, 0, 0.45);
+				font-size: 14px;
+			}
+			@media (max-width: 640px) {
+				main {
+					padding: 28px 16px;
+				}
+				section {
+					padding: 20px 16px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>美股QDII限额实时监控</h1>
+			<!-- 自动填充：替换 #updated-at 的文本；实际更新时间可添加 datetime 属性。 -->
+			<blockquote>更新日期时间：<time id="updated-at">xxxx</time></blockquote>
+
+			<section aria-labelledby="changes-heading">
+				<h2 id="changes-heading">最新变更</h2>
+				<!-- 自动填充：替换 #latest-changes 内的 li；无变更时可写“暂无最新变更”。 -->
+				<ul id="latest-changes">
+					<li>待更新：xxx基金限额提高到 xxx 元……</li>
+				</ul>
+			</section>
+
+			<section aria-labelledby="monitor-heading">
+				<h2 id="monitor-heading">完整监控表</h2>
+				<!-- 填入实际数据后移除示例说明。 -->
+				<p class="sample-note" id="sample-note">
+					以下为格式示例，待填入实际监控数据。
+				</p>
+				<div
+					class="table-scroll"
+					role="region"
+					aria-labelledby="monitor-heading"
+					tabindex="0"
+				>
+					<table aria-labelledby="monitor-heading">
+						<thead>
+							<tr>
+								<th scope="col">基金名称及代码</th>
+								<th scope="col">渠道申购状态及限额</th>
+								<th scope="col">公告生效日期</th>
+								<th scope="col">数据来源</th>
+							</tr>
+						</thead>
+						<!-- 自动填充：替换 #monitor-rows 内的 tr；渠道之间用 br 换行，源码缩进不会产生额外换行。 -->
+						<tbody id="monitor-rows">
+							<tr>
+								<th scope="row">南方纳斯达克100 I（021000）</th>
+								<td class="channels">
+									直销：<strong>200 元</strong><br />代销：<strong
+										>10 元</strong
+									>
+								</td>
+								<td><time datetime="2026-07-21">2026-07-21</time></td>
+								<td>
+									<a
+										href="https://www.howbuy.com/fund/info/dtl/0210005385962.htm?utm_source=chatgpt.com"
+										target="_blank"
+										rel="noopener noreferrer"
+										>公告原文</a
+									>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

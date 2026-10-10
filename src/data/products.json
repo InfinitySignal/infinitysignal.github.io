@@ -13,5 +13,11 @@
 		"description": "策略说明: https://infinitysignal.cn/docs/",
 		"logo": "/products/us-risk-daily/logo.png",
 		"order": 10
+	},
+	{
+		"slug": "us-qdii-limit-monitor",
+		"title": "美股QDII限额实时监控",
+		"description": "跟踪美股 QDII 基金各渠道申购状态、限额及公告变更。",
+		"order": 20
 	}
 ]
