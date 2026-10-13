@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "monitor_version": "V1.7",
+  "source": "Q宝全球投:list_qdii_announcements",
+  "created_at": "2026-10-13T18:20:00+08:00",
+  "last_scan_at": null,
+  "last_completed_scan_at": null,
+  "processed_announcements": {},
+  "pending_announcements": {},
+  "confirmed_rules": {},
+  "notification_events": {},
+  "notes": "Initialized empty. Never mark an announcement processed until its full text has been parsed and the checkpoint commit has been verified. Parsed status and verified limit rule are separate."
+}
