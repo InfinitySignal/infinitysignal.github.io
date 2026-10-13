@@ -3,7 +3,7 @@
   "monitor_version": "V1.7",
   "source": "Q宝全球投:list_qdii_announcements",
   "created_at": "2026-10-13T18:20:00+08:00",
-  "last_scan_at": "2026-10-13T10:45:17.707Z",
+  "last_scan_at": "2026-10-13T10:56:45.069Z",
   "last_completed_scan_at": null,
   "processed_announcements": {
     "AN202610121830361740": {
@@ -56,11 +56,68 @@
         "不定额投资"
       ],
       "note": "2026-10-13官方PDF链接已定位；公告全文经公开转载文本交叉核验。基金官网PDF当前抓取受限，证据评B而非A；不同份额独立，同份额跨销售渠道累计。"
+    },
+    "AN202609241829831132": {
+      "announcement_id": "AN202609241829831132",
+      "announcement_date": "2026-09-24",
+      "effective_date": "2026-09-28",
+      "fund_codes": [
+        "019736",
+        "019737"
+      ],
+      "title": "宝盈纳斯达克100指数基金调整大额申购、定期定额投资业务限制金额",
+      "parse_status": "success",
+      "validation_status": "public_full_text_crosschecked",
+      "verification_level": "B",
+      "issuer_or_fulltext_url": "https://caifuhao.eastmoney.com/news/20260924131023142465160",
+      "result": "人民币A/C份额单日每个账户申购及定投各不超过10元（含），不同份额分别计算；未开通转换业务；销售渠道实际受理仍待独立核实",
+      "affects_daily_amount_limit": false,
+      "parsed_at": "2026-10-13T10:56:45.069Z",
+      "source_discovery": "Q宝全球投"
+    },
+    "AN202609231829774454": {
+      "announcement_id": "AN202609231829774454",
+      "announcement_date": "2026-09-23",
+      "effective_date": "2026-09-23",
+      "fund_codes": [
+        "019441",
+        "019442"
+      ],
+      "title": "万家纳斯达克100调整大额申购（含定投）金额限制并调整总规模上限",
+      "parse_status": "success",
+      "validation_status": "public_full_text_crosschecked",
+      "verification_level": "B",
+      "issuer_or_fulltext_url": "https://app.cnstock.com/zzb/zgzqb/html/2026-09/23/nw.D110000zgzqb_20260923_4-B029.htm",
+      "result": "A/C份额合并计算，代销渠道单日累计严格低于10元，直销渠道单日累计严格低于100元，2026-09-28取消总规模上限公告再次确认上述渠道额度",
+      "affects_daily_amount_limit": false,
+      "parsed_at": "2026-10-13T10:56:45.069Z",
+      "source_discovery": "Q宝全球投"
+    },
+    "AN202610081830198059": {
+      "announcement_id": "AN202610081830198059",
+      "announcement_date": "2026-10-08",
+      "effective_date": "2026-10-08",
+      "fund_codes": [
+        "018064",
+        "018065",
+        "015299",
+        "015300"
+      ],
+      "title": "华夏基金终止与瑞银基金销售（深圳）有限公司的基金销售合作",
+      "parse_status": "success",
+      "validation_status": "public_full_text_crosschecked",
+      "verification_level": "B",
+      "issuer_or_fulltext_url": "https://fund.chinaamc.com/c/2026-10-08/1007405.shtml",
+      "reprinted_fulltext_url": "https://www.hongdianfund.com/FundAnnouncement/Detail/005774/0000000000001s9naa",
+      "result": "2026-10-08终止与该销售机构在认购、申购、赎回、转换、定投业务的合作，不修改基金自身每日申购金额限制；涉及特定销售机构渠道，不应误报全渠道暂停",
+      "affects_daily_amount_limit": false,
+      "parsed_at": "2026-10-13T10:56:45.069Z",
+      "source_discovery": "Q宝全球投"
     }
   },
   "pending_announcements": {
     "AN202610131830381891": {
-      "status": "pending_primary_text",
+      "status": "pending_source_unavailable",
       "announcement_date": "2026-10-13",
       "title": "宝盈基金管理有限公司关于增加平安银行股份有限公司销售旗下部分基金的公告",
       "url": "https://pdf.dfcfw.com/pdf/H2_AN202610131830381891_1.pdf",
@@ -68,24 +125,23 @@
         "019736",
         "019737"
       ],
-      "reason": "尚未取得正文确认具体适用基金与销售条件，不修改限额",
-      "attempts": 1,
-      "last_attempt_at": "2026-10-13T10:45:17.707Z"
+      "reason": "公告原始PDF在当前网页/命令行环境不可读取，无法从标题推断基金限额与销售条件",
+      "attempts": 2,
+      "last_attempt_at": "2026-10-13T10:56:45.069Z"
     },
-    "AN202610081830198059": {
-      "status": "pending_primary_text",
-      "announcement_date": "2026-10-08",
-      "title": "华夏基金管理有限公司关于终止瑞银基金销售(深圳)有限公司办理本公司旗下基金销售业务的公告",
-      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610081830198059_1.pdf",
+    "AN202609221829732369": {
+      "status": "pending_source_unavailable",
+      "announcement_date": "2026-09-22",
+      "title": "华泰柏瑞纳斯达克100联接A/C/I调整大额申购公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609221829732369_1.pdf",
       "fund_codes": [
-        "018064",
-        "018065",
-        "015299",
-        "015300"
+        "019524",
+        "019525",
+        "022664"
       ],
-      "reason": "公告与特定代销机构关系，未确认具体份额受影响范围，不修改全渠道限额",
       "attempts": 1,
-      "last_attempt_at": "2026-10-13T10:45:17.707Z"
+      "last_attempt_at": "2026-10-13T10:56:45.069Z",
+      "reason": "源PDF访问失败；未取得可验证的全文及限额边界"
     }
   },
   "confirmed_rules": {
@@ -147,14 +203,16 @@
   },
   "notes": "Initialized empty. Never mark an announcement processed until its full text has been parsed and the checkpoint commit has been verified. Parsed status and verified limit rule are separate.",
   "last_scan_summary": {
-    "queried_at": "2026-10-13T18:41:42.472363+08:00",
-    "last_sync_at": "2026-10-13T10:07:17.332601Z",
-    "items": 823,
-    "pages": 5,
-    "unique_original_announcement_ids": 338,
-    "covered_funds": 55,
-    "latest_announcements_collected_complete": false,
-    "successfully_parsed_this_run": 1,
-    "pending_recent": 2
+    "qbao_queried_at": "2026-10-13T18:52:38+08:00",
+    "total_items": 823,
+    "total_pages": 5,
+    "unique_original_announcements": 338,
+    "processed_at_start": 1,
+    "newly_parsed_this_run": 3,
+    "cumulative_processed": 4,
+    "remaining_unparsed": 334,
+    "latest_ingested_coverage_is_not_issuer_complete": true,
+    "all_ingested_announcements_processed": false,
+    "blocked_reason": "PDF access and execution constraints"
   }
 }
