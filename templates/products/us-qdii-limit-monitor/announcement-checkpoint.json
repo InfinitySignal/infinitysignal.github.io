@@ -3,11 +3,158 @@
   "monitor_version": "V1.7",
   "source": "Q宝全球投:list_qdii_announcements",
   "created_at": "2026-10-13T18:20:00+08:00",
-  "last_scan_at": null,
+  "last_scan_at": "2026-10-13T10:45:17.707Z",
   "last_completed_scan_at": null,
-  "processed_announcements": {},
-  "pending_announcements": {},
-  "confirmed_rules": {},
-  "notification_events": {},
-  "notes": "Initialized empty. Never mark an announcement processed until its full text has been parsed and the checkpoint commit has been verified. Parsed status and verified limit rule are separate."
+  "processed_announcements": {
+    "AN202610121830361740": {
+      "announcement_id": "AN202610121830361740",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610121830361740_1.pdf",
+      "issuer_document_url": "https://www.gffunds.com.cn/jjgg/zdsj/202610/P020261012571415396720.pdf",
+      "announcement_date": "2026-10-13",
+      "title": "关于广发纳斯达克100ETF联接基金(QDII)人民币份额恢复申购(含转换转入、定期定额和不定额投资)业务的公告",
+      "fund_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "parse_status": "success",
+      "validation_status": "source_text_cross_checked",
+      "verification_level": "B",
+      "parsed_at": "2026-10-13T10:45:17.707Z",
+      "effect_date": "2026-10-13",
+      "limited_status": "恢复申购",
+      "limit_rules": {
+        "270042": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "boundary": "inclusive",
+          "channels": "直销、代销",
+          "shared_across_channels": true,
+          "shared_across_classes": false
+        },
+        "006479": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "boundary": "inclusive",
+          "channels": "直销、代销",
+          "shared_across_channels": true,
+          "shared_across_classes": false
+        },
+        "021778": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "boundary": "inclusive",
+          "channels": "仅直销",
+          "shared_across_channels": true,
+          "shared_across_classes": false
+        }
+      },
+      "operations": [
+        "申购",
+        "转换转入",
+        "定期定额投资",
+        "不定额投资"
+      ],
+      "note": "2026-10-13官方PDF链接已定位；公告全文经公开转载文本交叉核验。基金官网PDF当前抓取受限，证据评B而非A；不同份额独立，同份额跨销售渠道累计。"
+    }
+  },
+  "pending_announcements": {
+    "AN202610131830381891": {
+      "status": "pending_primary_text",
+      "announcement_date": "2026-10-13",
+      "title": "宝盈基金管理有限公司关于增加平安银行股份有限公司销售旗下部分基金的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610131830381891_1.pdf",
+      "fund_codes": [
+        "019736",
+        "019737"
+      ],
+      "reason": "尚未取得正文确认具体适用基金与销售条件，不修改限额",
+      "attempts": 1,
+      "last_attempt_at": "2026-10-13T10:45:17.707Z"
+    },
+    "AN202610081830198059": {
+      "status": "pending_primary_text",
+      "announcement_date": "2026-10-08",
+      "title": "华夏基金管理有限公司关于终止瑞银基金销售(深圳)有限公司办理本公司旗下基金销售业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610081830198059_1.pdf",
+      "fund_codes": [
+        "018064",
+        "018065",
+        "015299",
+        "015300"
+      ],
+      "reason": "公告与特定代销机构关系，未确认具体份额受影响范围，不修改全渠道限额",
+      "attempts": 1,
+      "last_attempt_at": "2026-10-13T10:45:17.707Z"
+    }
+  },
+  "confirmed_rules": {
+    "270042": {
+      "status": "open_limited",
+      "daily_limit_cny": 10,
+      "boundary": "inclusive",
+      "channels": "直销、代销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-13",
+      "source_announcement_id": "AN202610121830361740",
+      "source_url": "https://www.gffunds.com.cn/jjgg/zdsj/202610/P020261012571415396720.pdf",
+      "verification_level": "B",
+      "verified_at": "2026-10-13T10:45:17.707Z",
+      "previous_status": "suspended"
+    },
+    "006479": {
+      "status": "open_limited",
+      "daily_limit_cny": 10,
+      "boundary": "inclusive",
+      "channels": "直销、代销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-13",
+      "source_announcement_id": "AN202610121830361740",
+      "source_url": "https://www.gffunds.com.cn/jjgg/zdsj/202610/P020261012571415396720.pdf",
+      "verification_level": "B",
+      "verified_at": "2026-10-13T10:45:17.707Z",
+      "previous_status": "suspended"
+    },
+    "021778": {
+      "status": "open_limited",
+      "daily_limit_cny": 100,
+      "boundary": "inclusive",
+      "channels": "仅直销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-13",
+      "source_announcement_id": "AN202610121830361740",
+      "source_url": "https://www.gffunds.com.cn/jjgg/zdsj/202610/P020261012571415396720.pdf",
+      "verification_level": "B",
+      "verified_at": "2026-10-13T10:45:17.707Z",
+      "previous_status": "suspended"
+    }
+  },
+  "notification_events": {
+    "AN202610121830361740:resume:2026-10-13": {
+      "status": "historical_reconciliation_no_send",
+      "reason": "该公告的恢复申购变化在此次运行之前已在对话中的上一轮核实，现补入持久检查点，不重复推送",
+      "fund_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "effective_date": "2026-10-13",
+      "created_at": "2026-10-13T10:45:17.707Z"
+    }
+  },
+  "notes": "Initialized empty. Never mark an announcement processed until its full text has been parsed and the checkpoint commit has been verified. Parsed status and verified limit rule are separate.",
+  "last_scan_summary": {
+    "queried_at": "2026-10-13T18:41:42.472363+08:00",
+    "last_sync_at": "2026-10-13T10:07:17.332601Z",
+    "items": 823,
+    "pages": 5,
+    "unique_original_announcement_ids": 338,
+    "covered_funds": 55,
+    "latest_announcements_collected_complete": false,
+    "successfully_parsed_this_run": 1,
+    "pending_recent": 2
+  }
 }
