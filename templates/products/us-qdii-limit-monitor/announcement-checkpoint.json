@@ -10456,7 +10456,24 @@
       ],
       "evidence_excerpt": "关于华安纳斯达克100交易型 开放式指数证券投资基金 联接基金（QDII）暂停大额申购、 大额定期定额投资的公告 公告送出日期：2025年11月4日 1.公告基本信息 基金名称 华安纳斯达克100交易型开放式指数证券投资基金联接基金（QDII） 基金简称 华安纳斯达克100ETF联接（QDII） 基金主代码 040046 基金管理人名称 华安基金管理有限公司 公告依据 根据《华安纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）基金合同》和《华安纳斯达克100交易型开放式 指数证券投资基金联接基金（QDII）招募说明书》的有关规定。 暂停大额申购起始日 2025",
       "parsed_at": "2026-10-14T04:33:45.590Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "040046": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-11-05"
+        },
+        "014978": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-11-05"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华安A/C人民币直销1000其它渠道100，每类单独",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202511031774389358": {
       "announcement_id": "AN202511031774389358",
@@ -10541,7 +10558,24 @@
       ],
       "evidence_excerpt": "易方达纳斯达克 100 交易型开放式指数证券投资基金联接基金 （LOF）调整大额申购业务限制的公告 公告送出日期：2025 年 11 月 4 日 1.公告基本信息 基金名称 易方达纳斯达克 100 交易型开放式指数证券投资基金 联接基金（LOF） 基金简称 易方达纳斯达克 100ETF 联接（QDII-LOF） 基金主代码 161130 基金管理人名称 易方达基金管理有限公司 《易方达纳斯达克 100 交易型开放式指数证券投资基 公告依据 金联接基金（LOF）基金合同》《易方达纳斯达克 100 交易型开放式指数证券投资基金联接基金（LOF）更新 的招募说明书》 暂停相关业务",
       "parsed_at": "2026-10-14T04:33:45.590Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "161130": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2025-11-04"
+        },
+        "012870": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2025-11-04"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "易方达纳指LOF人民币A/C各10元含，全渠道累计",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510301771866554": {
       "announcement_id": "AN202510301771866554",
@@ -10626,7 +10660,24 @@
       ],
       "evidence_excerpt": "易方达标普 500 指数证券投资基金（LOF）调整大额申购业务限 制的公告 公告送出日期：2025 年 10 月 31 日 1.公告基本信息 基金名称 易方达标普 500 指数证券投资基金（LOF） 基金简称 易方达标普 500 指数（QDII-LOF） 基金主代码 161125 基金管理人名称 易方达基金管理有限公司 《易方达标普 500 指数证券投资基金（LOF）基金合同》 公告依据 《易方达标普 500 指数证券投资基金（LOF）更新的招 募说明书》 暂停相关业务的起始 暂停大额申购起始日 2025 年 10 月 31 日 日、金额及原因说明暂停大额申购的原因说明 为",
       "parsed_at": "2026-10-14T04:33:45.590Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "161125": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2025-10-31"
+        },
+        "012860": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2025-10-31"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "易方达标普LOF人民币A/C各50元含，全渠道累计",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510301771709226": {
       "announcement_id": "AN202510301771709226",
@@ -10690,7 +10741,30 @@
       ],
       "evidence_excerpt": "广发基金管理有限公司 关于广发纳斯达克 100 交易型开放式指数证券投资基金联接基金（QDII）人民 币份额调整大额申购（含转换转入、定期定额和不定额投资）业务限额的公告 公告送出日期：2025 年 10 月 30 日 1.公告基本信息 基金名称 广发纳斯达克 100 交易型开放式指数证券投资基金联接基金 （QDII） 基金简称 广发纳指 100ETF 联接（QDII） 基金主代码 270042 基金管理人名称 广发基金管理有限公司 《广发纳斯达克 100 交易型开放式指数证券投资基金联接基金 公告依据 （QDII）基金合同》 《广发纳斯达克 100 交易型开放式指数证券投",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "270042": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2025-10-31"
+        },
+        "006479": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2025-10-31"
+        },
+        "021778": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2025-10-31"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "广发人民币A/C/F分别日10元含，跨渠道累计，不同份额独立",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510291771094398": {
       "announcement_id": "AN202510291771094398",
@@ -10785,7 +10859,30 @@
       ],
       "evidence_excerpt": "关于汇添富纳斯达克 100 交易型开放式指数证券投资基金发起式联 接基金（QDII）调整大额申购、定期定额投资业务限制金额的公告 公告送出日期：2025 年 10 月 29 日 1 公告基本信息 基金名称 汇添富纳斯达克 100 交易型开放式指数证券投资基金发起式联 接基金（QDII） 基金简称 汇添富纳斯达克 100ETF 发起式联接（QDII） 基金主代码 018966 基金管理人 汇添富基金管理股份有限公司 名称 根据《公开募集证券投资基金信息披露管理办法》等法律法规 公告依据 和《汇添富纳斯达克 100 交易型开放式指数证券投资基金发起 式联接基金（QDII）基金合",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "018966": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2025-10-30"
+        },
+        "018967": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2025-10-30"
+        },
+        "021773": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2025-10-30"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "汇添富人民币A/C/E各5000元含",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510281770456867": {
       "announcement_id": "AN202510281770456867",
@@ -10832,7 +10929,19 @@
       ],
       "evidence_excerpt": "博时纳斯达克 100 交易型开放式指数证券投资基金发起式联接 基金（QDII）调整大额申购、转换转入、定期定额投资业务的公 告 公告送出日期：2025 年 10 月 28 日 1、公告基本信息 基金名称 博时纳斯达克 100 交易型开放式指数证券投资基金发起 式联接基金（QDII） 基金简称 博时纳斯达克 100ETF 发起式联接（QDII） 基金主代码 016055 基金管理人名称 博时基金管理有限公司 根据有关法律法规及《博时纳斯达克 100 交易型开放式 公告依据 指数证券投资基金发起式联接基金（QDII）基金合同》、 《博时纳斯达克 100 交易型开放式指数证券投资",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "024237": {
+          "other_agency": 100,
+          "boshi_wealth": 30000,
+          "direct": 30000,
+          "inclusive": true,
+          "effective_date": "2025-10-29"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "博时纳指I类其他代销100、博时财富和直销30000",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510271769985404": {
       "announcement_id": "AN202510271769985404",
@@ -10917,7 +11026,24 @@
       ],
       "evidence_excerpt": "易方达纳斯达克 100 交易型开放式指数证券投资基金联接基金 （LOF）调整大额申购业务限制的公告 公告送出日期：2025 年 10 月 28 日 1.公告基本信息 基金名称 易方达纳斯达克 100 交易型开放式指数证券投资基金 联接基金（LOF） 基金简称 易方达纳斯达克 100ETF 联接（QDII-LOF） 基金主代码 161130 基金管理人名称 易方达基金管理有限公司 《易方达纳斯达克 100 交易型开放式指数证券投资基 公告依据 金联接基金（LOF）基金合同》《易方达纳斯达克 100 交易型开放式指数证券投资基金联接基金（LOF）更新 的招募说明书》 暂停相关业",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "161130": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        },
+        "012870": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "易方达纳指LOF人民币A/C各50元含",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510271769762538": {
       "announcement_id": "AN202510271769762538",
@@ -10971,7 +11097,24 @@
       ],
       "evidence_excerpt": "关于大成纳斯达克100交易型开放式指数 证券投资基金联接基金（QDII）调整 大额申购（含定期定额申购）业务的公告 公告送出日期：2025年10月27日 1. 公告基本信息 基金名称 大成纳斯达克100交易型开放式指数证券投资基金联接基金（QDII） 基金简称 大成纳斯达克100ETF联接（QDII） 基金主代码 000834 基金管理人名称 大成基金管理有限公司 根据有关法律法规及《大成纳斯达克100交易型开放式指数证券投资基金联 公告依据 接基金（QDII））基金合同》、《大成纳斯达克100交易型开放式指数证券投资 基金联接基金（QDII）招募说明书》 调整相关业务的起",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "000834": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        },
+        "008971": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "大成A/C直销1000，代销100",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510271769744624": {
       "announcement_id": "AN202510271769744624",
@@ -11027,7 +11170,24 @@
       ],
       "evidence_excerpt": "关于华安纳斯达克 100 交易型开放式指数证券投资基金联接基 金（QDII）暂停大额申购、大额定期定额投资的公告 公告送出日期：2025 年 10 月 27 日 1. 公告基本信息 基金名称 华安纳斯达克 100 交易型开放式指数证券投资基 金联接基金（QDII） 基金简称 华安纳斯达克 100ETF 联接（QDII） 基金主代码 040046 基金管理人名称 华安基金管理有限公司 根据《华安纳斯达克 100 交易型开放式指数证券 公告依据 投资基金联接基金（QDII）基金合同》和《华安 纳斯达克 100 交易型开放式指数证券投资基金联 接基金（QDII）招募说明书》的有关",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "040046": {
+          "status": "open_limited",
+          "limit_cny": 1000,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        },
+        "014978": {
+          "status": "open_limited",
+          "limit_cny": 1000,
+          "inclusive": true,
+          "effective_date": "2025-10-28"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华安A/C人民币各限1000元含，直销同额",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510251768595607": {
       "announcement_id": "AN202510251768595607",
@@ -11074,7 +11234,24 @@
       ],
       "evidence_excerpt": "华夏标普 500 交易型开放式指数证券投资基金发起式联接基金（QDII） 调整在基金管理人直销机构申购及定期定额申购业务上限的公告 华夏基金管理有限公司（以下简称“本公司”）决定自 2025 年 10 月 27 日起 调整华夏标普 500 交易型开放式指数证券投资基金发起式联接基金（QDII）（基金简称“华夏标普 500ETF 发起式联接（QDII）”，A 类基金份额代码：018064（人民币）、018066（美元现汇），C 类基金份额代码：018065，以下简称“本基金”）在本公司直销机构的申购（含定期定额申购）业务上限，即自 2025 年 10月 27 日起，单个投资者",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "018064": {
+          "direct": 10000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-27"
+        },
+        "018065": {
+          "direct": 10000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-27"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华夏标普人民币A/C直销10000代销100",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510251768557150": {
       "announcement_id": "AN202510251768557150",
@@ -11121,7 +11298,24 @@
       ],
       "evidence_excerpt": "华夏纳斯达克100交易型开放式指数 证券投资基金发起式联接基金（QDII） 调整在基金管理人直销机构申购及 定期定额申购业务上限的公告 华夏基金管理有限公司（以下简称“本公司”）决定自2025年10月27日起调整华夏纳斯达克100交易型开放式指数证券投资基金发起式 联接基金（QDII）（基金简称“华夏纳斯达克100ETF发起式联接（QDII）”，A类基金份额代码：015299（人民币）、015518（美元现汇），C类基金份 额代码：015300，以下简称“本基金”）在本公司直销机构的申购（含定期定额申购）业务上限，即自2025年10月27日起，单个投资者通过本公 司直销机构",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "015299": {
+          "direct": 10000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-27"
+        },
+        "015300": {
+          "direct": 10000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-27"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华夏纳指人民币A/C直销10000代销100",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202510211766059441": {
       "announcement_id": "AN202510211766059441",
@@ -11183,7 +11377,24 @@
       ],
       "evidence_excerpt": "广发基金管理有限公司 关于广发纳斯达克100交易型开放式指数 证券投资基金联接基金（QDII）A类及C类 人民币份额调整大额申购（含转换转入、 定期定额和不定额投资）业务限额的公告 公告送出日期：2025年10月21日 1.公告基本信息 基金名称 广发纳斯达克100交易型开放式指数证券投资基金联接基金（QDII） 基金简称 广发纳指100ETF联接（QDII） 基金主代码 270042 基金管理人名称 广发基金管理有限公司 《广发纳斯达克100交易型开放式指数证券投资基金联接基金（QDII）基金合同》 公告依据 《广发纳斯达克100交易型开放式指数证券投资基金联接基金（QD",
       "parsed_at": "2026-10-14T04:33:45.591Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "270042": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-22"
+        },
+        "006479": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2025-10-22"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "广发人民币A/C日100元含，跨渠道累计，份额独立",
+      "verified_at": "2026-10-14T05:10:53.114Z"
     },
     "AN202508271735222991": {
       "normalized_id": "AN202508271735222991",
@@ -11865,9 +12076,9 @@
     "processed_total": 166,
     "remaining": 175,
     "analytical_pending": 0,
-    "validation_pending_count": 26,
+    "validation_pending_count": 14,
     "all_ingested_content_classified": true,
-    "remaining_rule_validation": 26
+    "remaining_rule_validation": 14
   },
   "future_effective": {
     "AN202610141830429076": {
@@ -16975,18 +17186,6 @@
     "processed_snapshot": 180
   },
   "rule_validation_pending": [
-    "AN202511041774775324",
-    "AN202511031774389358",
-    "AN202510301771866554",
-    "AN202510301771709226",
-    "AN202510291771094398",
-    "AN202510281770456867",
-    "AN202510271769985404",
-    "AN202510271769762538",
-    "AN202510271769744624",
-    "AN202510251768595607",
-    "AN202510251768557150",
-    "AN202510211766059441",
     "AN202508271735222991",
     "AN202509241749717660",
     "AN202509241749763561",
