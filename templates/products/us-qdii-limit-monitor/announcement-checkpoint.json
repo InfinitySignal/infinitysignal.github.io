@@ -8283,7 +8283,24 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "000834": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-04-08"
+        },
+        "008971": {
+          "direct": 1000,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-04-08"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "大成A/C直销1000、代销100",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202504091653608616": {
       "normalized_id": "AN202504091653608616",
@@ -8305,7 +8322,24 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "018064": {
+          "direct": 200000,
+          "agency": 1000,
+          "inclusive": true,
+          "effective_date": "2025-04-09"
+        },
+        "018065": {
+          "direct": 200000,
+          "agency": 1000,
+          "inclusive": true,
+          "effective_date": "2025-04-09"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华夏标普人民币A/C各直销200000代销1000",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202504091653609254": {
       "normalized_id": "AN202504091653609254",
@@ -8327,7 +8361,24 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "015299": {
+          "direct": 200000,
+          "agency": 1000,
+          "inclusive": true,
+          "effective_date": "2025-04-09"
+        },
+        "015300": {
+          "direct": 200000,
+          "agency": 1000,
+          "inclusive": true,
+          "effective_date": "2025-04-09"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华夏纳指人民币A/C各直销200000代销1000",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202504111654532837": {
       "normalized_id": "AN202504111654532837",
@@ -8346,7 +8397,24 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "270042": {
+          "status": "open_limited",
+          "limit_cny": 300,
+          "inclusive": true,
+          "effective_date": "2025-04-14"
+        },
+        "006479": {
+          "status": "open_limited",
+          "limit_cny": 300,
+          "inclusive": true,
+          "effective_date": "2025-04-14"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "广发A/C人民币各日300元含，跨渠道累计类别独立",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202504251661992309": {
       "normalized_id": "AN202504251661992309",
@@ -8366,7 +8434,33 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "016452": {
+          "personal_direct": 50000,
+          "personal_other_agency": 10000,
+          "nonpersonal_all": 10000,
+          "inclusive": true,
+          "effective_date": "2025-04-25"
+        },
+        "016453": {
+          "personal_direct": 50000,
+          "personal_other_agency": 10000,
+          "nonpersonal_all": 10000,
+          "inclusive": true,
+          "effective_date": "2025-04-25"
+        },
+        "021000": {
+          "personal_direct": 50000,
+          "personal_other_agency": 10000,
+          "nonpersonal_all": 10000,
+          "inclusive": true,
+          "effective_date": "2025-04-25"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "南方个人直销50000、个人其他渠道和非个人10000；三类每类别独立计算",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202506141690605201": {
       "normalized_id": "AN202506141690605201",
@@ -8403,7 +8497,33 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "016452": {
+          "personal_direct": 200000,
+          "personal_other_agency": 20000,
+          "nonpersonal_all": 20000,
+          "inclusive": true,
+          "effective_date": "2025-06-18"
+        },
+        "016453": {
+          "personal_direct": 200000,
+          "personal_other_agency": 20000,
+          "nonpersonal_all": 20000,
+          "inclusive": true,
+          "effective_date": "2025-06-18"
+        },
+        "021000": {
+          "personal_direct": 200000,
+          "personal_other_agency": 20000,
+          "nonpersonal_all": 20000,
+          "inclusive": true,
+          "effective_date": "2025-06-18"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "南方个人直销200000、个人其他渠道和非个人20000，各类独立",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202506241696590593": {
       "normalized_id": "AN202506241696590593",
@@ -8423,7 +8543,27 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "018043": {
+          "limit_cny": 5000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        },
+        "018044": {
+          "limit_cny": 5000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        },
+        "022525": {
+          "limit_cny": 20000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "天弘纳指A/C严格低于5000；D严格低于20000",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202506241696590594": {
       "normalized_id": "AN202506241696590594",
@@ -8443,7 +8583,27 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "007721": {
+          "limit_cny": 5000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        },
+        "007722": {
+          "limit_cny": 5000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        },
+        "022523": {
+          "limit_cny": 20000,
+          "inclusive": false,
+          "effective_date": "2025-06-24"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "天弘标普A/C严格低于5000；D严格低于20000",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202506251697195267": {
       "normalized_id": "AN202506251697195267",
@@ -8498,7 +8658,24 @@
       ],
       "quota_rule_verified": false,
       "validation_status": "历史正文金额已提取，渠道份额映射待复核，不自动应用",
-      "parsed_at": "2026-10-14T04:32:31.390Z"
+      "parsed_at": "2026-10-14T04:32:31.390Z",
+      "rule_by_code": {
+        "000834": {
+          "direct": 3000,
+          "agency": 300,
+          "inclusive": true,
+          "effective_date": "2025-06-30"
+        },
+        "008971": {
+          "direct": 3000,
+          "agency": 300,
+          "inclusive": true,
+          "effective_date": "2025-06-30"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "大成A/C直销3000、代销300",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202511151781635682": {
       "announcement_id": "AN202511151781635682",
@@ -8553,7 +8730,30 @@
       ],
       "evidence_excerpt": "关于万家纳斯达克 100 指数型发起式证券投资基金（QDII） 调整大额申购（含定期定额投资）业务金额限制的公告 公告送出日期：2025 年 11 月 15 日 1. 公告基本信息 基金名称 万家纳斯达克 100 指数型发起式证券投资基 金(QDII) 基金简称 万家纳斯达克 100 指数发起式(QDII) 基金主代码 019441 基金管理人名称 万家基金管理有限公司 根据《中华人民共和国证券投资基金法》、 《公开募集证券投资基金运作管理办法》、 公告依据 《万家纳斯达克 100 指数型发起式证券投资 基金（QDII）基金合同》、《万家纳斯达克 100 指数型发起式证券投",
       "parsed_at": "2026-10-14T04:32:45.145Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "019441": {
+          "limit_cny": 10,
+          "inclusive": false,
+          "shared_classes": [
+            "019441",
+            "019442"
+          ],
+          "effective_date": "2025-11-17"
+        },
+        "019442": {
+          "limit_cny": 10,
+          "inclusive": false,
+          "shared_classes": [
+            "019441",
+            "019442"
+          ],
+          "effective_date": "2025-11-17"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "万家A/C合并计算，所有渠道严格低于10元",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202511151781620266": {
       "announcement_id": "AN202511151781620266",
@@ -8604,7 +8804,24 @@
       ],
       "evidence_excerpt": "华夏纳斯达克 100 交易型开放式指数证券投资基金发起式联接基金（QDII） 调整在基金管理人直销机构申购及定期定额申购业务上限的公告 华夏基金管理有限公司（以下简称“本公司”）决定自 2025 年 11 月 17 日起 调整华夏纳斯达克 100 交易型开放式指数证券投资基金发起式联接基金（QDII）（基金简称“华夏纳斯达克 100ETF 发起式联接（QDII）”，A 类基金份额代码：015299（人民币）、015518（美元现汇），C 类基金份额代码：015300，以下简称“本基金”）在本公司直销机构的申购（含定期定额申购）业务上限，即自 2025年 11 月 17 日起",
       "parsed_at": "2026-10-14T04:32:45.145Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "015299": {
+          "direct": 100,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-11-17"
+        },
+        "015300": {
+          "direct": 100,
+          "agency": 100,
+          "inclusive": true,
+          "effective_date": "2025-11-17"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "华夏纳指A/C直销100、代销100",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202511131780384354": {
       "announcement_id": "AN202511131780384354",
@@ -8659,7 +8876,19 @@
       ],
       "evidence_excerpt": "博时纳斯达克 100 交易型开放式指数证券投资基金发起式联接 基金（QDII）调整大额申购、转换转入、定期定额投资业务的公 告 公告送出日期：2025 年 11 月 13 日 1、公告基本信息 基金名称 博时纳斯达克 100 交易型开放式指数证券投资基金发起 式联接基金（QDII） 基金简称 博时纳斯达克 100ETF 发起式联接（QDII） 基金主代码 016055 基金管理人名称 博时基金管理有限公司 根据有关法律法规及《博时纳斯达克 100 交易型开放式 公告依据 指数证券投资基金发起式联接基金（QDII）基金合同》、 《博时纳斯达克 100 交易型开放式指数证券投资",
       "parsed_at": "2026-10-14T04:32:45.145Z",
-      "historical_only": true
+      "historical_only": true,
+      "rule_by_code": {
+        "024237": {
+          "other_agency": 100,
+          "direct": 5000,
+          "boshi_wealth": 5000,
+          "inclusive": true,
+          "effective_date": "2025-11-13"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "博时纳指I类其他代销100、直销和博时财富5000",
+      "verified_at": "2026-10-14T05:04:22.287Z"
     },
     "AN202511131780384317": {
       "announcement_id": "AN202511131780384317",
@@ -11162,9 +11391,9 @@
     "processed_total": 166,
     "remaining": 175,
     "analytical_pending": 0,
-    "validation_pending_count": 62,
+    "validation_pending_count": 50,
     "all_ingested_content_classified": true,
-    "remaining_rule_validation": 62
+    "remaining_rule_validation": 50
   },
   "future_effective": {
     "AN202610141830429076": {
@@ -16272,18 +16501,6 @@
     "processed_snapshot": 180
   },
   "rule_validation_pending": [
-    "AN202504081653077191",
-    "AN202504091653608616",
-    "AN202504091653609254",
-    "AN202504111654532837",
-    "AN202504251661992309",
-    "AN202506181692979786",
-    "AN202506241696590593",
-    "AN202506241696590594",
-    "AN202506281699113066",
-    "AN202511151781635682",
-    "AN202511151781620266",
-    "AN202511131780384354",
     "AN202511131780384317",
     "AN202511131780339755",
     "AN202511131780328936",
