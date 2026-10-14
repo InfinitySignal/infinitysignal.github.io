@@ -3820,7 +3820,19 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "原文与金额/日期证据已提取；份额渠道绑定尚待复核，不得直接覆盖限额",
-      "parsed_at": "2026-10-14T04:21:02.474Z"
+      "parsed_at": "2026-10-14T04:21:02.474Z",
+      "rule_by_code": {
+        "160213": {
+          "status": "open_limited",
+          "limit_cny": 300,
+          "inclusive": true,
+          "effective_date": "2026-05-20",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "恢复申购和定投，每账户单日累计300元含",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202605141822287368": {
       "announcement_id": "AN202605141822287368",
@@ -3879,7 +3891,26 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:21:36.801Z"
+      "parsed_at": "2026-10-14T04:21:36.801Z",
+      "rule_by_code": {
+        "000834": {
+          "status": "open_limited",
+          "direct_limit_cny": 5000,
+          "agency_limit_cny": 500,
+          "inclusive": true,
+          "effective_date": "2026-05-06"
+        },
+        "008971": {
+          "status": "open_limited",
+          "direct_limit_cny": 5000,
+          "agency_limit_cny": 500,
+          "inclusive": true,
+          "effective_date": "2026-05-06"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "A/C直销5000、代销500，申购及定投",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604281821651715": {
       "announcement_id": "AN202604281821651715",
@@ -3902,7 +3933,26 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:21:36.801Z"
+      "parsed_at": "2026-10-14T04:21:36.801Z",
+      "rule_by_code": {
+        "019441": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": false,
+          "effective_date": "2026-04-28",
+          "scope": "all_channels"
+        },
+        "019442": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": false,
+          "effective_date": "2026-04-28",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "各渠道严格低于50元；A/C合并计算，取消9亿元总规模上限",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604241821541911": {
       "announcement_id": "AN202604241821541911",
@@ -3926,7 +3976,26 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:21:36.801Z"
+      "parsed_at": "2026-10-14T04:21:36.801Z",
+      "rule_by_code": {
+        "019172": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-27",
+          "scope": "all_channels"
+        },
+        "019173": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-27",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "人民币A/C各类别100元含，美元各10美元",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604231821480457": {
       "announcement_id": "AN202604231821480457",
@@ -3973,7 +4042,33 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:21:36.801Z"
+      "parsed_at": "2026-10-14T04:21:36.801Z",
+      "rule_by_code": {
+        "019524": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-04-23",
+          "scope": "all_channels"
+        },
+        "019525": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-04-23",
+          "scope": "all_channels"
+        },
+        "022664": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-04-23",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "A/C/I份额共享合并计算10元含（超过10元不含10元拒绝）",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604201821324838": {
       "announcement_id": "AN202604201821324838",
@@ -4019,7 +4114,33 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:21:36.802Z"
+      "parsed_at": "2026-10-14T04:21:36.802Z",
+      "rule_by_code": {
+        "018966": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-17",
+          "scope": "all_channels"
+        },
+        "018967": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-17",
+          "scope": "all_channels"
+        },
+        "021773": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-17",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "人民币A/C/E每类100元含，美元各类10美元",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604171821279959": {
       "announcement_id": "AN202604171821279959",
@@ -4146,7 +4267,34 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:22:35.443Z"
+      "parsed_at": "2026-10-14T04:22:35.443Z",
+      "rule_by_code": {
+        "019441": {
+          "status": "open_limited",
+          "limit_cny": 1000,
+          "inclusive": false,
+          "effective_date": "2026-04-13",
+          "special_agency_yingmi_cny": 10000,
+          "shared_classes": [
+            "019441",
+            "019442"
+          ]
+        },
+        "019442": {
+          "status": "open_limited",
+          "limit_cny": 1000,
+          "inclusive": false,
+          "effective_date": "2026-04-13",
+          "special_agency_yingmi_cny": 10000,
+          "shared_classes": [
+            "019441",
+            "019442"
+          ]
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "其它机构严格低于1000、盈米基金严格低于10000，A/C合并，总规模9亿元",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604101821108923": {
       "announcement_id": "AN202604101821108923",
@@ -4174,7 +4322,33 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:22:35.444Z"
+      "parsed_at": "2026-10-14T04:22:35.444Z",
+      "rule_by_code": {
+        "018966": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2026-04-10",
+          "scope": "all_channels"
+        },
+        "018967": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2026-04-10",
+          "scope": "all_channels"
+        },
+        "021773": {
+          "status": "open_limited",
+          "limit_cny": 5000,
+          "inclusive": true,
+          "effective_date": "2026-04-10",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "人民币A/C/E分别5000元含，美元各700美元",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604101821108587": {
       "announcement_id": "AN202604101821108587",
@@ -4219,7 +4393,26 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:22:35.444Z"
+      "parsed_at": "2026-10-14T04:22:35.444Z",
+      "rule_by_code": {
+        "019736": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-10",
+          "scope": "all_channels"
+        },
+        "019737": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-10",
+          "scope": "all_channels"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "宝盈每类100元含、单笔和累计；不支持基金转换",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604091821076801": {
       "announcement_id": "AN202604091821076801",
@@ -4248,7 +4441,30 @@
       ],
       "evidence_excerpt": "",
       "validation_status": "待核",
-      "parsed_at": "2026-10-14T04:22:35.444Z"
+      "parsed_at": "2026-10-14T04:22:35.444Z",
+      "rule_by_code": {
+        "050025": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-10"
+        },
+        "006075": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-04-10"
+        },
+        "018738": {
+          "status": "open_limited",
+          "limit_cny": 2000,
+          "inclusive": true,
+          "effective_date": "2026-04-10"
+        }
+      },
+      "rule_validation_status": "verified_from_qbao_body",
+      "rule_evidence_quote": "A、C、E类独立额度，不合并；美元A/C各类合并15美元",
+      "verified_at": "2026-10-14T04:53:02.195Z"
     },
     "AN202604091821076760": {
       "announcement_id": "AN202604091821076760",
@@ -10317,9 +10533,9 @@
     "processed_total": 166,
     "remaining": 175,
     "analytical_pending": 0,
-    "validation_pending_count": 108,
+    "validation_pending_count": 98,
     "all_ingested_content_classified": true,
-    "remaining_rule_validation": 108
+    "remaining_rule_validation": 98
   },
   "future_effective": {
     "AN202610141830429076": {
@@ -15427,16 +15643,6 @@
     "processed_snapshot": 180
   },
   "rule_validation_pending": [
-    "AN202605191822424450",
-    "AN202605061821980381",
-    "AN202604281821651715",
-    "AN202604241821541911",
-    "AN202604231821470346",
-    "AN202604171821282012",
-    "AN202604111821133293",
-    "AN202604101821108923",
-    "AN202604091821076909",
-    "AN202604091821076801",
     "AN202604071821036124",
     "AN202604071821035320",
     "AN202604071821035242",
