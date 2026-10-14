@@ -3,7 +3,7 @@
   "monitor_version": "V1.7",
   "source": "Q宝全球投:list_qdii_announcements",
   "created_at": "2026-10-13T18:20:00+08:00",
-  "last_scan_at": "2026-10-13T10:56:45.069Z",
+  "last_scan_at": "2026-10-14T04:01:40.824Z",
   "last_completed_scan_at": null,
   "processed_announcements": {
     "AN202610121830361740": {
@@ -113,37 +113,306 @@
       "affects_daily_amount_limit": false,
       "parsed_at": "2026-10-13T10:56:45.069Z",
       "source_discovery": "Q宝全球投"
-    }
-  },
-  "pending_announcements": {
+    },
+    "AN202610141830429114": {
+      "announcement_id": "AN202610141830429114",
+      "original_full_ids": [
+        "AN202610141830429114:019548"
+      ],
+      "announcement_date": "2026-10-14",
+      "title": "关于暂停招商纳斯达克100交易型开放式指数证券投资基金发起式联接基金(QDII)申购(含定期定额投资)业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
+      "related_codes": [
+        "019547",
+        "019548"
+      ],
+      "content_status": "available",
+      "content_length": 967,
+      "evidence_text_excerpt": "起式联接基金（QDII） 基金简称 招商纳斯达克 100ETF 发起式联接（QDII） 基金主代码 019547 基金管理人名称 招商基金管理有限公司 根据法律法规及《招商纳斯达克 100 交易型 开放式指数证券投资基金发起式联接基金 公告依据 （QDII）基金合同》《招商纳斯达克 100 交易 型开放式指数证券投资基金发起式联接基金 （QDII）招募说明书》等相关规定。 暂停申购起始日 2026 年 10 月 14 日 暂停定期定额投资起 2026 年 10 月 14 日 暂停相关业务的起始 始日 日、金额及原因说明 暂停（大额）申购（转 换转入、赎回、转换 为保障基金的平稳运作，维护基金份额持有 转出、定期定额投资） 人利益。 的原因说明 招商纳斯达克 招商纳斯达克 下属分级基金的基金简称 100ETF 发起式联接 100ETF 发起式联接 （QDII）A （QDII）C 下属分级基金的交易代码 019547 019548 该分级基金是否暂停/恢复（大额）申购（转 是 是 换转入、赎回、转换转出、定期定额投资） 2、 其他需要提示的事项 为保障基金的平稳运作，维护基金份额持有人利益，招商基金管理有限公司决定自 2026 年 10 月 14 日起暂停招商纳斯达克 100 交易型开放式指数证券投资基金发起式联接基金 （QDII）（以下简称“本基金”）的申购（含定期定额投资）业务。 在上述期间的交易日，本基金赎回等其他业务仍照常办理。 如有疑问，请拨打客户服务热线：400-887-9555，或登录网站 www.cmfchina.com 获取 相关信息。 特此公告。 招商基金管理有限公司 2026 年 10 月 14 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "suspend",
+      "summary": "招商纳斯达克100联接A/C暂停申购（含定投），自2026-10-14生效，赎回照常",
+      "rule": {
+        "status": "suspended",
+        "operation": [
+          "subscription",
+          "regular_investment"
+        ],
+        "effective_date": "2026-10-14",
+        "fund_codes": [
+          "019547",
+          "019548"
+        ]
+      },
+      "effective_date": "2026-10-14",
+      "parsed_at": "2026-10-14T04:01:32.555Z"
+    },
+    "AN202610141830429076": {
+      "announcement_id": "AN202610141830429076",
+      "original_full_ids": [
+        "AN202610141830429076:270042"
+      ],
+      "announcement_date": "2026-10-14",
+      "title": "关于广发纳斯达克100交易型开放式指数证券投资基金联接基金(QDII)人民币份额暂停申购(含转换转入、定期定额和不定额投资)业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
+      "related_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "content_status": "available",
+      "content_length": 1304,
+      "evidence_text_excerpt": "人民币 A 人民币 C 人民币 F 美元 A 美元 C 下属分级基金的交易代码 270042 006479 021778 000055 006480 该分级基金是否暂停申购 （转换转入、定期定额和不 是 是 是 - - 定额投资） 2.其他需要提示的事项 为保护基金份额持有人利益，广发基金管理有限公司（以下简称“本公司”） 决定自 2026 年 10 月 15 日起暂停广发纳斯达克 100 交易型开放式指数证券投资 基金联接基金（QDII）（以下简称“本基金”）人民币份额的申购（含转换转入、定期定额和不定额投资）业务。本基金人民币份额恢复办理申购（含转换转入、定期定额和不定额投资）业务的具体时间将另行公告。 如有疑问，请拨打本公司客户服务热线 95105828 或 020-83936999，或登 录本公司网站 www.gffunds.com.cn 获取相关信息。 风险提示：基金管理人承诺以诚实信用、勤勉尽责的原则管理和运用基金资产，但不保证基金一定盈利，也不保证最低收益。销售机构根据法规要求对投资者类别、风险承受能力和基金的风险等级进行划分，并提出适当性匹配意见。投资者在投资基金前应认真阅读基金合同、招募说明书（更新）和基金产品资料概要（更新）等基金法律文件，全面认识基金产品的风险收益特征，在了解产品情况及销售机构适当性意见的基础上，根据自身的风险承受能力、投资期限和投资目标，对基金投资作出独立决策，选择合适的基金产品。基金管理人提醒投资者基金投资的“买者自负”原则，在投资者作出投资决策后，基金运营状况与基金净值变化引致的投资风险，由投资者自行负责。 特此公告。 广发基金管理有限公司 2026 年 10 月 14 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "future_suspension",
+      "summary": "广发人民币A/C/F自2026-10-15暂停申购、转换转入、定投及不定额投资，美元份额未列为暂停",
+      "rule": {
+        "status": "suspended",
+        "operation": [
+          "subscription",
+          "conversion_in",
+          "regular_investment",
+          "irregular_investment"
+        ],
+        "effective_date": "2026-10-15",
+        "future_effective": true,
+        "fund_codes": [
+          "270042",
+          "006479",
+          "021778"
+        ]
+      },
+      "effective_date": "2026-10-15",
+      "parsed_at": "2026-10-14T04:01:33.594Z"
+    },
     "AN202610131830381891": {
-      "status": "pending_source_unavailable",
+      "announcement_id": "AN202610131830381891",
+      "original_full_ids": [
+        "AN202610131830381891:019736"
+      ],
       "announcement_date": "2026-10-13",
       "title": "宝盈基金管理有限公司关于增加平安银行股份有限公司销售旗下部分基金的公告",
       "url": "https://pdf.dfcfw.com/pdf/H2_AN202610131830381891_1.pdf",
-      "fund_codes": [
+      "related_codes": [
         "019736",
         "019737"
       ],
-      "reason": "公告原始PDF在当前网页/命令行环境不可读取，无法从标题推断基金限额与销售条件",
-      "attempts": 2,
-      "last_attempt_at": "2026-10-13T10:56:45.069Z"
+      "content_status": "available",
+      "content_length": 689,
+      "evidence_text_excerpt": "宝盈基金管理有限公司关于增加平安银行股份有限公司销售旗下 部分基金的公告 根据宝盈基金管理有限公司（以下简称“本公司”）与平安银行股份有限公司（以下 简称“平安银行”）签署的销售服务代理协议，自 2026 年 10 月 13 日起，平安银行将代 销本公司如下基金产品： 基金代码 基金名称 基金简称 宝盈纳斯达克 100 指数发起 019736 宝盈纳斯达克 100 指数型发起式证券投资 （QDII）A 人民币 基金（QDII） 宝盈纳斯达克 100 指数发起 019737 （QDII）C 人民币 投资人可在平安银行办理本公司上述基金基金开户业务及申购、赎回等业务，进行相关信息查询并享受相应的售后服务。 投资人可通过以下途径咨询详情： 1、宝盈基金管理有限公司 网站：www.byfunds.com 客户服务电话：400-8888-300（免长途话费） 2、平安银行股份有限公司 公司网址：www.bank.pingan.com 客户服务电话：95511-3 风险提示：基金管理人承诺以诚实信用、勤勉尽责的原则管理和运用基金资产，但不保证基金一定盈利，也不保证最低收益。销售机构根据法规要求对投资者类别、风险承受能力和基金的风险等级进行划分，并提出适当性匹配意见。投资者在投资基金前应认真阅读《基金合同》和《招募说明书》等基金法律文件，全面认识基金产品的风险收益特征，在了解产品情况及听取销售机构适当性意见的基础上，根据自身的风险承受能力、投资期限和投资目标，对基金投资作出独立决策，选择合适的基金产品。 特此公告。 宝盈基金管理有限公司 2026 年 10 月 13 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "agency_added",
+      "summary": "宝盈A/C新增平安银行销售渠道，可办理申购赎回；不调整基金公司每日限额",
+      "rule": null,
+      "effective_date": "2026-10-13",
+      "parsed_at": "2026-10-14T04:01:33.840Z"
     },
-    "AN202609221829732369": {
-      "status": "pending_source_unavailable",
-      "announcement_date": "2026-09-22",
-      "title": "华泰柏瑞纳斯达克100联接A/C/I调整大额申购公告",
-      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609221829732369_1.pdf",
-      "fund_codes": [
+    "AN202609291829977118": {
+      "announcement_id": "AN202609291829977118",
+      "original_full_ids": [
+        "AN202609291829977118:050025"
+      ],
+      "announcement_date": "2026-09-29",
+      "title": "博时基金管理有限公司关于终止瑞银基金销售(深圳)有限公司办理旗下基金销售业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609291829977118_1.pdf",
+      "related_codes": [
+        "050025",
+        "024237",
+        "018738",
+        "016057",
+        "016055",
+        "006075"
+      ],
+      "content_status": "available",
+      "content_length": 535,
+      "evidence_text_excerpt": "博时基金管理有限公司关于终止瑞银基金销售（深圳）有限公司 办理旗下基金销售业务的公告 经与瑞银基金销售（深圳）有限公司（以下简称“瑞银基金”）协商一致，博时基金管 理有限公司（以下简称“本公司”）拟自 2026 年 9 月 30 日起，终止瑞银基金销售（深圳） 有限公司办理本公司旗下基金的认购、申购、赎回、转换、定期定额投资等业务。 为维护基金投资者利益，对于已通过瑞银基金持有本公司旗下基金的投资者，博时基金 已为投资者将存量份额转至本公司直销平台。自 2026 年 9 月 30 日起，投资者可以通过本公 司直销渠道，按照本公司相关业务规则办理基金份额查询和赎回等业务。 风险提示： 本基金管理人承诺诚实信用地管理和运用基金财产，但不保证基金一定盈利，也不保证最低收益。基金的过往业绩并不代表其未来表现。投资有风险，敬请投资人认真阅读基金的相关法律文件，并选择适合自身风险承受能力的投资品种进行投资。 投资者可通过以下途径咨询有关详情： 博时基金管理有限公司 电话号码：95105568（全国统一客户服务电话） 网址：www.bosera.com E-mail：service@bosera.com 特此公告。 博时基金管理有限公司 2026 年 9 月 29 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "agency_terminated",
+      "summary": "博时终止瑞银基金销售深圳办理旗下基金相关业务；不改变全渠道日限额",
+      "rule": null,
+      "effective_date": "2026-09-30",
+      "parsed_at": "2026-10-14T04:01:34.056Z"
+    },
+    "AN202609241829835607": {
+      "announcement_id": "AN202609241829835607",
+      "original_full_ids": [
+        "AN202609241829835607:021773"
+      ],
+      "announcement_date": "2026-09-24",
+      "title": "关于汇添富纳斯达克100交易型开放式指数证券投资基金发起式联接基金(QDII)暂停申购、定期定额投资业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609241829835607_1.pdf",
+      "related_codes": [
+        "018966",
+        "018967",
+        "021773"
+      ],
+      "content_status": "available",
+      "content_length": 1552,
+      "evidence_text_excerpt": " 100ETF 发起式联接（QDII）人民币 A 恢复申购、定期定额投资业务的具体时间将另行公告。 2、本基金汇添富纳斯达克 100ETF 发起式联接（QDII）人民币 C 暂停申购、定期定额投资业务期间，其他业务仍照常办理。本基金汇添富纳斯达克 100ETF 发起式联接（QDII）人民币C 恢复申购、定期定额投资业务的具体时间将另行公告。 3、本基金汇添富纳斯达克 100ETF 发起式联接（QDII）美元现钞暂停申购、定期定额投资业务期间，其他业务仍照常办理。本基金汇添富纳斯达克 100ETF 发起式联接（QDII）美元现钞恢复申购、定期定额投资业务的具体时间将另行公告。 4、本基金汇添富纳斯达克 100ETF 发起式联接（QDII）美元现汇暂停申购、定期定额投资业务期间，其他业务仍照常办理。本基金汇添富纳斯达克 100ETF 发起式联接（QDII）美元现汇恢复申购、定期定额投资业务的具体时间将另行公告。 5、本基金汇添富纳斯达克 100ETF 发起式联接（QDII）人民币 E 暂停申购、定期定额投资业务期间，其他业务仍照常办理。本基金汇添富纳斯达克 100ETF 发起式联接（QDII）人民币E 恢复申购、定期定额投资业务的具体时间将另行公告。 2 其他需要提示的事项 投资者可以通过拨打本公司客服热线（400-888-9918）或登录本公司网站（www.99fund.com）获取相关信息。 汇添富基金高度重视投资者服务和投资者教育，特此提醒投资者需正确认知 基金投资的风险和长期收益，做理性的基金投资人，做明白的基金投资人，享受长期投资的快乐！ 特此公告。 汇添富基金管理股份有限公司 2026 年 09 月 24 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "suspend",
+      "summary": "汇添富纳斯达克100人民币A/C/E于9月24日暂停申购及定投（原HTML已为暂停）",
+      "rule": null,
+      "effective_date": "2026-09-24",
+      "parsed_at": "2026-10-14T04:01:35.217Z"
+    },
+    "AN202609231829776646": {
+      "announcement_id": "AN202609231829776646",
+      "original_full_ids": [
+        "AN202609231829776646:019524"
+      ],
+      "announcement_date": "2026-09-23",
+      "title": "华泰柏瑞基金管理有限公司关于旗下部分基金参与浙江网商银行股份有限公司费率优惠活动的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609231829776646_1.pdf",
+      "related_codes": [
         "019524",
         "019525",
         "022664"
       ],
-      "attempts": 1,
-      "last_attempt_at": "2026-10-13T10:56:45.069Z",
-      "reason": "源PDF访问失败；未取得可验证的全文及限额边界"
+      "content_status": "available",
+      "content_length": 938,
+      "evidence_text_excerpt": "自 2026 年 9 月 24 日起，结束时间以网商银行官方网站公示为准。 3、活动内容 （1）本次优惠活动仅适用于注册登记机构为华泰柏瑞基金的开放式基金（除中登注册以外的开放式基金），具体折扣费率以网商银行官方网站公示为准。 （2）费率优惠期限内，如本公司新增通过网商银行代销的基金产品，则自该基金产品开放申购业务当日起，网商银行可开通该基金上述费率优惠。 （3）如有某只或某些特定产品不适用费率优惠，则由网商银行另行公示确定。 （4）上述优惠活动解释权归网商银行所有，优惠活动详情请参见网商银行的相关页面。投资者欲了解各基金产品的详细情况，请仔细阅读上述适用基金的《基金合同》、招募说明书（更新）、基金产品资料概要（更新）等法律文件。 4、重要提示 （1）上述适用的基金原费率标准参见《基金合同》、招募说明书（更新）及相关公告。 （2）网商银行保留对本次优惠活动的解释权；华泰柏瑞基金对于本公告享有解释权。5、投资者可以通过以下途径查询相关详情 （1）浙江网商银行股份有限公司 客服热线：95188-3 网站：www.mybank.cn （2）华泰柏瑞基金管理有限公司 客服热线：400-888-0001 网站：www.huatai-pb.com 特此公告。 风险提示：本公司承诺以诚实信用、勤勉尽责的原则管理和运用基金财产,但不保证基金一定盈利,也不保证最低收益。投资者投资于本公司基金时应认真阅读相关基金基金合同、招募说明书（更新）、基金产品资料概要（更新）文件等法律文件，了解所投资基金的风险收益特征，并根据自身风险承受能力选择适合自己的基金产品。敬请投资者注意投资风险。 华泰柏瑞基金管理有限公司 2026 年 9 月 23 日",
+      "parse_status": "verified_irrelevant",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "fee_discount",
+      "summary": "华泰柏瑞参加网商银行费率优惠，不调整每日申购金额限制",
+      "rule": null,
+      "effective_date": "2026-09-24",
+      "parsed_at": "2026-10-14T04:01:36.514Z"
+    },
+    "AN202609231829773864": {
+      "announcement_id": "AN202609231829773864",
+      "original_full_ids": [
+        "AN202609231829773864:040046"
+      ],
+      "announcement_date": "2026-09-23",
+      "title": "关于华安纳斯达克100交易型开放式指数证券投资基金联接基金(QDII)暂停大额申购、大额定期定额投资的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609231829773864_1.pdf",
+      "related_codes": [
+        "040046",
+        "014978"
+      ],
+      "content_status": "available",
+      "content_length": 1572,
+      "evidence_text_excerpt": "” ）共有 4 类份额，分别为 A 类人民币基金份额（基金代码：040046），C 类人民币基金份额（基 金代码：014978），A 类美元现钞基金份额（基金代码：040047），A 类美元现汇基金份额（基 金代码：040048）。 2. 其他需要提示的事项 （1）在暂停大额申购及大额定期定额投资业务期间，本基金每一类基金份额单日每个基金 账户的累计申购及定期定额投资的金额应不超过 5 元，如本基金某一类基金份额单日每个基金账户的累计申购及定期定额投资的金额超过 5 元，本基金将有权拒绝。 （2）在暂停大额申购及大额定期定额投资业务期间，投资者提交的开户、申购、赎回等其 他业务仍照常办理。恢复办理本基金的大额申购及大额定期定额投资业务的日期，本公司将另行公告。 （3）本次暂停相关业务仅针对 A 类人民币基金份额（基金代码：040046）和 C 类人民币基 金份额（基金代码：014978），A 类美元现钞基金份额（基金代码：040047）和 A 类美元现汇基 金份额（基金代码：040048）暂停申购等相关业务请查阅本公司于 2025 年 3 月 5 日发布的相关 公告。 （4）自 2026 年 9 月 24 日起，投资者通过本公司直销机构申购本基金，本基金每一类基金 份额单日每个基金账户的累计申购及定期定额投资的金额应不超过 5 元，如本基金某一类基金份额单日每个基金账户的累计申购及定期定额投资的金额超过 5 元，本基金有权拒绝。 投资者可登录本基金管理人网站（www.huaan.com.cn），或拨打客户服务电话 40088-50099 咨询相关信息。 特此公告。 华安基金管理有限公司 2026 年 9 月 23 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "limit",
+      "summary": "华安人民币A/C各自每日单账户申购及定投不超过5元（含），不涉及美元份额",
+      "rule": {
+        "status": "open_limited",
+        "effective_date": "2026-09-24",
+        "fund_codes": [
+          "040046",
+          "014978"
+        ],
+        "daily_limit_cny": 5,
+        "inclusive": true,
+        "class_aggregated": false
+      },
+      "effective_date": "2026-09-24",
+      "parsed_at": "2026-10-14T04:01:38.288Z"
+    },
+    "AN202609221829742553": {
+      "announcement_id": "AN202609221829742553",
+      "original_full_ids": [
+        "AN202609221829742553:021773"
+      ],
+      "announcement_date": "2026-09-22",
+      "title": "关于汇添富纳斯达克100交易型开放式指数证券投资基金发起式联接基金(QDII)调整直销机构大额申购、定期定额投资业务限制金额的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609221829742553_1.pdf",
+      "related_codes": [
+        "018966",
+        "018967",
+        "021773"
+      ],
+      "content_status": "available",
+      "content_length": 3364,
+      "evidence_text_excerpt": "本基金汇添富纳斯达克 100ETF 发起式联接（QDII）人民币 E 恢复直销机构的大额申购、大额定期定额投资业务的具体时间将另行公告。 7、本公告此次仅调整直销机构的大额申购、大额定期定额投资业务限制金额，代销渠道的大额申购、大额定期定额投资业务限制金额保持不变。即汇添富纳斯达克 100ETF 发起式联接（QDII）人民币 A、汇添富纳斯达克 100ETF 发起式联接（QDII）人民币 C、汇添富纳斯达 克 100ETF 发起式联接（QDII）人民币 E 自 2026 年 09 月 04 日起限制代销渠道的大额申购、 大额定期定额投资业务，限制金额为10人民币元，汇添富纳斯达克100ETF发起式联接（QDII） 美元现钞、汇添富纳斯达克 100ETF 发起式联接（QDII）美元现汇自 2026 年 09 月 04 日起限 制代销渠道的大额申购、大额定期定额投资业务，限制金额为 2 美元，详见本公司于 2026 年 09 月 04 日发布的《关于汇添富纳斯达克 100 交易型开放式指数证券投资基金发起式联 接基金（QDII）调整大额申购、定期定额投资业务限制金额的公告》。本基金各份额恢复代销渠道的大额申购、大额定期定额投资业务的具体时间将另行公告。 2 其他需要提示的事项 投资者可以通过拨打本公司客服热线（400-888-9918）或登录本公司网站（www.99fund.com）获取相关信息。 汇添富基金高度重视投资者服务和投资者教育，特此提醒投资者需正确认知基金投资的风险和长期收益，做理性的基金投资人，做明白的基金投资人，享受长期投资的快乐！ 特此公告。 汇添富基金管理股份有限公司 2026 年 09 月 22 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "limit",
+      "summary": "汇添富人民币A/C/E各自直销每日不超过10元（含）；代销10元不变，后续9/24暂停覆盖",
+      "rule": {
+        "status": "open_limited",
+        "effective_date": "2026-09-22",
+        "fund_codes": [
+          "018966",
+          "018967",
+          "021773"
+        ],
+        "direct_limit_cny": 10,
+        "agency_limit_cny": 10,
+        "inclusive": true,
+        "superseded_by_pause": "2026-09-24"
+      },
+      "effective_date": "2026-09-22",
+      "parsed_at": "2026-10-14T04:01:39.409Z"
+    },
+    "AN202609221829740223": {
+      "announcement_id": "AN202609221829740223",
+      "original_full_ids": [
+        "AN202609221829740223:160213"
+      ],
+      "announcement_date": "2026-09-22",
+      "title": "国泰纳斯达克100指数证券投资基金暂停申购、定期定额投资业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609221829740223_1.pdf",
+      "related_codes": [
+        "160213"
+      ],
+      "content_status": "available",
+      "content_length": 511,
+      "evidence_text_excerpt": "国泰纳斯达克100指数证券投资基金 暂停申购、定期定额投资业务的公告 公告送出日期：2026年9月22日 一、公告基本信息 基金名称 国泰纳斯达克100指数证券投资基金 基金简称 国泰纳斯达克100指数（QDII） 基金主代码 160213 基金管理人名称 国泰基金管理有限公司 公告依据 根据《国泰纳斯达克100指数证券投资基金基金合同》、《国泰纳斯达克100指数证券投资 基金招募说明书》等相关文件的规定。 暂停相关业务的起始日及 暂停申购业务起始日 2026年9月28日 原因说明 暂停定期定额投资业务起始日 2026年9月28日 暂停申购、定期定额投资业务的原因说明 维护基金份额持有人利益 二、其他需要提示的事项 1、在本基金暂停申购及定期定额投资业务期间，本基金的赎回等业务正常办理。本基金恢复申购及定期定额投资业务的具体时间将另行公告。 2、如投资者于2026年9月24日15点之后申购或定期定额投资本基金，将适用上述安排，敬请投资者注意。 息。3、投资者可登录本公司网站www.gtfund.com，或拨打客户服务电话400-888-8688咨询相关信 特此公告 国泰基金管理有限公司 2026年9月22日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "suspend",
+      "summary": "国泰纳斯达克100自9月28日暂停申购和定投，赎回继续",
+      "rule": null,
+      "effective_date": "2026-09-28",
+      "parsed_at": "2026-10-14T04:01:40.125Z"
+    },
+    "AN202609221829732369": {
+      "announcement_id": "AN202609221829732369",
+      "original_full_ids": [
+        "AN202609221829732369:019524"
+      ],
+      "announcement_date": "2026-09-22",
+      "title": "华泰柏瑞纳斯达克100交易型开放式指数证券投资基金发起式联接基金(QDII)调整大额申购(含定期定额投资)业务的公告",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202609221829732369_1.pdf",
+      "related_codes": [
+        "019524",
+        "019525",
+        "022664"
+      ],
+      "content_status": "available",
+      "content_length": 1617,
+      "evidence_text_excerpt": "定额投资金 5.00 5.00 5.00 额（单位：人民币元） 2. 其他需要提示的事项 本基金自 2026 年 9 月 22 日起大额申购（含定期定额投资）业务限制金额由 10 元调整为 5 元，即自 2026 年 9 月 22 日起限制单日单个基金账户单笔或累计超过 5 元(不含 5 元)的申购（含 定期定额投资）申请（A、C、I 份额合并计算）：如单日单个基金账户单笔申购（含定期定额投资）本基金的金额超过 5 元(不含 5 元)，对于该笔申购（含定期定额投资）申请，本公司有权拒绝；如单日单个基金账户多笔累计申购（含定期定额投资）本基金的金额超过 5 元(不含 5 元)，对超 华泰柏瑞纳斯达克 100 交易型开放式指数证券投资基金发起式联接基金（QDII）调整大额申购（含定期定额投资）业务的公告 过限额的该笔或多笔申购（含定期定额投资）申请，本公司有权拒绝。 在本基金限制大额申购（含定期定额投资）期间，本基金的赎回等业务正常办理。本基金恢复办理正常申购（含定期定额投资）的具体时间将另行公告。 投资者如欲了解详情，可登陆本公司网站(www.huatai-pb.com)或拨打客户服务电话： 400-888-0001。 风险提示： 基金管理人承诺依照诚实信用、勤勉尽职的原则管理和运用基金资产，但不保证基金一定盈利，也不保证最低收益。基金的过往业绩及其净值高低并不预示其未来业绩表现。 投资者投资本基金前应认真阅读基金合同、招募说明书等法律文件，了解拟投资基金的风险收益特征，并根据自身投资目的、投资期限、投资经验、资产状况等判断基金是否和投资者的风险承受能力相匹配。 华泰柏瑞基金管理有限公司 2026 年 9 月 22 日",
+      "parse_status": "success",
+      "validation_status": "Qbao full content verified",
+      "business_kind": "limit_shared",
+      "summary": "华泰柏瑞纳指A/C/I单日单账户累计最多5元（含），A/C/I三类合并，不是各自5元",
+      "rule": {
+        "status": "open_limited",
+        "effective_date": "2026-09-22",
+        "fund_codes": [
+          "019524",
+          "019525",
+          "022664"
+        ],
+        "daily_limit_cny": 5,
+        "inclusive": true,
+        "shared_classes": true
+      },
+      "effective_date": "2026-09-22",
+      "parsed_at": "2026-10-14T04:01:40.824Z"
     }
   },
+  "pending_announcements": {},
   "confirmed_rules": {
     "270042": {
       "status": "open_limited",
@@ -186,6 +455,24 @@
       "verification_level": "B",
       "verified_at": "2026-10-13T10:45:17.707Z",
       "previous_status": "suspended"
+    },
+    "019547": {
+      "status": "suspended",
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
+      "verification_level": "B",
+      "confirmed_at": "2026-10-14T04:01:40.824Z",
+      "previous_status": "open_limited"
+    },
+    "019548": {
+      "status": "suspended",
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
+      "verification_level": "B",
+      "confirmed_at": "2026-10-14T04:01:40.824Z",
+      "previous_status": "open_limited"
     }
   },
   "notification_events": {
@@ -199,20 +486,50 @@
       ],
       "effective_date": "2026-10-13",
       "created_at": "2026-10-13T10:45:17.707Z"
+    },
+    "2026-10-14|招商纳指100|019547,019548|open_limited->suspended": {
+      "status": "pending_send",
+      "fund_codes": [
+        "019547",
+        "019548"
+      ],
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "created_at": "2026-10-14T04:01:40.824Z"
     }
   },
   "notes": "Initialized empty. Never mark an announcement processed until its full text has been parsed and the checkpoint commit has been verified. Parsed status and verified limit rule are separate.",
   "last_scan_summary": {
-    "qbao_queried_at": "2026-10-13T18:52:38+08:00",
-    "total_items": 823,
-    "total_pages": 5,
-    "unique_original_announcements": 338,
-    "processed_at_start": 1,
-    "newly_parsed_this_run": 3,
-    "cumulative_processed": 4,
-    "remaining_unparsed": 334,
-    "latest_ingested_coverage_is_not_issuer_complete": true,
-    "all_ingested_announcements_processed": false,
-    "blocked_reason": "PDF access and execution constraints"
+    "qbao_queried_at": "2026-10-14T11:57:32.842043+08:00",
+    "last_sync_at": "2026-10-14T01:11:09.787040Z",
+    "raw_items": 831,
+    "pages": 5,
+    "unique_documents": 341,
+    "processed_before": 4,
+    "newly_completed": 10,
+    "processed_after": 14,
+    "remaining_unparsed": 327,
+    "minimum_10_met": true,
+    "all_ingested_complete": false
+  },
+  "future_effective": {
+    "AN202610141830429076": {
+      "effective_date": "2026-10-15",
+      "status": "suspended",
+      "fund_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "operation": [
+        "subscription",
+        "conversion_in",
+        "regular_investment",
+        "irregular_investment"
+      ],
+      "applied": false,
+      "source_id": "AN202610141830429076",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf"
+    }
   }
 }
