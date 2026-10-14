@@ -5092,7 +5092,20 @@
       "business_kind": "quota",
       "evidence_excerpt": "",
       "validation_status": "全文和金额证据完成初步解析，具体渠道和生效顺序待再次校验",
-      "parsed_at": "2026-10-14T04:23:28.590Z"
+      "parsed_at": "2026-10-14T04:23:28.590Z",
+      "rule_by_code": {
+        "161125": {
+          "status": "suspended",
+          "effective_date": "2026-03-19"
+        },
+        "012860": {
+          "status": "suspended",
+          "effective_date": "2026-03-19"
+        }
+      },
+      "rule_evidence_quote": "易方达标普LOF全部份额3月19日起暂停申购定投，赎回照常",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202603181820618456": {
       "announcement_id": "AN202603181820618456",
@@ -5107,7 +5120,20 @@
       "business_kind": "quota",
       "evidence_excerpt": "",
       "validation_status": "全文和金额证据完成初步解析，具体渠道和生效顺序待再次校验",
-      "parsed_at": "2026-10-14T04:23:28.592Z"
+      "parsed_at": "2026-10-14T04:23:28.592Z",
+      "rule_by_code": {
+        "161130": {
+          "status": "suspended",
+          "effective_date": "2026-03-19"
+        },
+        "012870": {
+          "status": "suspended",
+          "effective_date": "2026-03-19"
+        }
+      },
+      "rule_evidence_quote": "易方达纳指LOF全部份额3月19日起暂停申购定投，赎回照常",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202603171820590808": {
       "announcement_id": "AN202603171820590808",
@@ -5241,7 +5267,30 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "539001": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-02-27"
+        },
+        "012752": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-02-27"
+        },
+        "023422": {
+          "status": "open_limited",
+          "limit_cny": 100,
+          "inclusive": true,
+          "effective_date": "2026-02-27"
+        }
+      },
+      "rule_evidence_quote": "建信人民币A/C/D每账户日申购及定投100元含",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202602251820025613": {
       "normalized_id": "AN202602251820025613",
@@ -5265,7 +5314,30 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "539001": {
+          "status": "open_limited",
+          "limit_cny": 100000,
+          "inclusive": true,
+          "effective_date": "2026-02-26"
+        },
+        "012752": {
+          "status": "open_limited",
+          "limit_cny": 100000,
+          "inclusive": true,
+          "effective_date": "2026-02-26"
+        },
+        "023422": {
+          "status": "open_limited",
+          "limit_cny": 100000,
+          "inclusive": true,
+          "effective_date": "2026-02-26"
+        }
+      },
+      "rule_evidence_quote": "建信人民币A/C/D每账户日累计10万元含",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202602031819611419": {
       "normalized_id": "AN202602031819611419",
@@ -5286,7 +5358,18 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "021778": {
+          "status": "open_limited",
+          "limit_cny": 3000,
+          "inclusive": true,
+          "effective_date": "2026-02-04"
+        }
+      },
+      "rule_evidence_quote": "广发F类申购+转入+定投跨渠道累计、份额独立，3000元含",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202602031819507007": {
       "normalized_id": "AN202602031819507007",
@@ -5305,7 +5388,24 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "016532": {
+          "status": "suspended",
+          "effective_date": "2026-02-03"
+        },
+        "016533": {
+          "status": "suspended",
+          "effective_date": "2026-02-03"
+        },
+        "021838": {
+          "status": "suspended",
+          "effective_date": "2026-02-03"
+        }
+      },
+      "rule_evidence_quote": "嘉实纳指人民币A/C/I暂停申购及定投，赎回正常",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601291818528176": {
       "normalized_id": "AN202601291818528176",
@@ -5346,7 +5446,24 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "017641": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-29"
+        },
+        "019305": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-29"
+        }
+      },
+      "rule_evidence_quote": "摩根标普人民币份额单类50元含，美元单类5美元",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601271818447197": {
       "normalized_id": "AN202601271818447197",
@@ -5389,7 +5506,30 @@
       "parsed_at": "2026-10-14T04:27:56.999Z",
       "validation_status": "正文金额与条款片段已提取；需进一步绑定渠道及份额，不能自动应用",
       "quota_rule_verified": false,
-      "current_quota_updated": false
+      "current_quota_updated": false,
+      "rule_by_code": {
+        "539001": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-26"
+        },
+        "012752": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-26"
+        },
+        "023422": {
+          "status": "open_limited",
+          "limit_cny": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-26"
+        }
+      },
+      "rule_evidence_quote": "建信A/C/D人民币份额日累计50元含，美元7美元",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601221818274327": {
       "normalized_id": "AN202601221818274327",
@@ -5462,7 +5602,24 @@
       ],
       "evidence_excerpt": "关于大成纳斯达克 100 交易型开放式指数证券投资基金联接基金（QDII）调整大额 申购（含定期定额申购）业务的公告 公告送出日期：2026 年 01 月 17 日 关于大成纳斯达克 100 交易型开放式指数证券投资基金联接基金（QDII）调整大额申购（含定期定额申购）业务 的公告 1.公告基本信息 基金名称 大成纳斯达克 100 交易型开放式指数证券投资基金 联接基金（QDII） 基金简称 大成纳斯达克 100ETF 联接(QDII) 基金主代码 000834 基金管理人名称 大成基金管理有限公司 公告依据 根据有关法律法规及《大成纳斯达克 100 交易型开 放式指数证券投资基金联接基金（Q",
       "validation_status": "Q宝完整正文核对，分类与条款抽取；历史公告不直接覆盖当前规则",
-      "parsed_at": "2026-10-14T04:28:27.179Z"
+      "parsed_at": "2026-10-14T04:28:27.179Z",
+      "rule_by_code": {
+        "000834": {
+          "direct": 500,
+          "agency": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-19"
+        },
+        "008971": {
+          "direct": 500,
+          "agency": 50,
+          "inclusive": true,
+          "effective_date": "2026-01-19"
+        }
+      },
+      "rule_evidence_quote": "大成A/C直销500、代销50，申购及定投",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601151817053119": {
       "announcement_id": "AN202601151817053119",
@@ -5974,7 +6131,18 @@
       ],
       "evidence_excerpt": "广发基金管理有限公司 关于广发纳斯达克 100 交易型开放式指数证券投资基金联接基金（QDII）F 类基 金份额调整大额申购（含转换转入、定期定额和不定额投资）业务限额 的公告 公告送出日期：2026 年 1 月 10 日 1.公告基本信息 基金名称 广发纳斯达克 100 交易型开放式指数证券投资基金联接基金（QDII） 基金简称 广发纳指 100ETF 联接（QDII） 基金主代码 270042 基金管理人名称 广发基金管理有限公司 《广发纳斯达克 100 交易型开放式指数证券投资基金联接基金 公告依据 （QDII）基金合同》 《广发纳斯达克 100 交易型开放式指数证券投资基金联接基金 （",
       "validation_status": "Q宝完整正文核对，分类与条款抽取；历史公告不直接覆盖当前规则",
-      "parsed_at": "2026-10-14T04:28:27.180Z"
+      "parsed_at": "2026-10-14T04:28:27.180Z",
+      "rule_by_code": {
+        "021778": {
+          "status": "open_limited",
+          "limit_cny": 1000,
+          "inclusive": true,
+          "effective_date": "2026-01-12"
+        }
+      },
+      "rule_evidence_quote": "广发F类各渠道累计1000元含，份额独立，转换仅人民币份额",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601091816871465": {
       "announcement_id": "AN202601091816871465",
@@ -6120,7 +6288,30 @@
       ],
       "evidence_excerpt": "建信纳斯达克100指数型证券投资基金（QDII）恢复申购、定期定额投资及暂 停大额申购、定期定额投资公告 公告送出日期：2026年1月9日 1. 公告基本信息 基金名称 建信纳斯达克100指数型证券投资基金（QDII） 基金简称 建信纳斯达克100指数（QDII） 基金主代码 539001 基金管理人名称 建信基金管理有限责任公司 《中华人民共和国证券投资基金法》、《公开募集证券投资基金运作管理办法》等法律法规以及《建 公告依据 信纳斯达克100指数型证券投资基金（QDII）招募说明书》、《建信纳斯达克100指数型证券投资基 金（QDII）基金合同》 暂 停 大 额 申 购 2026年1月12",
       "parsed_at": "2026-10-14T04:29:17.150Z",
-      "current_rule_application": "not_applied_historical"
+      "current_rule_application": "not_applied_historical",
+      "rule_by_code": {
+        "539001": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-01-12"
+        },
+        "012752": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-01-12"
+        },
+        "023422": {
+          "status": "open_limited",
+          "limit_cny": 10,
+          "inclusive": true,
+          "effective_date": "2026-01-12"
+        }
+      },
+      "rule_evidence_quote": "建信人民币A/C/D恢复申购定投，各类单日10元含",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202601091816858960": {
       "announcement_id": "AN202601091816858960",
@@ -6582,7 +6773,16 @@
       "rule_excerpt": "其他需要提示的事项 1、在本基金暂停申购及定期定额投资业务期间，本基金的赎回等业务正常办理。本基金恢复申购及定期定额投资业务的具体时间将另行公告。 2、投资者可登录本公司网站www.gtfund.com，或拨打客户服务电话400-888-8688咨询相关信息。 特此公告 国泰基金管理有限公司 2024年12月6日",
       "validation_status": "历史规则原文提取完成、精确金额份额绑定待复核",
       "quota_rule_verified": false,
-      "parsed_at": "2026-10-14T04:29:44.515Z"
+      "parsed_at": "2026-10-14T04:29:44.515Z",
+      "rule_by_code": {
+        "160213": {
+          "status": "suspended",
+          "effective_date": "2024-12-06"
+        }
+      },
+      "rule_evidence_quote": "国泰纳指2024年12月6日起暂停申购与定投",
+      "rule_validation_status": "verified_from_qbao_body",
+      "verified_at": "2026-10-14T04:59:23.132Z"
     },
     "AN202412181641339934": {
       "normalized_id": "AN202412181641339934",
@@ -10767,9 +10967,9 @@
     "processed_total": 166,
     "remaining": 175,
     "analytical_pending": 0,
-    "validation_pending_count": 86,
+    "validation_pending_count": 74,
     "all_ingested_content_classified": true,
-    "remaining_rule_validation": 86
+    "remaining_rule_validation": 74
   },
   "future_effective": {
     "AN202610141830429076": {
@@ -15877,18 +16077,6 @@
     "processed_snapshot": 180
   },
   "rule_validation_pending": [
-    "AN202603181820618457",
-    "AN202603181820618456",
-    "AN202602261820057584",
-    "AN202602251820025613",
-    "AN202602031819611419",
-    "AN202602031819507007",
-    "AN202601281818502193",
-    "AN202601231818302907",
-    "AN202601171818046412",
-    "AN202601091816882236",
-    "AN202601091816865451",
-    "AN202412061641201253",
     "AN202502251643469384",
     "AN202502271643549306",
     "AN202503051644063900",
