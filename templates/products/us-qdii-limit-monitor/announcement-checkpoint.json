@@ -1,1 +1,1172 @@
-{"schema_version":1,"monitor_version":"V1.7","source":"Q宝全球投:list_qdii_announcements","created_at":"2026-10-13T18:20:00+08:00","last_scan_at":"2026-10-15T01:24:26.178Z","last_completed_scan_at":"2026-10-15T01:24:26.178Z","processed_announcements":{"AN202610121830361740":{"parse_status":"success"},"AN202609241829831132":{"parse_status":"success"},"AN202609231829774454":{"parse_status":"success"},"AN202610081830198059":{"parse_status":"success"},"AN202610141830429114":{"parse_status":"success"},"AN202610141830429076":{"parse_status":"success"},"AN202610131830381891":{"parse_status":"success"},"AN202609291829977118":{"parse_status":"success"},"AN202609241829835607":{"parse_status":"success"},"AN202609231829776646":{"parse_status":"verified_irrelevant"},"AN202609231829773864":{"parse_status":"success"},"AN202609221829742553":{"parse_status":"success"},"AN202609221829740223":{"parse_status":"success"},"AN202609221829732369":{"parse_status":"success"},"AN202610141830426514":{"parse_status":"success"},"AN202609181829590491":{"parse_status":"success"},"AN202609181829580913":{"parse_status":"success"},"AN202609181829580336":{"parse_status":"success"},"AN202609121829300978":{"parse_status":"success"},"AN202609111829244081":{"parse_status":"verified_irrelevant"},"AN202609101829193911":{"parse_status":"verified_irrelevant"},"AN202609101829193908":{"parse_status":"success"},"AN202609091829169340":{"parse_status":"success"},"AN202609081829134250":{"parse_status":"success"},"AN202609081829112736":{"parse_status":"success"},"AN202609071829086210":{"parse_status":"success"},"AN202609071829085833":{"parse_status":"success"},"AN202609041828989529":{"parse_status":"success"},"AN202609041828989156":{"parse_status":"success"},"AN202609031828946515":{"parse_status":"success"},"AN202609031828946398":{"parse_status":"success"},"AN202609031828945643":{"parse_status":"success"},"AN202609031828943997":{"parse_status":"verified_irrelevant"},"AN202609031828943973":{"parse_status":"success"},"AN202609021828932440":{"parse_status":"success"},"AN202609021828902483":{"parse_status":"success"},"AN202609211829686442":{"parse_status":"success"},"AN202609161829440207":{"parse_status":"success"},"AN202609011828888223":{"parse_status":"verified_irrelevant"},"AN202609011828848127":{"parse_status":"success"},"AN202609011828847866":{"parse_status":"success"},"AN202609011828844748":{"parse_status":"success"},"AN202609011828844257":{"parse_status":"success"},"AN202609011828844248":{"parse_status":"success"},"AN202608271828504337":{"parse_status":"success"},"AN202608241828350106":{"parse_status":"success"},"AN202608191828132820":{"parse_status":"success"},"AN202608191828132738":{"parse_status":"success"},"AN202608191828132673":{"parse_status":"success"},"AN202608191828129205":{"parse_status":"success"},"AN202608191828129178":{"parse_status":"verified_irrelevant"},"AN202608181828080834":{"parse_status":"verified_irrelevant"},"AN202608071827726294":{"parse_status":"verified_irrelevant"},"AN202608061827684244":{"parse_status":"verified_irrelevant"},"AN202608041827605205":{"parse_status":"verified_irrelevant"},"AN202608031827571588":{"parse_status":"verified_irrelevant"},"AN202607301827487265":{"parse_status":"verified_irrelevant"},"AN202608121827881763":{"parse_status":"success"},"AN202608071827737353":{"parse_status":"success"},"AN202608071827734257":{"parse_status":"success"},"AN202607311827510657":{"parse_status":"success"},"AN202607311827507936":{"parse_status":"success"},"AN202607291827438228":{"parse_status":"success"},"AN202607241827315718":{"parse_status":"success"},"AN202607241827315717":{"parse_status":"success"},"AN202607241827305150":{"parse_status":"success"},"AN202607241827305125":{"parse_status":"success"},"AN202607211827178747":{"parse_status":"success"},"AN202607211827178744":{"parse_status":"success"},"AN202607201827126800":{"parse_status":"success"},"AN202607171827041199":{"parse_status":"success"},"AN202607171827039546":{"parse_status":"success"},"AN202607171827039528":{"parse_status":"success"},"AN202607141826942637":{"parse_status":"success"},"AN202607101826876558":{"parse_status":"success"},"AN202607101826854215":{"parse_status":"success"},"AN202607091826843545":{"parse_status":"success"},"AN202607201827139668":{"parse_status":"success"},"AN202607091826843544":{"parse_status":"success"},"AN202607091826830545":{"parse_status":"success"},"AN202607081826788580":{"parse_status":"success"},"AN202607081826788552":{"parse_status":"success"},"AN202607061826736289":{"parse_status":"success"},"AN202607061826735870":{"parse_status":"success"},"AN202607021826662502":{"parse_status":"success"},"AN202607011826620810":{"parse_status":"success"},"AN202607011826618306":{"parse_status":"verified_irrelevant"},"AN202606301826591786":{"parse_status":"success"},"AN202606301826561391":{"parse_status":"success"},"AN202606291826539905":{"parse_status":"success"},"AN202606261823873456":{"parse_status":"success"},"AN202606261823871028":{"parse_status":"success"},"AN202606251823830522":{"parse_status":"success"},"AN202606251823827970":{"parse_status":"success"},"AN202606251823827941":{"parse_status":"success"},"AN202606251823823362":{"parse_status":"verified_irrelevant"},"AN202606251823823361":{"parse_status":"success"},"AN202606231823758304":{"parse_status":"success"},"AN202606231823757924":{"parse_status":"success"},"AN202606231823757896":{"parse_status":"success"},"AN202606191823686344":{"parse_status":"success"},"AN202606161823588454":{"parse_status":"success"},"AN202606131823526189":{"parse_status":"success"},"AN202607081826816306":{"parse_status":"success"},"AN202606171823629134":{"parse_status":"success"},"AN202606121823470207":{"parse_status":"success"},"AN202606101823421439":{"parse_status":"success"},"AN202606101823412225":{"parse_status":"verified_irrelevant"},"AN202606101823409504":{"parse_status":"success"},"AN202606101823409163":{"parse_status":"success"},"AN202606091823377663":{"parse_status":"success"},"AN202606061823319063":{"parse_status":"success"},"AN202606061823317509":{"parse_status":"success"},"AN202606061823307230":{"parse_status":"success"},"AN202606051823274452":{"parse_status":"success"},"AN202606051823274054":{"parse_status":"success"},"AN202606051823273121":{"parse_status":"success"},"AN202606041823245790":{"parse_status":"success"},"AN202606031823188725":{"parse_status":"success"},"AN202606021823148642":{"parse_status":"success"},"AN202605291823024425":{"parse_status":"success"},"AN202605291823008560":{"parse_status":"success"},"AN202605291823006281":{"parse_status":"success"},"AN202605291823003798":{"parse_status":"success"},"AN202605291822998072":{"parse_status":"success"},"AN202605291822989315":{"parse_status":"success"},"AN202605291822984235":{"parse_status":"success"},"AN202607091826839817":{"parse_status":"success"},"AN202605291822984224":{"parse_status":"success"},"AN202605291822984196":{"parse_status":"success"},"AN202605281822954361":{"parse_status":"success"},"AN202605271822903520":{"parse_status":"success"},"AN202605261822869261":{"parse_status":"success"},"AN202605221822670527":{"parse_status":"success"},"AN202605211822519133":{"parse_status":"success"},"AN202605201822493853":{"parse_status":"success"},"AN202605201822472226":{"parse_status":"success"},"AN202605191822446171":{"parse_status":"success"},"AN202605191822424450":{"parse_status":"success"},"AN202605141822287368":{"parse_status":"verified_irrelevant"},"AN202605081822057674":{"parse_status":"success"},"AN202605061821980381":{"parse_status":"success"},"AN202604281821651715":{"parse_status":"success"},"AN202604241821541911":{"parse_status":"success"},"AN202604231821480457":{"parse_status":"verified_irrelevant"},"AN202604231821470346":{"parse_status":"success"},"AN202604201821324838":{"parse_status":"success"},"AN202604171821282012":{"parse_status":"success"},"AN202604171821279959":{"parse_status":"success"},"AN202604171821279956":{"parse_status":"success"},"AN202604161821248432":{"parse_status":"success"},"AN202604141821165112":{"parse_status":"success"},"AN202604131821143626":{"parse_status":"success"},"AN202604111821133293":{"parse_status":"success"},"AN202604101821108923":{"parse_status":"success"},"AN202604101821108587":{"parse_status":"success"},"AN202604091821076909":{"parse_status":"success"},"AN202604091821076801":{"parse_status":"success"},"AN202604091821076760":{"parse_status":"success"},"AN202604071821036124":{"parse_status":"success"},"AN202604071821035320":{"parse_status":"success"},"AN202604071821035242":{"parse_status":"success"},"AN202604041821021732":{"parse_status":"success"},"AN202604021820970056":{"parse_status":"success"},"AN202604011820952777":{"parse_status":"success"},"AN202604011820935928":{"parse_status":"verified_irrelevant"},"AN202604081821054294":{"parse_status":"verified_irrelevant"},"AN202604081821052975":{"parse_status":"success"},"AN202603311820912764":{"parse_status":"success"},"AN202603311820894376":{"parse_status":"success"},"AN202603311820893805":{"parse_status":"success"},"AN202603311820892199":{"parse_status":"success"},"AN202603311820889170":{"parse_status":"success"},"AN202603301820866059":{"parse_status":"success"},"AN202603301820859738":{"parse_status":"success"},"AN202603271820786482":{"parse_status":"verified_irrelevant"},"AN202603191820635345":{"parse_status":"success"},"AN202603181820618457":{"parse_status":"success"},"AN202603181820618456":{"parse_status":"success"},"AN202603171820590808":{"parse_status":"verified_irrelevant"},"AN202603171820589280":{"parse_status":"verified_irrelevant"},"AN202603051820284440":{"parse_status":"verified_irrelevant"},"AN202603051820276105":{"parse_status":"success"},"AN202603041820246597":{"parse_status":"verified_irrelevant"},"AN202602271820086706":{"parse_status":"verified_irrelevant"},"AN202602261820057584":{"parse_status":"success"},"AN202602251820025613":{"parse_status":"success"},"AN202602031819611419":{"parse_status":"success"},"AN202602031819507007":{"parse_status":"success"},"AN202601291818528176":{"parse_status":"success"},"AN202601281818502193":{"parse_status":"success"},"AN202601271818447197":{"parse_status":"success"},"AN202601231818302907":{"parse_status":"success"},"AN202601221818274327":{"parse_status":"success"},"AN202601171818046412":{"parse_status":"success"},"AN202601151817053119":{"parse_status":"success"},"AN202601151817034133":{"parse_status":"success"},"AN202601151817031734":{"parse_status":"success"},"AN202601151817031187":{"parse_status":"success"},"AN202601151817031104":{"parse_status":"success"},"AN202601141816999137":{"parse_status":"success"},"AN202601141816998689":{"parse_status":"success"},"AN202601141816998634":{"parse_status":"success"},"AN202601131816982233":{"parse_status":"success"},"AN202601131816966172":{"parse_status":"success"},"AN202601131816966146":{"parse_status":"success"},"AN202601101816890857":{"parse_status":"success"},"AN202601091816882236":{"parse_status":"success"},"AN202601091816871465":{"parse_status":"success"},"AN202601091816867845":{"parse_status":"verified_irrelevant"},"AN202601091816865451":{"parse_status":"success"},"AN202601091816858960":{"parse_status":"success"},"AN202601091816858957":{"parse_status":"success"},"AN202601081816834237":{"parse_status":"success"},"AN202601071816541786":{"parse_status":"success"},"AN202601071816490761":{"parse_status":"success"},"AN202601071816483975":{"parse_status":"success"},"AN202601071816483896":{"parse_status":"success"},"AN202601061815816075":{"parse_status":"success"},"AN202512311811759175":{"parse_status":"success"},"AN202512301811106661":{"parse_status":"success"},"AN202512301811048823":{"parse_status":"success"},"AN202512291810352191":{"parse_status":"verified_irrelevant"},"AN202512291810352084":{"parse_status":"verified_irrelevant"},"AN202412061641201253":{"parse_status":"success"},"AN202412181641339934":{"parse_status":"success"},"AN202412301641463679":{"parse_status":"success"},"AN202501071641831189":{"parse_status":"success"},"AN202501271642585389":{"parse_status":"verified_irrelevant"},"AN202502251643469384":{"parse_status":"success"},"AN202502271643549306":{"parse_status":"success"},"AN202503051644063900":{"parse_status":"success"},"AN202503111644253354":{"parse_status":"success"},"AN202503111644255948":{"parse_status":"success"},"AN202503131644321915":{"parse_status":"success"},"AN202503141644356398":{"parse_status":"success"},"AN202512261808695535":{"parse_status":"success"},"AN202512261808695532":{"parse_status":"success"},"AN202512231806254342":{"parse_status":"success"},"AN202512221805898511":{"parse_status":"success"},"AN202512221805623520":{"parse_status":"verified_irrelevant"},"AN202512221805677036":{"parse_status":"success"},"AN202512171802114709":{"parse_status":"success"},"AN202512131799215541":{"parse_status":"success"},"AN202512111798054504":{"parse_status":"success"},"AN202512081796084966":{"parse_status":"success"},"AN202512061795042059":{"parse_status":"success"},"AN202512041793575251":{"parse_status":"success"},"AN202511281789783410":{"parse_status":"success"},"AN202511271789098644":{"parse_status":"success"},"AN202511251787838881":{"parse_status":"success"},"AN202511241787483894":{"parse_status":"success"},"AN202511241787266012":{"parse_status":"verified_irrelevant"},"AN202511231786863485":{"parse_status":"success"},"AN202511221785999927":{"parse_status":"success"},"AN202511221785999863":{"parse_status":"success"},"AN202511211785379194":{"parse_status":"success"},"AN202511211785322942":{"parse_status":"success"},"AN202511181783502485":{"parse_status":"success"},"AN202511181783502267":{"parse_status":"success"},"AN202511171782872143":{"parse_status":"success"},"AN202511151781637562":{"parse_status":"success"},"AN202503221645829048":{"parse_status":"success"},"AN202503261647587941":{"parse_status":"success"},"AN202504081653077191":{"parse_status":"success"},"AN202504091653608616":{"parse_status":"success"},"AN202504091653609254":{"parse_status":"success"},"AN202504111654532837":{"parse_status":"success"},"AN202504251661992309":{"parse_status":"success"},"AN202506141690605201":{"parse_status":"verified_irrelevant"},"AN202506181692979786":{"parse_status":"success"},"AN202506241696590593":{"parse_status":"success"},"AN202506241696590594":{"parse_status":"success"},"AN202506251697195267":{"parse_status":"success"},"AN202506261697798578":{"parse_status":"success"},"AN202506281699113066":{"parse_status":"success"},"AN202511151781635682":{"parse_status":"success"},"AN202511151781620266":{"parse_status":"success"},"AN202511131780384354":{"parse_status":"success"},"AN202511131780384317":{"parse_status":"success"},"AN202511131780339755":{"parse_status":"success"},"AN202511131780328936":{"parse_status":"success"},"AN202511121779676352":{"parse_status":"success"},"AN202511111779140625":{"parse_status":"success"},"AN202511111779112505":{"parse_status":"success"},"AN202511111779094198":{"parse_status":"success"},"AN202511061776067436":{"parse_status":"success"},"AN202511061776009052":{"parse_status":"success"},"AN202511051775617733":{"parse_status":"success"},"AN202511041774827016":{"parse_status":"success"},"AN202511041774826881":{"parse_status":"success"},"AN202507081704954509":{"parse_status":"success"},"AN202507141708494482":{"parse_status":"success"},"AN202507151709095737":{"parse_status":"success"},"AN202507301718147599":{"parse_status":"success"},"AN202507311718957240":{"parse_status":"success"},"AN202507311718957241":{"parse_status":"success"},"AN202508141727157263":{"parse_status":"success"},"AN202508151727982986":{"parse_status":"success"},"AN202508151727982990":{"parse_status":"success"},"AN202508161728416774":{"parse_status":"success"},"AN202508201730838038":{"parse_status":"success"},"AN202508201730897258":{"parse_status":"success"},"AN202508271735166280":{"parse_status":"success"},"AN202508271735220553":{"parse_status":"success"},"AN202511041774775324":{"parse_status":"success"},"AN202511031774389358":{"parse_status":"success"},"AN202510301771866554":{"parse_status":"success"},"AN202510301771709226":{"parse_status":"success"},"AN202510291771094398":{"parse_status":"success"},"AN202510281770456867":{"parse_status":"success"},"AN202510271769985404":{"parse_status":"success"},"AN202510271769762538":{"parse_status":"success"},"AN202510271769744624":{"parse_status":"success"},"AN202510251768595607":{"parse_status":"success"},"AN202510251768557150":{"parse_status":"success"},"AN202510211766059441":{"parse_status":"success"},"AN202508271735222991":{"parse_status":"success"},"AN202509241749717660":{"parse_status":"success"},"AN202509241749763561":{"parse_status":"success"},"AN202509251750114141":{"parse_status":"success"},"AN202509251750166840":{"parse_status":"success"},"AN202509271751375290":{"parse_status":"success"},"AN202509271751405613":{"parse_status":"success"},"AN202509271751405684":{"parse_status":"success"},"AN202510101759289250":{"parse_status":"success"},"AN202510101759304165":{"parse_status":"success"},"AN202510101759354100":{"parse_status":"success"},"AN202510141761802772":{"parse_status":"success"},"AN202510141761802796":{"parse_status":"success"},"AN202510151762369270":{"parse_status":"success"},"AN202512221805564814":{"parse_status":"success"},"AN202512091796781734":{"parse_status":"success"},"AN202512051794524996":{"parse_status":"success"},"AN202511201784706438":{"parse_status":"success"},"AN202510311772310034":{"parse_status":"success"},"AN202510301771894707":{"parse_status":"success"},"AN202510201765441150":{"parse_status":"success"},"AN202510171763661096":{"parse_status":"success"},"AN202510151762423327":{"parse_status":"success"},"AN202510151762376395":{"parse_status":"success"},"AN202610141830446498":{"parse_status":"success"}},"pending_announcements":{},"confirmed_rules":{"270042":{"status":"suspended","daily_limit_cny":null,"boundary":"inclusive","channels":"直销、代销","shared_across_channels":true,"shared_across_classes":false,"effective_date":"2026-10-15","source_announcement_id":"AN202610141830429076","source_url":"https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf","verification_level":"A","verified_at":"2026-10-14T16:39:53.178Z","previous_status":"open_limited"},"006479":{"status":"suspended","daily_limit_cny":null,"boundary":"inclusive","channels":"直销、代销","shared_across_channels":true,"shared_across_classes":false,"effective_date":"2026-10-15","source_announcement_id":"AN202610141830429076","source_url":"https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf","verification_level":"A","verified_at":"2026-10-14T16:39:53.178Z","previous_status":"open_limited"},"021778":{"status":"suspended","daily_limit_cny":null,"boundary":"inclusive","channels":"仅直销","shared_across_channels":true,"shared_across_classes":false,"effective_date":"2026-10-15","source_announcement_id":"AN202610141830429076","source_url":"https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf","verification_level":"A","verified_at":"2026-10-14T16:39:53.178Z","previous_status":"open_limited"},"019547":{"status":"suspended","effective_date":"2026-10-14","source_announcement_id":"AN202610141830429114","source_url":"https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf","verification_level":"B","confirmed_at":"2026-10-14T04:01:40.824Z","previous_status":"open_limited"},"019548":{"status":"suspended","effective_date":"2026-10-14","source_announcement_id":"AN202610141830429114","source_url":"https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf","verification_level":"B","confirmed_at":"2026-10-14T04:01:40.824Z","previous_status":"open_limited"}},"notification_events":{"AN202610121830361740:resume:2026-10-13":{"status":"historical_reconciliation_no_send","reason":"该公告的恢复申购变化在此次运行之前已在对话中的上一轮核实，现补入持久检查点，不重复推送","fund_codes":["270042","006479","021778"],"effective_date":"2026-10-13","created_at":"2026-10-13T10:45:17.707Z"},"2026-10-14|招商纳指100|019547,019548|open_limited->suspended":{"status":"confirmed_sent","fund_codes":["019547","019548"],"effective_date":"2026-10-14","source_announcement_id":"AN202610141830429114","created_at":"2026-10-14T04:01:40.824Z","sent_at":"2026-10-14T04:03:33.878Z","provider":"wechat_work","providerCode":0},"2026-10-15|广发纳指100|270042,006479,021778|open_limited->suspended":{"status":"confirmed_sent","fund_codes":["270042","006479","021778"],"effective_date":"2026-10-15","source_announcement_id":"AN202610141830429076","sent_at":"2026-10-14T16:40:27.834Z","provider":"wechat_work","providerCode":0}},"future_effective":{"AN202610141830429076":{"effective_date":"2026-10-15","applied":true,"fund_codes":["270042","006479","021778"],"source_id":"AN202610141830429076"},"AN202610141830446498":{"effective_date":"2026-10-15","applied":true,"fund_codes":["019524","019525"],"source_id":"AN202610141830446498"}},"last_scan_summary":{"qbao_queried_at":"2026-10-15T06:26:35+08:00","last_sync_at":"2026-10-14T22:07:52.500616Z","raw_items":833,"pages":5,"unique_documents":342,"remaining_unparsed":0,"remaining_rule_validation":0},"rule_validation_pending":[],"diagnostic_failures":[{"failure_id":"20261015T092324+0800-checkpoint-commit-safety-block","stage":"checkpoint_commit","timestamp":"2026-10-15T09:23:24+08:00","tool":"mcp__ifs_tools_storage__CommitStorageFiles","target":"InfinitySignal/infinitysignal.github.io/main/templates/products/us-qdii-limit-monitor/announcement-checkpoint.json","request_summary":"首次尝试保存14份历史规则的详细结构化核验记录；包含原有完整检查点","request_sent":"unknown","error_code":null,"error_message":"This tool call was blocked by OpenAI's safety checks. Please double check what you are sending.","category":"调用前安全拦截","retry_count":1,"retry_result":"缩减核验记录体积后提交成功，commit_sha=5b422a047ae316a3bfd33d0efc56df9b3584c9de","impact":"首次写入未确认，重试成功，14份规则复核已持久化","next_action":"排查大体积工具调用的安全检查触发条件；避免超长字段并保留失败证据，不推断GitHub权限异常"}],"storage_compaction":{"version":2,"previous_bytes":535894,"description":"Only IDs/status, active rules, pending, future events, notifications, diagnostics. Qbao stores announcement text."}}
+{
+  "schema_version": 1,
+  "monitor_version": "V1.7",
+  "source": "Q宝全球投:list_qdii_announcements",
+  "created_at": "2026-10-13T18:20:00+08:00",
+  "last_scan_at": "2026-10-15T01:24:26.178Z",
+  "last_completed_scan_at": "2026-10-15T01:24:26.178Z",
+  "processed_announcements": {
+    "AN202610121830361740": {
+      "parse_status": "success"
+    },
+    "AN202609241829831132": {
+      "parse_status": "success"
+    },
+    "AN202609231829774454": {
+      "parse_status": "success"
+    },
+    "AN202610081830198059": {
+      "parse_status": "success"
+    },
+    "AN202610141830429114": {
+      "parse_status": "success"
+    },
+    "AN202610141830429076": {
+      "parse_status": "success"
+    },
+    "AN202610131830381891": {
+      "parse_status": "success"
+    },
+    "AN202609291829977118": {
+      "parse_status": "success"
+    },
+    "AN202609241829835607": {
+      "parse_status": "success"
+    },
+    "AN202609231829776646": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202609231829773864": {
+      "parse_status": "success"
+    },
+    "AN202609221829742553": {
+      "parse_status": "success"
+    },
+    "AN202609221829740223": {
+      "parse_status": "success"
+    },
+    "AN202609221829732369": {
+      "parse_status": "success"
+    },
+    "AN202610141830426514": {
+      "parse_status": "success"
+    },
+    "AN202609181829590491": {
+      "parse_status": "success"
+    },
+    "AN202609181829580913": {
+      "parse_status": "success"
+    },
+    "AN202609181829580336": {
+      "parse_status": "success"
+    },
+    "AN202609121829300978": {
+      "parse_status": "success"
+    },
+    "AN202609111829244081": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202609101829193911": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202609101829193908": {
+      "parse_status": "success"
+    },
+    "AN202609091829169340": {
+      "parse_status": "success"
+    },
+    "AN202609081829134250": {
+      "parse_status": "success"
+    },
+    "AN202609081829112736": {
+      "parse_status": "success"
+    },
+    "AN202609071829086210": {
+      "parse_status": "success"
+    },
+    "AN202609071829085833": {
+      "parse_status": "success"
+    },
+    "AN202609041828989529": {
+      "parse_status": "success"
+    },
+    "AN202609041828989156": {
+      "parse_status": "success"
+    },
+    "AN202609031828946515": {
+      "parse_status": "success"
+    },
+    "AN202609031828946398": {
+      "parse_status": "success"
+    },
+    "AN202609031828945643": {
+      "parse_status": "success"
+    },
+    "AN202609031828943997": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202609031828943973": {
+      "parse_status": "success"
+    },
+    "AN202609021828932440": {
+      "parse_status": "success"
+    },
+    "AN202609021828902483": {
+      "parse_status": "success"
+    },
+    "AN202609211829686442": {
+      "parse_status": "success"
+    },
+    "AN202609161829440207": {
+      "parse_status": "success"
+    },
+    "AN202609011828888223": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202609011828848127": {
+      "parse_status": "success"
+    },
+    "AN202609011828847866": {
+      "parse_status": "success"
+    },
+    "AN202609011828844748": {
+      "parse_status": "success"
+    },
+    "AN202609011828844257": {
+      "parse_status": "success"
+    },
+    "AN202609011828844248": {
+      "parse_status": "success"
+    },
+    "AN202608271828504337": {
+      "parse_status": "success"
+    },
+    "AN202608241828350106": {
+      "parse_status": "success"
+    },
+    "AN202608191828132820": {
+      "parse_status": "success"
+    },
+    "AN202608191828132738": {
+      "parse_status": "success"
+    },
+    "AN202608191828132673": {
+      "parse_status": "success"
+    },
+    "AN202608191828129205": {
+      "parse_status": "success"
+    },
+    "AN202608191828129178": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608181828080834": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608071827726294": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608061827684244": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608041827605205": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608031827571588": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202607301827487265": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202608121827881763": {
+      "parse_status": "success"
+    },
+    "AN202608071827737353": {
+      "parse_status": "success"
+    },
+    "AN202608071827734257": {
+      "parse_status": "success"
+    },
+    "AN202607311827510657": {
+      "parse_status": "success"
+    },
+    "AN202607311827507936": {
+      "parse_status": "success"
+    },
+    "AN202607291827438228": {
+      "parse_status": "success"
+    },
+    "AN202607241827315718": {
+      "parse_status": "success"
+    },
+    "AN202607241827315717": {
+      "parse_status": "success"
+    },
+    "AN202607241827305150": {
+      "parse_status": "success"
+    },
+    "AN202607241827305125": {
+      "parse_status": "success"
+    },
+    "AN202607211827178747": {
+      "parse_status": "success"
+    },
+    "AN202607211827178744": {
+      "parse_status": "success"
+    },
+    "AN202607201827126800": {
+      "parse_status": "success"
+    },
+    "AN202607171827041199": {
+      "parse_status": "success"
+    },
+    "AN202607171827039546": {
+      "parse_status": "success"
+    },
+    "AN202607171827039528": {
+      "parse_status": "success"
+    },
+    "AN202607141826942637": {
+      "parse_status": "success"
+    },
+    "AN202607101826876558": {
+      "parse_status": "success"
+    },
+    "AN202607101826854215": {
+      "parse_status": "success"
+    },
+    "AN202607091826843545": {
+      "parse_status": "success"
+    },
+    "AN202607201827139668": {
+      "parse_status": "success"
+    },
+    "AN202607091826843544": {
+      "parse_status": "success"
+    },
+    "AN202607091826830545": {
+      "parse_status": "success"
+    },
+    "AN202607081826788580": {
+      "parse_status": "success"
+    },
+    "AN202607081826788552": {
+      "parse_status": "success"
+    },
+    "AN202607061826736289": {
+      "parse_status": "success"
+    },
+    "AN202607061826735870": {
+      "parse_status": "success"
+    },
+    "AN202607021826662502": {
+      "parse_status": "success"
+    },
+    "AN202607011826620810": {
+      "parse_status": "success"
+    },
+    "AN202607011826618306": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202606301826591786": {
+      "parse_status": "success"
+    },
+    "AN202606301826561391": {
+      "parse_status": "success"
+    },
+    "AN202606291826539905": {
+      "parse_status": "success"
+    },
+    "AN202606261823873456": {
+      "parse_status": "success"
+    },
+    "AN202606261823871028": {
+      "parse_status": "success"
+    },
+    "AN202606251823830522": {
+      "parse_status": "success"
+    },
+    "AN202606251823827970": {
+      "parse_status": "success"
+    },
+    "AN202606251823827941": {
+      "parse_status": "success"
+    },
+    "AN202606251823823362": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202606251823823361": {
+      "parse_status": "success"
+    },
+    "AN202606231823758304": {
+      "parse_status": "success"
+    },
+    "AN202606231823757924": {
+      "parse_status": "success"
+    },
+    "AN202606231823757896": {
+      "parse_status": "success"
+    },
+    "AN202606191823686344": {
+      "parse_status": "success"
+    },
+    "AN202606161823588454": {
+      "parse_status": "success"
+    },
+    "AN202606131823526189": {
+      "parse_status": "success"
+    },
+    "AN202607081826816306": {
+      "parse_status": "success"
+    },
+    "AN202606171823629134": {
+      "parse_status": "success"
+    },
+    "AN202606121823470207": {
+      "parse_status": "success"
+    },
+    "AN202606101823421439": {
+      "parse_status": "success"
+    },
+    "AN202606101823412225": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202606101823409504": {
+      "parse_status": "success"
+    },
+    "AN202606101823409163": {
+      "parse_status": "success"
+    },
+    "AN202606091823377663": {
+      "parse_status": "success"
+    },
+    "AN202606061823319063": {
+      "parse_status": "success"
+    },
+    "AN202606061823317509": {
+      "parse_status": "success"
+    },
+    "AN202606061823307230": {
+      "parse_status": "success"
+    },
+    "AN202606051823274452": {
+      "parse_status": "success"
+    },
+    "AN202606051823274054": {
+      "parse_status": "success"
+    },
+    "AN202606051823273121": {
+      "parse_status": "success"
+    },
+    "AN202606041823245790": {
+      "parse_status": "success"
+    },
+    "AN202606031823188725": {
+      "parse_status": "success"
+    },
+    "AN202606021823148642": {
+      "parse_status": "success"
+    },
+    "AN202605291823024425": {
+      "parse_status": "success"
+    },
+    "AN202605291823008560": {
+      "parse_status": "success"
+    },
+    "AN202605291823006281": {
+      "parse_status": "success"
+    },
+    "AN202605291823003798": {
+      "parse_status": "success"
+    },
+    "AN202605291822998072": {
+      "parse_status": "success"
+    },
+    "AN202605291822989315": {
+      "parse_status": "success"
+    },
+    "AN202605291822984235": {
+      "parse_status": "success"
+    },
+    "AN202607091826839817": {
+      "parse_status": "success"
+    },
+    "AN202605291822984224": {
+      "parse_status": "success"
+    },
+    "AN202605291822984196": {
+      "parse_status": "success"
+    },
+    "AN202605281822954361": {
+      "parse_status": "success"
+    },
+    "AN202605271822903520": {
+      "parse_status": "success"
+    },
+    "AN202605261822869261": {
+      "parse_status": "success"
+    },
+    "AN202605221822670527": {
+      "parse_status": "success"
+    },
+    "AN202605211822519133": {
+      "parse_status": "success"
+    },
+    "AN202605201822493853": {
+      "parse_status": "success"
+    },
+    "AN202605201822472226": {
+      "parse_status": "success"
+    },
+    "AN202605191822446171": {
+      "parse_status": "success"
+    },
+    "AN202605191822424450": {
+      "parse_status": "success"
+    },
+    "AN202605141822287368": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202605081822057674": {
+      "parse_status": "success"
+    },
+    "AN202605061821980381": {
+      "parse_status": "success"
+    },
+    "AN202604281821651715": {
+      "parse_status": "success"
+    },
+    "AN202604241821541911": {
+      "parse_status": "success"
+    },
+    "AN202604231821480457": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202604231821470346": {
+      "parse_status": "success"
+    },
+    "AN202604201821324838": {
+      "parse_status": "success"
+    },
+    "AN202604171821282012": {
+      "parse_status": "success"
+    },
+    "AN202604171821279959": {
+      "parse_status": "success"
+    },
+    "AN202604171821279956": {
+      "parse_status": "success"
+    },
+    "AN202604161821248432": {
+      "parse_status": "success"
+    },
+    "AN202604141821165112": {
+      "parse_status": "success"
+    },
+    "AN202604131821143626": {
+      "parse_status": "success"
+    },
+    "AN202604111821133293": {
+      "parse_status": "success"
+    },
+    "AN202604101821108923": {
+      "parse_status": "success"
+    },
+    "AN202604101821108587": {
+      "parse_status": "success"
+    },
+    "AN202604091821076909": {
+      "parse_status": "success"
+    },
+    "AN202604091821076801": {
+      "parse_status": "success"
+    },
+    "AN202604091821076760": {
+      "parse_status": "success"
+    },
+    "AN202604071821036124": {
+      "parse_status": "success"
+    },
+    "AN202604071821035320": {
+      "parse_status": "success"
+    },
+    "AN202604071821035242": {
+      "parse_status": "success"
+    },
+    "AN202604041821021732": {
+      "parse_status": "success"
+    },
+    "AN202604021820970056": {
+      "parse_status": "success"
+    },
+    "AN202604011820952777": {
+      "parse_status": "success"
+    },
+    "AN202604011820935928": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202604081821054294": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202604081821052975": {
+      "parse_status": "success"
+    },
+    "AN202603311820912764": {
+      "parse_status": "success"
+    },
+    "AN202603311820894376": {
+      "parse_status": "success"
+    },
+    "AN202603311820893805": {
+      "parse_status": "success"
+    },
+    "AN202603311820892199": {
+      "parse_status": "success"
+    },
+    "AN202603311820889170": {
+      "parse_status": "success"
+    },
+    "AN202603301820866059": {
+      "parse_status": "success"
+    },
+    "AN202603301820859738": {
+      "parse_status": "success"
+    },
+    "AN202603271820786482": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202603191820635345": {
+      "parse_status": "success"
+    },
+    "AN202603181820618457": {
+      "parse_status": "success"
+    },
+    "AN202603181820618456": {
+      "parse_status": "success"
+    },
+    "AN202603171820590808": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202603171820589280": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202603051820284440": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202603051820276105": {
+      "parse_status": "success"
+    },
+    "AN202603041820246597": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202602271820086706": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202602261820057584": {
+      "parse_status": "success"
+    },
+    "AN202602251820025613": {
+      "parse_status": "success"
+    },
+    "AN202602031819611419": {
+      "parse_status": "success"
+    },
+    "AN202602031819507007": {
+      "parse_status": "success"
+    },
+    "AN202601291818528176": {
+      "parse_status": "success"
+    },
+    "AN202601281818502193": {
+      "parse_status": "success"
+    },
+    "AN202601271818447197": {
+      "parse_status": "success"
+    },
+    "AN202601231818302907": {
+      "parse_status": "success"
+    },
+    "AN202601221818274327": {
+      "parse_status": "success"
+    },
+    "AN202601171818046412": {
+      "parse_status": "success"
+    },
+    "AN202601151817053119": {
+      "parse_status": "success"
+    },
+    "AN202601151817034133": {
+      "parse_status": "success"
+    },
+    "AN202601151817031734": {
+      "parse_status": "success"
+    },
+    "AN202601151817031187": {
+      "parse_status": "success"
+    },
+    "AN202601151817031104": {
+      "parse_status": "success"
+    },
+    "AN202601141816999137": {
+      "parse_status": "success"
+    },
+    "AN202601141816998689": {
+      "parse_status": "success"
+    },
+    "AN202601141816998634": {
+      "parse_status": "success"
+    },
+    "AN202601131816982233": {
+      "parse_status": "success"
+    },
+    "AN202601131816966172": {
+      "parse_status": "success"
+    },
+    "AN202601131816966146": {
+      "parse_status": "success"
+    },
+    "AN202601101816890857": {
+      "parse_status": "success"
+    },
+    "AN202601091816882236": {
+      "parse_status": "success"
+    },
+    "AN202601091816871465": {
+      "parse_status": "success"
+    },
+    "AN202601091816867845": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202601091816865451": {
+      "parse_status": "success"
+    },
+    "AN202601091816858960": {
+      "parse_status": "success"
+    },
+    "AN202601091816858957": {
+      "parse_status": "success"
+    },
+    "AN202601081816834237": {
+      "parse_status": "success"
+    },
+    "AN202601071816541786": {
+      "parse_status": "success"
+    },
+    "AN202601071816490761": {
+      "parse_status": "success"
+    },
+    "AN202601071816483975": {
+      "parse_status": "success"
+    },
+    "AN202601071816483896": {
+      "parse_status": "success"
+    },
+    "AN202601061815816075": {
+      "parse_status": "success"
+    },
+    "AN202512311811759175": {
+      "parse_status": "success"
+    },
+    "AN202512301811106661": {
+      "parse_status": "success"
+    },
+    "AN202512301811048823": {
+      "parse_status": "success"
+    },
+    "AN202512291810352191": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202512291810352084": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202412061641201253": {
+      "parse_status": "success"
+    },
+    "AN202412181641339934": {
+      "parse_status": "success"
+    },
+    "AN202412301641463679": {
+      "parse_status": "success"
+    },
+    "AN202501071641831189": {
+      "parse_status": "success"
+    },
+    "AN202501271642585389": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202502251643469384": {
+      "parse_status": "success"
+    },
+    "AN202502271643549306": {
+      "parse_status": "success"
+    },
+    "AN202503051644063900": {
+      "parse_status": "success"
+    },
+    "AN202503111644253354": {
+      "parse_status": "success"
+    },
+    "AN202503111644255948": {
+      "parse_status": "success"
+    },
+    "AN202503131644321915": {
+      "parse_status": "success"
+    },
+    "AN202503141644356398": {
+      "parse_status": "success"
+    },
+    "AN202512261808695535": {
+      "parse_status": "success"
+    },
+    "AN202512261808695532": {
+      "parse_status": "success"
+    },
+    "AN202512231806254342": {
+      "parse_status": "success"
+    },
+    "AN202512221805898511": {
+      "parse_status": "success"
+    },
+    "AN202512221805623520": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202512221805677036": {
+      "parse_status": "success"
+    },
+    "AN202512171802114709": {
+      "parse_status": "success"
+    },
+    "AN202512131799215541": {
+      "parse_status": "success"
+    },
+    "AN202512111798054504": {
+      "parse_status": "success"
+    },
+    "AN202512081796084966": {
+      "parse_status": "success"
+    },
+    "AN202512061795042059": {
+      "parse_status": "success"
+    },
+    "AN202512041793575251": {
+      "parse_status": "success"
+    },
+    "AN202511281789783410": {
+      "parse_status": "success"
+    },
+    "AN202511271789098644": {
+      "parse_status": "success"
+    },
+    "AN202511251787838881": {
+      "parse_status": "success"
+    },
+    "AN202511241787483894": {
+      "parse_status": "success"
+    },
+    "AN202511241787266012": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202511231786863485": {
+      "parse_status": "success"
+    },
+    "AN202511221785999927": {
+      "parse_status": "success"
+    },
+    "AN202511221785999863": {
+      "parse_status": "success"
+    },
+    "AN202511211785379194": {
+      "parse_status": "success"
+    },
+    "AN202511211785322942": {
+      "parse_status": "success"
+    },
+    "AN202511181783502485": {
+      "parse_status": "success"
+    },
+    "AN202511181783502267": {
+      "parse_status": "success"
+    },
+    "AN202511171782872143": {
+      "parse_status": "success"
+    },
+    "AN202511151781637562": {
+      "parse_status": "success"
+    },
+    "AN202503221645829048": {
+      "parse_status": "success"
+    },
+    "AN202503261647587941": {
+      "parse_status": "success"
+    },
+    "AN202504081653077191": {
+      "parse_status": "success"
+    },
+    "AN202504091653608616": {
+      "parse_status": "success"
+    },
+    "AN202504091653609254": {
+      "parse_status": "success"
+    },
+    "AN202504111654532837": {
+      "parse_status": "success"
+    },
+    "AN202504251661992309": {
+      "parse_status": "success"
+    },
+    "AN202506141690605201": {
+      "parse_status": "verified_irrelevant"
+    },
+    "AN202506181692979786": {
+      "parse_status": "success"
+    },
+    "AN202506241696590593": {
+      "parse_status": "success"
+    },
+    "AN202506241696590594": {
+      "parse_status": "success"
+    },
+    "AN202506251697195267": {
+      "parse_status": "success"
+    },
+    "AN202506261697798578": {
+      "parse_status": "success"
+    },
+    "AN202506281699113066": {
+      "parse_status": "success"
+    },
+    "AN202511151781635682": {
+      "parse_status": "success"
+    },
+    "AN202511151781620266": {
+      "parse_status": "success"
+    },
+    "AN202511131780384354": {
+      "parse_status": "success"
+    },
+    "AN202511131780384317": {
+      "parse_status": "success"
+    },
+    "AN202511131780339755": {
+      "parse_status": "success"
+    },
+    "AN202511131780328936": {
+      "parse_status": "success"
+    },
+    "AN202511121779676352": {
+      "parse_status": "success"
+    },
+    "AN202511111779140625": {
+      "parse_status": "success"
+    },
+    "AN202511111779112505": {
+      "parse_status": "success"
+    },
+    "AN202511111779094198": {
+      "parse_status": "success"
+    },
+    "AN202511061776067436": {
+      "parse_status": "success"
+    },
+    "AN202511061776009052": {
+      "parse_status": "success"
+    },
+    "AN202511051775617733": {
+      "parse_status": "success"
+    },
+    "AN202511041774827016": {
+      "parse_status": "success"
+    },
+    "AN202511041774826881": {
+      "parse_status": "success"
+    },
+    "AN202507081704954509": {
+      "parse_status": "success"
+    },
+    "AN202507141708494482": {
+      "parse_status": "success"
+    },
+    "AN202507151709095737": {
+      "parse_status": "success"
+    },
+    "AN202507301718147599": {
+      "parse_status": "success"
+    },
+    "AN202507311718957240": {
+      "parse_status": "success"
+    },
+    "AN202507311718957241": {
+      "parse_status": "success"
+    },
+    "AN202508141727157263": {
+      "parse_status": "success"
+    },
+    "AN202508151727982986": {
+      "parse_status": "success"
+    },
+    "AN202508151727982990": {
+      "parse_status": "success"
+    },
+    "AN202508161728416774": {
+      "parse_status": "success"
+    },
+    "AN202508201730838038": {
+      "parse_status": "success"
+    },
+    "AN202508201730897258": {
+      "parse_status": "success"
+    },
+    "AN202508271735166280": {
+      "parse_status": "success"
+    },
+    "AN202508271735220553": {
+      "parse_status": "success"
+    },
+    "AN202511041774775324": {
+      "parse_status": "success"
+    },
+    "AN202511031774389358": {
+      "parse_status": "success"
+    },
+    "AN202510301771866554": {
+      "parse_status": "success"
+    },
+    "AN202510301771709226": {
+      "parse_status": "success"
+    },
+    "AN202510291771094398": {
+      "parse_status": "success"
+    },
+    "AN202510281770456867": {
+      "parse_status": "success"
+    },
+    "AN202510271769985404": {
+      "parse_status": "success"
+    },
+    "AN202510271769762538": {
+      "parse_status": "success"
+    },
+    "AN202510271769744624": {
+      "parse_status": "success"
+    },
+    "AN202510251768595607": {
+      "parse_status": "success"
+    },
+    "AN202510251768557150": {
+      "parse_status": "success"
+    },
+    "AN202510211766059441": {
+      "parse_status": "success"
+    },
+    "AN202508271735222991": {
+      "parse_status": "success"
+    },
+    "AN202509241749717660": {
+      "parse_status": "success"
+    },
+    "AN202509241749763561": {
+      "parse_status": "success"
+    },
+    "AN202509251750114141": {
+      "parse_status": "success"
+    },
+    "AN202509251750166840": {
+      "parse_status": "success"
+    },
+    "AN202509271751375290": {
+      "parse_status": "success"
+    },
+    "AN202509271751405613": {
+      "parse_status": "success"
+    },
+    "AN202509271751405684": {
+      "parse_status": "success"
+    },
+    "AN202510101759289250": {
+      "parse_status": "success"
+    },
+    "AN202510101759304165": {
+      "parse_status": "success"
+    },
+    "AN202510101759354100": {
+      "parse_status": "success"
+    },
+    "AN202510141761802772": {
+      "parse_status": "success"
+    },
+    "AN202510141761802796": {
+      "parse_status": "success"
+    },
+    "AN202510151762369270": {
+      "parse_status": "success"
+    },
+    "AN202512221805564814": {
+      "parse_status": "success"
+    },
+    "AN202512091796781734": {
+      "parse_status": "success"
+    },
+    "AN202512051794524996": {
+      "parse_status": "success"
+    },
+    "AN202511201784706438": {
+      "parse_status": "success"
+    },
+    "AN202510311772310034": {
+      "parse_status": "success"
+    },
+    "AN202510301771894707": {
+      "parse_status": "success"
+    },
+    "AN202510201765441150": {
+      "parse_status": "success"
+    },
+    "AN202510171763661096": {
+      "parse_status": "success"
+    },
+    "AN202510151762423327": {
+      "parse_status": "success"
+    },
+    "AN202510151762376395": {
+      "parse_status": "success"
+    },
+    "AN202610141830446498": {
+      "parse_status": "success"
+    }
+  },
+  "pending_announcements": {},
+  "confirmed_rules": {
+    "270042": {
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "inclusive",
+      "channels": "直销、代销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-15",
+      "source_announcement_id": "AN202610141830429076",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
+      "verification_level": "A",
+      "verified_at": "2026-10-14T16:39:53.178Z",
+      "previous_status": "open_limited"
+    },
+    "006479": {
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "inclusive",
+      "channels": "直销、代销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-15",
+      "source_announcement_id": "AN202610141830429076",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
+      "verification_level": "A",
+      "verified_at": "2026-10-14T16:39:53.178Z",
+      "previous_status": "open_limited"
+    },
+    "021778": {
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "inclusive",
+      "channels": "仅直销",
+      "shared_across_channels": true,
+      "shared_across_classes": false,
+      "effective_date": "2026-10-15",
+      "source_announcement_id": "AN202610141830429076",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
+      "verification_level": "A",
+      "verified_at": "2026-10-14T16:39:53.178Z",
+      "previous_status": "open_limited"
+    },
+    "019547": {
+      "status": "suspended",
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
+      "verification_level": "B",
+      "confirmed_at": "2026-10-14T04:01:40.824Z",
+      "previous_status": "open_limited"
+    },
+    "019548": {
+      "status": "suspended",
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
+      "verification_level": "B",
+      "confirmed_at": "2026-10-14T04:01:40.824Z",
+      "previous_status": "open_limited"
+    }
+  },
+  "notification_events": {
+    "AN202610121830361740:resume:2026-10-13": {
+      "status": "historical_reconciliation_no_send",
+      "reason": "该公告的恢复申购变化在此次运行之前已在对话中的上一轮核实，现补入持久检查点，不重复推送",
+      "fund_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "effective_date": "2026-10-13",
+      "created_at": "2026-10-13T10:45:17.707Z"
+    },
+    "2026-10-14|招商纳指100|019547,019548|open_limited->suspended": {
+      "status": "confirmed_sent",
+      "fund_codes": [
+        "019547",
+        "019548"
+      ],
+      "effective_date": "2026-10-14",
+      "source_announcement_id": "AN202610141830429114",
+      "created_at": "2026-10-14T04:01:40.824Z",
+      "sent_at": "2026-10-14T04:03:33.878Z",
+      "provider": "wechat_work",
+      "providerCode": 0
+    },
+    "2026-10-15|广发纳指100|270042,006479,021778|open_limited->suspended": {
+      "status": "confirmed_sent",
+      "fund_codes": [
+        "270042",
+        "006479",
+        "021778"
+      ],
+      "effective_date": "2026-10-15",
+      "source_announcement_id": "AN202610141830429076",
+      "sent_at": "2026-10-14T16:40:27.834Z",
+      "provider": "wechat_work",
+      "providerCode": 0
+    }
+  },
+  "future_effective": {},
+  "last_scan_summary": {
+    "qbao_queried_at": "2026-10-15T06:26:35+08:00",
+    "last_sync_at": "2026-10-14T22:07:52.500616Z",
+    "raw_items": 833,
+    "pages": 5,
+    "unique_documents": 342,
+    "remaining_unparsed": 0,
+    "remaining_rule_validation": 0
+  },
+  "rule_validation_pending": [],
+  "diagnostic_failures": [
+    {
+      "failure_id": "20261015T092324+0800-checkpoint-commit-safety-block",
+      "stage": "checkpoint_commit",
+      "timestamp": "2026-10-15T09:23:24+08:00",
+      "tool": "mcp__ifs_tools_storage__CommitStorageFiles",
+      "target": "InfinitySignal/infinitysignal.github.io/main/templates/products/us-qdii-limit-monitor/announcement-checkpoint.json",
+      "request_summary": "首次尝试保存14份历史规则的详细结构化核验记录；包含原有完整检查点",
+      "request_sent": "unknown",
+      "error_code": null,
+      "error_message": "This tool call was blocked by OpenAI's safety checks. Please double check what you are sending.",
+      "category": "调用前安全拦截",
+      "retry_count": 1,
+      "retry_result": "缩减核验记录体积后提交成功，commit_sha=5b422a047ae316a3bfd33d0efc56df9b3584c9de",
+      "impact": "首次写入未确认，重试成功，14份规则复核已持久化",
+      "next_action": "排查大体积工具调用的安全检查触发条件；避免超长字段并保留失败证据，不推断GitHub权限异常"
+    }
+  ],
+  "storage_compaction": {
+    "version": 2,
+    "previous_bytes": 535894,
+    "description": "Only IDs/status, active rules, pending, future events, notifications, diagnostics. Qbao stores announcement text."
+  }
+}
