@@ -21,23 +21,23 @@
 			main {
 				max-width: 1120px;
 				margin: 0 auto;
-				padding: clamp(8px, 3.5vw, 40px) clamp(0px, 2.5vw, 24px);
+				padding: 40px 24px;
 			}
 			.page-header {
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
 				flex-wrap: wrap;
-				gap: clamp(6px, 1.5vw, 16px);
-				margin-bottom: clamp(8px, 2vw, 20px);
+				gap: 16px;
+				margin-bottom: 20px;
 			}
 			.page-header .more-info {
 				display: inline-flex;
 				align-items: center;
-				gap: clamp(4px, 0.75vw, 8px);
+				gap: 8px;
 				margin-left: auto;
 				flex-shrink: 0;
-				padding: clamp(2px, 0.4vw, 4px) clamp(6px, 1.5vw, 15px);
+				padding: 4px 15px;
 				border: 1px solid #d9d9d9;
 				border-radius: 6px;
 				background: #fff;
@@ -63,34 +63,34 @@
 				line-height: 1.4;
 			}
 			blockquote {
-				margin: 0 0 clamp(8px, 2.5vw, 24px);
+				margin: 0 0 24px;
 				border: 1px solid #91caff;
 				border-radius: 8px;
-				padding: clamp(6px, 1.25vw, 12px) clamp(8px, 1.5vw, 16px);
+				padding: 12px 16px;
 				background: #e6f4ff;
 				color: rgba(0, 0, 0, 0.65);
 			}
 			section {
-				margin-top: clamp(8px, 2.5vw, 24px);
-				padding: clamp(8px, 2.5vw, 24px);
+				margin-top: 24px;
+				padding: 24px;
 				border: 1px solid #f0f0f0;
 				border-radius: 8px;
 				background: #fff;
 				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
 			}
 			h2 {
-				margin: 0 0 clamp(8px, 2vw, 20px);
-				padding-bottom: clamp(6px, 1.5vw, 16px);
+				margin: 0 0 20px;
+				padding-bottom: 16px;
 				border-bottom: 1px solid #f0f0f0;
 				font-size: 16px;
 				font-weight: 600;
 			}
 			ul {
 				margin: 0;
-				padding-left: clamp(16px, 2.5vw, 24px);
+				padding-left: 24px;
 			}
 			li + li {
-				margin-top: clamp(4px, 0.75vw, 8px);
+				margin-top: 8px;
 			}
 			.table-scroll {
 				overflow-x: auto;
@@ -103,31 +103,28 @@
 			}
 			table {
 				width: 100%;
-				min-width: 0;
+				min-width: 760px;
 				border-collapse: collapse;
 				text-align: left;
-				font-size: clamp(0.75rem, 0.625rem + 0.625vw, 0.875rem);
 			}
 			th,
 			td {
-				padding: clamp(6px, 1.5vw, 16px) clamp(4px, 1.5vw, 16px);
+				padding: 16px;
 				border-bottom: 1px solid #f0f0f0;
 				vertical-align: top;
-				overflow-wrap: anywhere;
 			}
 			thead th {
 				background: #fafafa;
 				color: rgba(0, 0, 0, 0.88);
-				font-size: inherit;
+				font-size: 14px;
 				font-weight: 600;
 			}
 			tbody th {
-				font-size: inherit;
-				font-weight: 400;
+				font-weight: 500;
 			}
 			.channels {
-				white-space: normal;
-				line-height: 1.6;
+				white-space: nowrap;
+				line-height: 1.8;
 			}
 			tbody tr {
 				transition: background-color 0.2s;
@@ -153,23 +150,16 @@
 				font-variant-numeric: tabular-nums;
 			}
 			.sample-note {
-				margin: 0 0 clamp(6px, 1.5vw, 16px);
+				margin: 0 0 16px;
 				color: rgba(0, 0, 0, 0.45);
 				font-size: 14px;
 			}
 			@media (max-width: 640px) {
 				main {
-					padding-inline: 0;
+					padding: 28px 16px;
 				}
 				section {
-					border-radius: 0;
-				}
-				table {
-					table-layout: fixed;
-				}
-				.page-header,
-				main > .sample-note {
-					padding-inline: clamp(8px, 2vw, 12px);
+					padding: 20px 16px;
 				}
 			}
 		</style>
@@ -196,13 +186,12 @@
 			</header>
 			<!-- 自动填充：替换 #updated-at 的文本；实际更新时间可添加 datetime 属性。 -->
 			<blockquote>
-				更新日期时间：<time id="updated-at" datetime="2026-10-16T23:31:38+08:00"
-					>2026-10-16 23:31:38（北京时间）</time
+				更新日期时间：<time id="updated-at" datetime="2026-10-16T10:58:00+08:00"
+					>2026-10-16 10:58:00（北京时间）</time
 				>
 			</blockquote>
 
 			<!-- 填入实际数据后移除示例说明。 -->
-			
 
 			<section aria-labelledby="changes-heading">
 				<h2 id="changes-heading">最新变更</h2>
@@ -223,11 +212,20 @@
 							</tr>
 						</thead>
 						<!-- 自动填充：替换 #latest-changes 内的 tr，包含未来生效的变更，日期使用公告生效日期。有限额转暂停显示“暂停申购”；暂停转开放显示“开放申购，直销 x 元，代销 x 元”；金额变更按渠道显示“从 x 元提升至 x 元”或“从 x 元下降至 x 元”。所有金额使用 .money-amount；无变更时填入 colspan="4" 的单元格并写“暂无最新变更”。 -->
-						<tbody id="latest-changes"><tr><th scope="row">广发纳指100ETF联接(QDII)人民币C（006479）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">招商纳斯达克100ETF发起式联接A（019547）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-14">2026-10-14</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">招商纳斯达克100ETF发起式联接C（019548）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-14">2026-10-14</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">广发纳指100ETF联接(QDII)人民币F（021778）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">广发纳指100ETF联接(QDII)人民币A（270042）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr></tbody>
+						<tbody id="latest-changes">
+						<tr>
+								<th scope="row">广发纳斯达克100ETF联接人民币A/C/F（270042、006479、021778）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2026-10-15">2026-10-15</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td>
+							</tr>
+						<tr>
+								<th scope="row">招商纳斯达克100ETF联接A/C（019547、019548）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2026-10-14">2026-10-14</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td>
+							</tr>
+					</tbody>
 					</table>
 				</div>
 			</section>
@@ -253,61 +251,338 @@
 							</tr>
 						</thead>
 						<!-- 自动填充：替换 #monitor-rows 内的 tr，仅使用更新当日已生效的状态；未来变更生效前保留原状态及对应生效日期。限额列简写为“直销 x 元，代销暂停申购”等渠道状态，不写变更过程或长篇说明；所有金额使用 .money-amount。 -->
-						<tbody id="monitor-rows"><tr><th scope="row">大成纳斯达克100ETF联接A（000834）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时标普500ETF联接C（006075）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘标普500发起(QDII-FOF)A（007721）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘标普500发起(QDII-FOF)C（007722）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">大成纳斯达克100ETF联接C（008971）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">建信纳斯达克100指数C（012752）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">易方达标普500指数C（012860）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">易方达纳斯达克100ETF联接C（012870）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华安纳斯达克100ETF联接C（014978）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华夏纳斯达克100ETF发起式联接A（015299）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华夏纳斯达克100ETF发起式联接C（015300）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时纳斯达克100ETF发起式联接A（016055）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时纳斯达克100ETF发起式联接C（016057）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">南方纳斯达克100指数发起A（016452）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">南方纳斯达克100指数发起C（016453）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">嘉实纳斯达克100ETF发起联接A（016532）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">嘉实纳斯达克100ETF发起联接(QDII)C人民币（016533）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">国泰标普500ETF发起联接(QDII)A人民币（017028）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">国泰标普500ETF发起联接(QDII)C人民币（017030）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">摩根标普500指数A（017641）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘纳斯达克100指数发起(QDII)A（018043）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘纳斯达克100指数发起(QDII)C（018044）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华夏标普500ETF发起式联接(QDII)A(人民币)（018064）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华夏标普500ETF发起式联接(QDII)C（018065）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时标普500ETF联接E（018738）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">汇添富纳斯达克100ETF发起式联接A（018966）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">汇添富纳斯达克100ETF发起式联接C（018967）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">摩根纳斯达克100指数(QDII)人民币A（019172）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">摩根纳斯达克100指数(QDII)人民币C（019173）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">摩根标普500指数C（019305）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">万家纳斯达克100指数发起式A（019441）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">万家纳斯达克100指数发起式C（019442）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华泰柏瑞纳斯达克100ETF发起式联接A（019524）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华泰柏瑞纳斯达克100ETF发起式联接C（019525）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">宝盈纳斯达克100指数发起(QDII)A人民币（019736）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">宝盈纳斯达克100指数发起(QDII)C人民币（019737）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">南方纳斯达克100指数发起(QDII)I（021000）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">汇添富纳斯达克100ETF发起式联接E（021773）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">嘉实纳斯达克100ETF发起联接I（021838）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘标普500发起(QDII-FOF)D（022523）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">天弘纳斯达克100指数发起(QDII)D（022525）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华泰柏瑞纳斯达克100ETF发起式联接I（022664）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">建信纳斯达克100指数(QDII)D人民币（023422）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时纳斯达克100ETF发起式联接I（024237）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">华安纳斯达克100ETF联接(QDII)A（040046）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">博时标普500ETF联接A（050025）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">国泰纳斯达克100指数（160213）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">易方达标普500指数A（161125）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">易方达纳斯达克100ETF联接A（161130）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">建信纳斯达克100指数A（539001）</th><td class="channels">待核（缺少当前规则来源证据）</td><td>待核</td><td>待核</td></tr>
-<tr><th scope="row">广发纳指100ETF联接(QDII)人民币C（006479）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">招商纳斯达克100ETF发起式联接A（019547）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-14">2026-10-14</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">招商纳斯达克100ETF发起式联接C（019548）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-14">2026-10-14</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">广发纳指100ETF联接(QDII)人民币F（021778）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr>
-<tr><th scope="row">广发纳指100ETF联接(QDII)人民币A（270042）</th><td class="channels">暂停申购（所有适用销售渠道；限额共享不适用）</td><td><time datetime="2026-10-15">2026-10-15</time></td><td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">公告原文</a></td></tr></tbody>
+						<tbody id="monitor-rows">
+							<tr>
+								<th scope="row">南方纳斯达克100 I（021000）</th>
+								<td class="channels">直销 <span class="money-amount">200 元</span></td>
+								<td><time datetime="2026-07-21">2026-07-21</time></td>
+								<td><a href="https://www.9fzt.com/detail/fund_021000_2_10777974.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">大成纳斯达克100ETF联接A（000834）</th>
+								<td class="channels">直销 <span class="money-amount">100 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-06-04">2026-06-04</time></td>
+								<td><a href="https://www.dcfund.com.cn/plat_files/upload/ann_upload/20260602/202606021780401593666.pdf" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">大成纳斯达克100ETF联接C（008971）</th>
+								<td class="channels">直销 <span class="money-amount">100 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-06-04">2026-06-04</time></td>
+								<td><a href="https://www.dcfund.com.cn/plat_files/upload/ann_upload/20260602/202606021780401593666.pdf" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">万家纳斯达克100 A（019441）</th>
+								<td class="channels">直销低于 <span class="money-amount">100 元</span>，代销低于 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-09-23">2026-09-23</time></td>
+								<td><a href="https://app.cnstock.com/zzb/zgzqb/html/2026-09/28/nw.D110000zgzqb_20260928_10-B006.htm" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">万家纳斯达克100 C（019442）</th>
+								<td class="channels">直销低于 <span class="money-amount">100 元</span>，代销低于 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-09-23">2026-09-23</time></td>
+								<td><a href="https://app.cnstock.com/zzb/zgzqb/html/2026-09/28/nw.D110000zgzqb_20260928_10-B006.htm" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘标普500 D（022523）</th>
+								<td class="channels">代销低于 <span class="money-amount">100 元</span></td>
+								<td><time datetime="2026-09-02">2026-09-02</time></td>
+								<td><a href="https://www.howbuy.com/fund/info/dtl/0077225555608.htm" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘纳斯达克100 D（022525）</th>
+								<td class="channels">代销低于 <span class="money-amount">100 元</span></td>
+								<td><time datetime="2026-09-02">2026-09-02</time></td>
+								<td><a href="https://gubaposthk.eastmoney.com/news%2Cof018043%2C1774661755.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">建信纳斯达克100 C人民币（012752）</th>
+								<td class="channels">直销 <span class="money-amount">50 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-08-20">2026-08-20</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/539001/0000000000001rmzzc" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">建信纳斯达克100 A人民币（539001）</th>
+								<td class="channels">直销 <span class="money-amount">50 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-08-20">2026-08-20</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/539001/0000000000001rmzzc" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">南方纳斯达克100 A（016452）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-09">2026-07-09</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5356338.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">南方纳斯达克100 C（016453）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-09">2026-07-09</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5356338.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">摩根标普500 A人民币（017641）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-27">2026-07-27</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5440614.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">摩根纳斯达克100 A人民币（019172）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-27">2026-07-27</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5440607.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">摩根纳斯达克100 C人民币（019173）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-27">2026-07-27</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5440607.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">摩根标普500指数(QDII)人民币C（019305）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-07-27">2026-07-27</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5440614.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">宝盈纳斯达克100 A人民币（019736）</th>
+								<td class="channels">渠道待核，统一限额 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-09-28">2026-09-28</time></td>
+								<td><a href="https://caifuhao.eastmoney.com/news/20260924131023142465160" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">宝盈纳斯达克100 C人民币（019737）</th>
+								<td class="channels">渠道待核，统一限额 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-09-28">2026-09-28</time></td>
+								<td><a href="https://caifuhao.eastmoney.com/news/20260924131023142465160" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">建信纳斯达克100 D人民币（023422）</th>
+								<td class="channels">直销 <span class="money-amount">10 元</span>，代销 <span class="money-amount">10 元</span></td>
+								<td><time datetime="2026-08-20">2026-08-20</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/539001/0000000000001rmzzc" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华安纳斯达克100ETF联接C（014978）</th>
+								<td class="channels">直销 <span class="money-amount">5 元</span>，代销 <span class="money-amount">5 元</span></td>
+								<td><time datetime="2026-09-24">2026-09-24</time></td>
+								<td><a href="https://www.huaan.com.cn/upload2010/2026/09/23/003107678_0_86642700-27e2-3aaf-9b5d-728e0cb38430.pdf" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华泰柏瑞纳斯达克100ETF联接A（019524）</th>
+								<td class="channels">渠道待核，A/C/I共享 <span class="money-amount">5 元</span></td>
+								<td><time datetime="2026-09-22">2026-09-22</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5565323.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华泰柏瑞纳斯达克100ETF联接C（019525）</th>
+								<td class="channels">渠道待核，A/C/I共享 <span class="money-amount">5 元</span></td>
+								<td><time datetime="2026-09-22">2026-09-22</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5565323.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华泰柏瑞纳斯达克100ETF联接I（022664）</th>
+								<td class="channels">渠道待核，A/C/I共享 <span class="money-amount">5 元</span></td>
+								<td><time datetime="2026-09-22">2026-09-22</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5565323.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华安纳斯达克100ETF联接A（040046）</th>
+								<td class="channels">直销 <span class="money-amount">5 元</span>，代销 <span class="money-amount">5 元</span></td>
+								<td><time datetime="2026-09-24">2026-09-24</time></td>
+								<td><a href="https://www.huaan.com.cn/upload2010/2026/09/23/003107678_0_86642700-27e2-3aaf-9b5d-728e0cb38430.pdf" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时标普500ETF联接C（006075）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-05-11">2026-05-11</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5237036.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">广发纳斯达克100ETF联接C（006479）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-10-15">2026-10-15</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">广发基金公告正文（Q宝核验）</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘标普500 A（007721）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-21">2026-09-21</time></td>
+								<td><a href="https://www.howbuy.com/fund/info/dtl/0077225555608.htm" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘标普500 C（007722）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-21">2026-09-21</time></td>
+								<td><a href="https://www.howbuy.com/fund/info/dtl/0077225555608.htm" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">易方达标普500 C人民币（012860）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-03-19">2026-03-19</time></td>
+								<td><a href="https://fund.stockstar.com/SN2026031800032784.shtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">易方达纳斯达克100 C人民币（012870）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-03-19">2026-03-19</time></td>
+								<td><a href="https://fund.stockstar.com/SN2026031800032795.shtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华夏纳斯达克100ETF联接A（015299）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-08-10">2026-08-10</time></td>
+								<td><a href="https://www.chinaamc.com/c/2026-08-07/998923.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华夏纳斯达克100ETF联接C（015300）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-08-10">2026-08-10</time></td>
+								<td><a href="https://www.chinaamc.com/c/2026-08-07/998923.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时纳斯达克100ETF联接A（016055）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2025-09-29">2025-09-29</time></td>
+								<td><a href="https://www.bosera.com/fund/016055.html" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时纳斯达克100ETF联接C（016057）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2025-09-29">2025-09-29</time></td>
+								<td><a href="https://www.bosera.com/fund/016055.html" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">嘉实纳斯达克100ETF联接A（016532）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2026-02-03">2026-02-03</time></td>
+								<td><a href="https://www.jsfund.cn/main/a/20151216/191092.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">嘉实纳斯达克100ETF联接C（016533）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2026-02-03">2026-02-03</time></td>
+								<td><a href="https://www.jsfund.cn/main/a/20151216/191092.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">国泰标普500ETF联接A（017028）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2025-10-17">2025-10-17</time></td>
+								<td><a href="https://www.9fzt.com/detail/fund_017028_2_10612566.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">国泰标普500ETF联接C（017030）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2025-10-17">2025-10-17</time></td>
+								<td><a href="https://www.9fzt.com/detail/fund_017028_2_10612566.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘纳斯达克100 A（018043）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-21">2026-09-21</time></td>
+								<td><a href="https://gubaposthk.eastmoney.com/news%2Cof018043%2C1774661755.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">天弘纳斯达克100 C（018044）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-21">2026-09-21</time></td>
+								<td><a href="https://gubaposthk.eastmoney.com/news%2Cof018043%2C1774661755.html" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华夏标普500ETF联接A（018064）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-08-10">2026-08-10</time></td>
+								<td><a href="https://www.chinaamc.com/c/2026-08-07/998919.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">华夏标普500ETF联接C（018065）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-08-10">2026-08-10</time></td>
+								<td><a href="https://www.chinaamc.com/c/2026-08-07/998919.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时标普500ETF联接E（018738）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-08-19">2026-08-19</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/050025/0000000000001rmyby" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">汇添富纳斯达克100ETF联接A（018966）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-24">2026-09-24</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/018966/0000000000001s59m9" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">汇添富纳斯达克100ETF联接C（018967）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-24">2026-09-24</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/018966/0000000000001s59m9" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">招商纳斯达克100ETF联接A（019547）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-10-14">2026-10-14</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">招商基金公告／Q宝已收录正文（第三方PDF托管）</a></td>
+							</tr>
+							<tr>
+								<th scope="row">招商纳斯达克100ETF联接C（019548）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-10-14">2026-10-14</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf" target="_blank" rel="noopener noreferrer">招商基金公告／Q宝已收录正文（第三方PDF托管）</a></td>
+							</tr>
+							<tr>
+								<th scope="row">汇添富纳斯达克100ETF联接E（021773）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-24">2026-09-24</time></td>
+								<td><a href="https://www.hongdianfund.com/FundAnnouncement/Detail/018966/0000000000001s59m9" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">广发纳斯达克100ETF联接F（021778）</th>
+								<td class="channels">直销暂停申购</td>
+								<td><time datetime="2026-10-15">2026-10-15</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">广发基金公告正文（Q宝核验）</a></td>
+							</tr>
+							<tr>
+								<th scope="row">嘉实纳斯达克100ETF联接I（021838）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2026-02-03">2026-02-03</time></td>
+								<td><a href="https://www.jsfund.cn/main/a/20151216/191092.shtml" target="_blank" rel="noopener noreferrer">基金公司官网公告／状态</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时纳斯达克100ETF联接I（024237）</th>
+								<td class="channels">暂停申购</td>
+								<td><time datetime="2025-11-21">2025-11-21</time></td>
+								<td><a href="https://money.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/4887116.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">博时标普500ETF联接A（050025）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-05-11">2026-05-11</time></td>
+								<td><a href="https://vip.stock.finance.sina.com.cn/fund/go.php/vAkFundInfo_JJGKXX/q/5237036.phtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">国泰纳斯达克100指数（160213）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-09-28">2026-09-28</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202609221829740223_1.pdf" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">易方达标普500 A人民币（161125）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-03-19">2026-03-19</time></td>
+								<td><a href="https://fund.stockstar.com/SN2026031800032784.shtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">易方达纳斯达克100 A人民币（161130）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-03-19">2026-03-19</time></td>
+								<td><a href="https://fund.stockstar.com/SN2026031800032795.shtml" target="_blank" rel="noopener noreferrer">公告转载／第三方线索</a></td>
+							</tr>
+							<tr>
+								<th scope="row">广发纳斯达克100ETF联接A（270042）</th>
+								<td class="channels">直销暂停申购，代销暂停申购</td>
+								<td><time datetime="2026-10-15">2026-10-15</time></td>
+								<td><a href="https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf" target="_blank" rel="noopener noreferrer">广发基金公告正文（Q宝核验）</a></td>
+							</tr>
+						</tbody>
 					</table>
 				</div>
 			</section>
