@@ -1043,11 +1043,16 @@
       "shared_across_channels": true,
       "shared_across_classes": false,
       "effective_date": "2026-10-15",
-      "source_announcement_id": "AN202610141830429076",
+      "source_announcement_id": "AN202610141830429076:270042",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
       "verification_level": "A",
       "verified_at": "2026-10-14T16:39:53.178Z",
-      "previous_status": "open_limited"
+      "previous_status": "open_limited",
+      "currency": "CNY",
+      "business": "purchase",
+      "channel_scope": "all_applicable_sales_channels",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "termination_time": null
     },
     "006479": {
       "status": "suspended",
@@ -1057,11 +1062,16 @@
       "shared_across_channels": true,
       "shared_across_classes": false,
       "effective_date": "2026-10-15",
-      "source_announcement_id": "AN202610141830429076",
+      "source_announcement_id": "AN202610141830429076:270042",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
       "verification_level": "A",
       "verified_at": "2026-10-14T16:39:53.178Z",
-      "previous_status": "open_limited"
+      "previous_status": "open_limited",
+      "currency": "CNY",
+      "business": "purchase",
+      "channel_scope": "all_applicable_sales_channels",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "termination_time": null
     },
     "021778": {
       "status": "suspended",
@@ -1071,29 +1081,44 @@
       "shared_across_channels": true,
       "shared_across_classes": false,
       "effective_date": "2026-10-15",
-      "source_announcement_id": "AN202610141830429076",
+      "source_announcement_id": "AN202610141830429076:270042",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429076_1.pdf",
       "verification_level": "A",
       "verified_at": "2026-10-14T16:39:53.178Z",
-      "previous_status": "open_limited"
+      "previous_status": "open_limited",
+      "currency": "CNY",
+      "business": "purchase",
+      "channel_scope": "all_applicable_sales_channels",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "termination_time": null
     },
     "019547": {
       "status": "suspended",
       "effective_date": "2026-10-14",
-      "source_announcement_id": "AN202610141830429114",
+      "source_announcement_id": "AN202610141830429114:019548",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
       "verification_level": "B",
       "confirmed_at": "2026-10-14T04:01:40.824Z",
-      "previous_status": "open_limited"
+      "previous_status": "open_limited",
+      "currency": "CNY",
+      "business": "purchase",
+      "channel_scope": "all_applicable_sales_channels",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "termination_time": null
     },
     "019548": {
       "status": "suspended",
       "effective_date": "2026-10-14",
-      "source_announcement_id": "AN202610141830429114",
+      "source_announcement_id": "AN202610141830429114:019548",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610141830429114_1.pdf",
       "verification_level": "B",
       "confirmed_at": "2026-10-14T04:01:40.824Z",
-      "previous_status": "open_limited"
+      "previous_status": "open_limited",
+      "currency": "CNY",
+      "business": "purchase",
+      "channel_scope": "all_applicable_sales_channels",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "termination_time": null
     }
   },
   "notification_events": {
@@ -1145,7 +1170,458 @@
     "remaining_unparsed": 0,
     "remaining_rule_validation": 0
   },
-  "rule_validation_pending": [],
+  "rule_validation_pending": [
+    {
+      "fund_code": "016452",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "016453",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "021000",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019441",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019442",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "000834",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "008971",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018043",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018044",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "022525",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "539001",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "012752",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "023422",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019736",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019737",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019172",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019173",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "040046",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "014978",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019524",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019525",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "022664",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "015299",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "015300",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "016055",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "016057",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "024237",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "016532",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "016533",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "021838",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "160213",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "161130",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "012870",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018966",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018967",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "021773",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "007721",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "007722",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "022523",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "017641",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "019305",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018064",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018065",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "050025",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "006075",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "018738",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "017028",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "017030",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "161125",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    },
+    {
+      "fund_code": "012860",
+      "currency": "CNY",
+      "channel": "all",
+      "business": "purchase",
+      "source_announcement_id": null,
+      "reason": "checkpoint未保留该份额当前普通申购规则及来源证据；已处理ID不构成当前规则证据，HTML不作为证据。",
+      "verified_at": "2026-10-16T23:31:06+08:00"
+    }
+  ],
   "diagnostic_failures": [
     {
       "failure_id": "20261015T092324+0800-checkpoint-commit-safety-block",
