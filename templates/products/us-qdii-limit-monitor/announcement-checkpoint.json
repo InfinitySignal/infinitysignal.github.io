@@ -1031,6 +1031,9 @@
     },
     "AN202610141830446498": {
       "parse_status": "success"
+    },
+    "AN202610201830698096": {
+      "parse_status": "success"
     }
   },
   "pending_announcements": {},
@@ -1160,7 +1163,68 @@
       "providerCode": 0
     }
   },
-  "future_effective": {},
+  "future_effective": {
+    "AN202610201830698096": {
+      "rules": [
+        {
+          "fund_code": "040046",
+          "currency": "CNY",
+          "channel": "all_applicable_sales_channels",
+          "business": "purchase",
+          "status": "suspended",
+          "amount": null,
+          "boundary": "not_applicable",
+          "limit_sharing_scope": "not_applicable_suspended",
+          "effective_at": "2026-10-21T00:00:00+08:00",
+          "termination_at": null,
+          "source_announcement_id": "AN202610201830698096:014978",
+          "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610201830698096_1.pdf"
+        },
+        {
+          "fund_code": "040046",
+          "currency": "CNY",
+          "channel": "all_applicable_sales_channels",
+          "business": "regular_investment",
+          "status": "suspended",
+          "amount": null,
+          "boundary": "not_applicable",
+          "limit_sharing_scope": "not_applicable_suspended",
+          "effective_at": "2026-10-21T00:00:00+08:00",
+          "termination_at": null,
+          "source_announcement_id": "AN202610201830698096:014978",
+          "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610201830698096_1.pdf"
+        },
+        {
+          "fund_code": "014978",
+          "currency": "CNY",
+          "channel": "all_applicable_sales_channels",
+          "business": "purchase",
+          "status": "suspended",
+          "amount": null,
+          "boundary": "not_applicable",
+          "limit_sharing_scope": "not_applicable_suspended",
+          "effective_at": "2026-10-21T00:00:00+08:00",
+          "termination_at": null,
+          "source_announcement_id": "AN202610201830698096:014978",
+          "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610201830698096_1.pdf"
+        },
+        {
+          "fund_code": "014978",
+          "currency": "CNY",
+          "channel": "all_applicable_sales_channels",
+          "business": "regular_investment",
+          "status": "suspended",
+          "amount": null,
+          "boundary": "not_applicable",
+          "limit_sharing_scope": "not_applicable_suspended",
+          "effective_at": "2026-10-21T00:00:00+08:00",
+          "termination_at": null,
+          "source_announcement_id": "AN202610201830698096:014978",
+          "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610201830698096_1.pdf"
+        }
+      ]
+    }
+  },
   "last_scan_summary": {
     "qbao_queried_at": "2026-10-15T06:26:35+08:00",
     "last_sync_at": "2026-10-14T22:07:52.500616Z",
