@@ -3,8 +3,8 @@
   "monitor_version": "V1.7",
   "source": "Q宝全球投:list_qdii_announcements",
   "created_at": "2026-10-13T18:20:00+08:00",
-  "last_scan_at": "2026-10-21T10:06:31+08:00",
-  "last_completed_scan_at": "2026-10-21T10:06:31+08:00",
+  "last_scan_at": "2026-10-21T10:09:11.853248+08:00",
+  "last_completed_scan_at": "2026-10-21T10:09:11.853248+08:00",
   "processed_announcements": {
     "AN202610121830361740": {
       "parse_status": "success"
@@ -1438,8 +1438,8 @@
   },
   "future_effective": {},
   "last_scan_summary": {
-    "qbao_queried_at": "2026-10-21T10:06:31+08:00",
-    "last_sync_at": null,
+    "qbao_queried_at": "2026-10-21T10:09:11.853248+08:00",
+    "last_sync_at": "2026-10-21T01:09:13.541066Z",
     "raw_items": 837,
     "pages": 5,
     "unique_documents": 344,
