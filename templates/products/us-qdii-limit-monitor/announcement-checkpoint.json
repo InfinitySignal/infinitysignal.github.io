@@ -1392,6 +1392,44 @@
       "sent_at": "2026-10-14T16:40:27.834Z",
       "provider": "wechat_work",
       "providerCode": 0
+    },
+    "2026-10-21|华安纳指100|014978,040046|all_channels|purchase+regular_investment|open_limited->suspended|AN202610201830698096": {
+      "status": "sending",
+      "attempt_at": "2026-10-21T10:08:07+08:00",
+      "fund_codes": [
+        "014978",
+        "040046"
+      ],
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": [
+        "purchase",
+        "regular_investment"
+      ],
+      "old_rule": "直销、代销各5元（历史展示基线）",
+      "new_rule": "全渠道暂停申购及定投",
+      "effective_date": "2026-10-21",
+      "source_announcement_id": "AN202610201830698096:014978",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610201830698096_1.pdf"
+    },
+    "2026-10-21|万家纳指100|019441,019442|agency_sales|purchase+regular_investment|strict_lt_10->strict_lt_5|AN202610211830733237": {
+      "status": "sending",
+      "attempt_at": "2026-10-21T10:08:07+08:00",
+      "fund_codes": [
+        "019441",
+        "019442"
+      ],
+      "currency": "CNY",
+      "channel": "agency_sales",
+      "business": [
+        "purchase",
+        "regular_investment"
+      ],
+      "old_rule": "代销单日累计严格低于10元",
+      "new_rule": "代销单日累计严格低于5元（A/C不合并计算；直销仍严格低于100元）",
+      "effective_date": "2026-10-21",
+      "source_announcement_id": "AN202610211830733237:019442",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610211830733237_1.pdf"
     }
   },
   "future_effective": {},
