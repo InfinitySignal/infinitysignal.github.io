@@ -157,6 +157,16 @@
 				color: rgba(0, 0, 0, 0.45);
 				font-size: 14px;
 			}
+			.source-link {
+				margin: 6px 0 0;
+				font-size: 13px;
+				overflow-wrap: anywhere;
+			}
+			.source-credit {
+				margin: 16px 0 0;
+				color: rgba(0, 0, 0, 0.65);
+				font-size: 13px;
+			}
 			@media (max-width: 640px) {
 				main {
 					padding-inline: 0;
@@ -168,7 +178,8 @@
 					table-layout: fixed;
 				}
 				.page-header,
-				main > .sample-note {
+				main > .sample-note,
+				.source-credit {
 					padding-inline: clamp(8px, 2vw, 12px);
 				}
 			}
@@ -199,6 +210,11 @@
 				更新日期时间：<time id="updated-at" datetime="2026-10-15T09:00:00+08:00"
 					>2026-10-15 09:00（北京时间，样例）</time
 				>
+				<p class="source-link">
+					原文链接：<a href="https://infinitysignal.cn/products/us-qdii-limit-monitor/"
+						>https://infinitysignal.cn/products/us-qdii-limit-monitor/</a
+					>
+				</p>
 			</blockquote>
 
 			<!-- 填入实际数据后移除示例说明。 -->
@@ -322,6 +338,12 @@
 					</table>
 				</div>
 			</section>
+			<footer class="source-credit">
+				本页由 InfinitySignal 整理并持续更新，转载或引用请保留<a
+					href="https://infinitysignal.cn/products/us-qdii-limit-monitor/"
+					>原文链接</a
+				>。
+			</footer>
 		</main>
 	</body>
 </html>
