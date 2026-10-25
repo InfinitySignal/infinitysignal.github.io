@@ -1,0 +1,16 @@
+---
+import Page from "../../../docs/[dir]/index.astro";
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+	const docs = await getCollection("docsEn");
+	return [
+		...new Set(
+			docs
+				.filter((doc) => doc.id.includes("/"))
+				.map((doc) => doc.id.split("/")[0])
+		),
+	].map((dir) => ({ params: { dir } }));
+}
+---
+
+<Page />

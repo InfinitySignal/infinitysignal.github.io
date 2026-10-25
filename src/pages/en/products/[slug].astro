@@ -1,0 +1,11 @@
+---
+import Page from "../../products/[slug].astro";
+import { getProducts } from "../../../utils/products";
+export function getStaticPaths() {
+	return getProducts()
+		.filter((product) => !product.href && !product.landingPage)
+		.map((product) => ({ params: { slug: product.slug } }));
+}
+---
+
+<Page />

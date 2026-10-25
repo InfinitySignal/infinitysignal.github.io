@@ -1,4 +1,7 @@
 ---
+import { getTranslations } from "../../i18n";
+type Props = Record<string, never>;
+import { enhancePublishedHtml } from "../../utils/published-seo.mjs";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Layout from "../../layouts/Layout.astro";
@@ -22,7 +25,9 @@ export function getStaticPaths() {
 		}));
 }
 
-const product = getProducts().find(
+const { locale, t, path } = getTranslations(Astro.url);
+
+const product = getProducts(locale).find(
 	(candidate) => candidate.slug === Astro.params.slug
 ) as Product;
 if (product.landingPage) {
@@ -30,40 +35,51 @@ if (product.landingPage) {
 		join(process.cwd(), "public", product.landingPage),
 		"utf-8"
 	);
-	return new Response(html, {
-		headers: { "Content-Type": "text/html; charset=utf-8" },
-	});
+	return new Response(
+		enhancePublishedHtml(html, `/products/${product.slug}/`),
+		{
+			headers: { "Content-Type": "text/html; charset=utf-8" },
+		}
+	);
 }
+const reportTitle = (name: string) => {
+	const match = /^(\d{4}-\d{2}-\d{2})_sp500_risk(_backtest)?\.html$/.exec(name);
+	return match
+		? `${match[1]} ${match[2] ? t.backtestReport : t.dailyReport}`
+		: name;
+};
 const htmlFiles = getProductHtmlFiles(product.slug);
 ---
 
 <Layout
-	title={`${product.title} - Products - ${SITE.title}`}
-	description={product.description ||
-		`Published HTML outputs for ${product.title}`}
-	canonicalURL={`${SITE.url}/products/${product.slug}/`}
-	ogImage={getProductLogo(product)}
+	title={`${product.title} | ${SITE.title}`}
+	description={product.description || t.reports}
+	canonicalURL={new URL(path(`/products/${product.slug}`), SITE.url).href}
 >
 	<Header />
 	<main id="main-content" role="main" class="max-w-4xl mx-auto px-4 py-16">
 		<a
-			href="/products/"
+			href={path("/products")}
 			class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
 		>
-			&larr; Products
+			&larr; {t.backProducts}
 		</a>
 
 		<div class="mb-4 flex items-center gap-4">
 			<img
 				src={getProductLogo(product)}
-				alt={`${product.title} logo`}
+				width="128"
+				height="128"
+				decoding="async"
+				alt={`${product.title} ${t.logo}`}
 				class="h-14 w-14 shrink-0 rounded-xl border border-gray-200 object-contain p-2"
 			/>
 			<h1 class="text-4xl font-bold text-gray-900">{product.title}</h1>
 		</div>
 		<p class="text-lg text-gray-600 mb-10">{product.description}</p>
 
-		<section aria-label="Published HTML files">
+		<p class="text-sm text-gray-500 mb-4">{t.originalLanguage}</p>
+		<section aria-label={t.reports}>
 			{
 				htmlFiles.length > 0 ? (
 					<ul class="space-y-3" role="list">
@@ -74,7 +90,7 @@ const htmlFiles = getProductHtmlFiles(product.slug);
 									class="group flex items-center justify-between gap-4 p-4 bg-white border border-gray-200 rounded-lg hover:border-gray-400 hover:shadow-sm transition-all"
 								>
 									<span class="font-medium text-gray-900 break-all">
-										{file.fileName}
+										{reportTitle(file.fileName)}
 									</span>
 									<Icon
 										name="tabler:arrow-up-right"
@@ -87,14 +103,8 @@ const htmlFiles = getProductHtmlFiles(product.slug);
 					</ul>
 				) : (
 					<div class="bg-white border border-gray-200 rounded-lg p-6">
-						<h3 class="text-lg font-medium text-gray-900">
-							No HTML files published yet.
-						</h3>
-						<p class="text-gray-600 mt-2">
-							Commit HTML files to{" "}
-							<code>public/products/{product.slug}/items/</code> and rebuild the
-							site to list them here.
-						</p>
+						<h3 class="text-lg font-medium text-gray-900">{t.noReports}</h3>
+						<p class="text-gray-600 mt-2">{t.noReportsDescription}</p>
 					</div>
 				)
 			}

@@ -1,0 +1,49 @@
+---
+import { getTranslations } from "../i18n";
+import { getProducts, getProductHref, getProductLogo } from "../utils/products";
+const { locale, t, path } = getTranslations(Astro.url);
+const products = getProducts(locale);
+---
+
+<section
+	class="max-w-6xl mx-auto px-4 pb-20 md:pb-32"
+	aria-labelledby="products-heading"
+>
+	<div class="flex flex-wrap items-center justify-between gap-4 mb-8">
+		<h2
+			id="products-heading"
+			class="text-2xl md:text-3xl font-semibold text-gray-900"
+		>
+			{t.showcase}
+		</h2>
+		<a
+			href={path("/products")}
+			class="text-sm text-gray-600 underline underline-offset-4 hover:text-black"
+			>{t.allProducts} &rarr;</a
+		>
+	</div>
+	<div class="grid md:grid-cols-3 gap-6">
+		{
+			products.map((product) => (
+				<a
+					href={getProductHref(product, locale)}
+					class="block rounded-xl border border-gray-200 bg-white p-6 hover:border-gray-400 transition-colors"
+				>
+					<img
+						src={getProductLogo(product)}
+						alt={`${product.title} ${t.logo}`}
+						width="128"
+						height="128"
+						loading="lazy"
+						decoding="async"
+						class="h-12 w-12 object-contain mb-5"
+					/>
+					<h3 class="text-xl font-semibold text-gray-900 mb-3">
+						{product.title}
+					</h3>
+					<p class="text-gray-600 leading-relaxed">{product.description}</p>
+				</a>
+			))
+		}
+	</div>
+</section>

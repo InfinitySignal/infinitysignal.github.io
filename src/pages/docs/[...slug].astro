@@ -1,47 +1,104 @@
 ---
+import { getTranslations } from "../../i18n";
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 import { SITE } from "../../config/site.mjs";
-import { getCollection, render } from "astro:content";
+import { getCollection, render, type CollectionEntry } from "astro:content";
+
+interface Props {
+	doc: CollectionEntry<"docs"> | CollectionEntry<"docsEn">;
+}
 
 export async function getStaticPaths() {
-  const docs = await getCollection("docs");
-  return docs.map((doc) => ({
-    params: { slug: doc.id },
-    props: { doc },
-  }));
+	const docs = await getCollection("docs");
+	return docs.map((doc) => ({
+		params: { slug: doc.id },
+		props: { doc },
+	}));
 }
+
+const { locale, t, path } = getTranslations(Astro.url);
 
 const { doc } = Astro.props;
 const { Content } = await render(doc);
+const articleURL = new URL(path(`/docs/${doc.id}`), SITE.url).href;
+const article = {
+	"@type": "Article",
+	"@id": `${articleURL}#article`,
+	headline: doc.data.title,
+	description: doc.data.description,
+	inLanguage: locale,
+	mainEntityOfPage: { "@id": `${articleURL}#webpage` },
+	author: {
+		"@type": "Organization",
+		"@id": `${SITE.url}/#organization`,
+		name: SITE.author,
+		url: SITE.url,
+	},
+	publisher: { "@id": `${SITE.url}/#organization` },
+	...(doc.data.publishedAt
+		? { datePublished: doc.data.publishedAt.toISOString() }
+		: {}),
+	...(doc.data.updatedAt
+		? { dateModified: doc.data.updatedAt.toISOString() }
+		: {}),
+};
 ---
 
 <Layout
-  title={`${doc.data.title} - ${SITE.title}`}
-  description={doc.data.description || SITE.description}
-  canonicalURL={`${SITE.url}/docs/${doc.id}`}
+	title={`${doc.data.title} | ${SITE.title}`}
+	description={doc.data.description || t.description}
+	canonicalURL={new URL(path(`/docs/${doc.id}`), SITE.url).href}
+	ogType="article"
+	structuredData={[article]}
 >
-  <Header />
-  <main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
-    <a
-      href="/docs"
-      class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
-    >
-      &larr; Back to Documentation
-    </a>
-    <article class="prose prose-lg max-w-none">
-      <h1>{doc.data.title}</h1>
-      <Content />
-    </article>
-    <div class="mt-12 pt-8 border-t border-gray-200">
-      <a
-        href="/docs"
-        class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-      >
-        &larr; Back to Documentation
-      </a>
-    </div>
-  </main>
-  <Footer />
+	<Header />
+	<main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
+		<a
+			href={path("/docs")}
+			class="text-sm text-gray-600 hover:text-gray-900 transition-colors mb-6 inline-block"
+		>
+			&larr; {t.backDocs}
+		</a>
+		<article class="prose prose-lg max-w-none">
+			<h1>{doc.data.title}</h1>
+			<p class="not-prose text-sm text-gray-500 mb-6">
+				{t.maintainedBy}
+				<a href={path("/")} class="underline">{SITE.author}</a>
+				{
+					doc.data.publishedAt && (
+						<span>
+							{" "}
+							· {t.publishedAt}{" "}
+							<time datetime={doc.data.publishedAt.toISOString()}>
+								{doc.data.publishedAt.toISOString().slice(0, 10)}
+							</time>
+						</span>
+					)
+				}
+				{
+					doc.data.updatedAt && (
+						<span>
+							{" "}
+							· {t.updatedAt}{" "}
+							<time datetime={doc.data.updatedAt.toISOString()}>
+								{doc.data.updatedAt.toISOString().slice(0, 10)}
+							</time>
+						</span>
+					)
+				}
+			</p>
+			<Content />
+		</article>
+		<div class="mt-12 pt-8 border-t border-gray-200">
+			<a
+				href={path("/docs")}
+				class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+			>
+				&larr; {t.backDocs}
+			</a>
+		</div>
+	</main>
+	<Footer />
 </Layout>

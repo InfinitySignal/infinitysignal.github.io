@@ -1,19 +1,23 @@
 ---
+import { getTranslations } from "../i18n";
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
+import ProductShowcase from "../components/ProductShowcase.astro";
 import Footer from "../components/Footer.astro";
 import { SITE } from "../config/site.mjs";
+const { t, path } = getTranslations(Astro.url);
 ---
 
 <Layout
-  title={SITE.title}
-  description={SITE.description}
-  canonicalURL={SITE.url}
+	title={t.homeTitle}
+	description={t.description}
+	canonicalURL={new URL(path("/"), SITE.url).href}
 >
-  <Header />
-  <main id="main-content" role="main">
-    <Hero />
-  </main>
-  <Footer />
+	<Header />
+	<main id="main-content" role="main">
+		<Hero />
+		<ProductShowcase />
+	</main>
+	<Footer />
 </Layout>

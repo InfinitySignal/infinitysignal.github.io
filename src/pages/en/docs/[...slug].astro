@@ -1,0 +1,10 @@
+---
+import Page from "../../docs/[...slug].astro";
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+	const docs = await getCollection("docsEn");
+	return docs.map((doc) => ({ params: { slug: doc.id }, props: { doc } }));
+}
+---
+
+<Page {...Astro.props} />

@@ -1,84 +1,92 @@
 ---
+import { getTranslations } from "../i18n";
 import { Icon } from "astro-icon/components";
+const { t, path } = getTranslations(Astro.url);
 ---
 
 <footer
-  id="contact"
-  class="w-full py-12 px-4 border-t border-gray-200 bg-white"
-  role="contentinfo"
+	id="contact"
+	class="w-full py-12 px-4 border-t border-gray-200 bg-white"
+	role="contentinfo"
 >
-  <div class="max-w-6xl mx-auto">
-    <div class="grid md:grid-cols-3 gap-8 mb-8">
-      <div>
-        <h2 class="text-lg font-semibold text-gray-900 mb-4">InfinitySignal</h2>
-        <p class="text-gray-600">
-          Transforming Chaos into Clear Signal
-        </p>
-      </div>
-      <div>
-        <h2 class="text-lg font-semibold text-gray-900 mb-4">Links</h2>
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="/"
-              class="text-gray-600 hover:text-gray-900 transition-colors"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="/docs"
-              class="text-gray-600 hover:text-gray-900 transition-colors"
-              >Docs</a
-            >
-          </li>
-          <li>
-            <a
-              href="/contact"
-              class="text-gray-600 hover:text-gray-900 transition-colors"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="text-lg font-semibold text-gray-900 mb-4">Connect</h2>
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="https://github.com/InfinitySignal"
-              class="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit our GitHub (opens in new tab)"
-            >
-              <Icon name="tabler:brand-github" class="w-5 h-5" aria-hidden="true" />
-              <span>GitHub</span></a
-            >
-          </li>
-          <li>
-            <a
-              href="mailto:official@infinitysignal.cn"
-              class="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              <Icon name="tabler:mail" class="w-5 h-5" aria-hidden="true" />
-              <span>Email</span></a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="pt-8 border-t border-gray-200 text-center text-gray-600 space-y-2">
-      <p>&copy; {new Date().getFullYear()} InfinitySignal. All rights reserved.</p>
-      <p class="text-sm">
-        <a
-          href="https://beian.miit.gov.cn/"
-          class="hover:text-gray-900 transition-colors"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="在工信部备案管理系统查询沪ICP备2026038103号-1（在新标签页中打开）"
-        >沪ICP备2026038103号-1</a>
-      </p>
-    </div>
-  </div>
+	<div class="max-w-6xl mx-auto">
+		<div class="grid md:grid-cols-3 gap-8 mb-8">
+			<div>
+				<h2 class="text-lg font-semibold text-gray-900 mb-4">InfinitySignal</h2>
+				<p class="text-gray-600">
+					{t.tagline}
+				</p>
+			</div>
+			<div>
+				<h2 class="text-lg font-semibold text-gray-900 mb-4">{t.links}</h2>
+				<ul class="space-y-2">
+					<li>
+						<a
+							href={path("/")}
+							class="text-gray-600 hover:text-gray-900 transition-colors"
+							>{t.home}</a
+						>
+					</li>
+					<li>
+						<a
+							href={path("/docs")}
+							class="text-gray-600 hover:text-gray-900 transition-colors"
+							>{t.docs}</a
+						>
+					</li>
+					<li>
+						<a
+							href={path("/contact")}
+							class="text-gray-600 hover:text-gray-900 transition-colors"
+							>{t.contact}</a
+						>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2 class="text-lg font-semibold text-gray-900 mb-4">{t.connect}</h2>
+				<ul class="space-y-2">
+					<li>
+						<a
+							href="https://github.com/InfinitySignal"
+							class="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label={t.githubLabel}
+						>
+							<Icon
+								name="tabler:brand-github"
+								class="w-5 h-5"
+								aria-hidden="true"
+							/>
+							<span>GitHub</span></a
+						>
+					</li>
+					<li>
+						<a
+							href="mailto:official@infinitysignal.cn"
+							class="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+						>
+							<Icon name="tabler:mail" class="w-5 h-5" aria-hidden="true" />
+							<span>{t.email}</span></a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div
+			class="pt-8 border-t border-gray-200 text-center text-gray-600 space-y-2"
+		>
+			<p>&copy; {new Date().getFullYear()} InfinitySignal. {t.rights}</p>
+			<p class="text-sm">
+				<a
+					href="https://beian.miit.gov.cn/"
+					class="hover:text-gray-900 transition-colors"
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label={t.filing}>沪ICP备2026038103号-1</a
+				>
+			</p>
+		</div>
+	</div>
 </footer>

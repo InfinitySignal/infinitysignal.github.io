@@ -1,10 +1,14 @@
 ---
+import { getTranslations } from "../i18n";
+import { SITE } from "../config/site.mjs";
 import { Icon } from "astro-icon/components";
+import LanguageSwitch from "./LanguageSwitch.astro";
 import ProductMenuItems from "./ProductMenuItems.astro";
 import { getProducts } from "../utils/products";
 
-const products = getProducts();
-const isProductsActive = Astro.url.pathname.startsWith("/products");
+const { locale, t, path } = getTranslations(Astro.url);
+const products = getProducts(locale);
+const isProductsActive = Astro.url.pathname.startsWith(path("/products"));
 ---
 
 <header
@@ -13,22 +17,32 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 >
 	<nav
 		class="max-w-6xl mx-auto flex items-center justify-between"
-		aria-label="Main navigation"
+		aria-label={t.mainNav}
 	>
 		<a
-			href="/"
-			class="flex items-center gap-2 text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors"
-			aria-label="InfinitySignal - Home"
+			href={path("/")}
+			class="flex items-center gap-2 text-xl sm:text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors"
+			aria-label={t.homeLabel}
 		>
-			<img src="/logo.png" alt="InfinitySignal" class="h-8 w-auto block" />
+			<img
+				src={SITE.logo}
+				width="256"
+				height="256"
+				alt="InfinitySignal"
+				class="h-8 w-auto block"
+			/>
 			<span>InfinitySignal</span>
 		</a>
+
+		<div class="ml-auto mr-3 lg:order-last lg:ml-6 lg:mr-0">
+			<LanguageSwitch />
+		</div>
 
 		<!-- Mobile menu button -->
 		<button
 			type="button"
-			class="md:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 rounded-lg"
-			aria-label="Toggle menu"
+			class="lg:hidden p-2 text-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 rounded-lg"
+			aria-label={t.toggleMenu}
 			aria-expanded="false"
 			aria-controls="mobile-menu"
 			id="mobile-menu-button"
@@ -37,25 +51,25 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 		</button>
 
 		<!-- Desktop navigation -->
-		<ul class="hidden md:flex items-center gap-6" role="list">
+		<ul class="hidden lg:flex items-center gap-6" role="list">
 			<li>
 				<a
-					href="/"
+					href={path("/")}
 					class="text-gray-600 hover:text-gray-900 transition-colors"
-					aria-current={Astro.url.pathname === "/" ? "page" : undefined}
+					aria-current={Astro.url.pathname === path("/") ? "page" : undefined}
 				>
-					Home
+					{t.home}
 				</a>
 			</li>
 			<li>
 				<a
-					href="/docs"
+					href={path("/docs")}
 					class="text-gray-600 hover:text-gray-900 transition-colors"
-					aria-current={Astro.url.pathname.startsWith("/docs")
+					aria-current={Astro.url.pathname.startsWith(path("/docs"))
 						? "page"
 						: undefined}
 				>
-					Docs
+					{t.docs}
 				</a>
 			</li>
 			<li>
@@ -67,7 +81,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 						}`}
 						aria-haspopup="menu"
 					>
-						Products
+						{t.products}
 						<Icon
 							name="tabler:chevron-down"
 							class="h-4 w-4 transition-transform group-hover:rotate-180 group-focus-within:rotate-180"
@@ -87,11 +101,13 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 			</li>
 			<li>
 				<a
-					href="/contact"
+					href={path("/contact")}
 					class="text-gray-600 hover:text-gray-900 transition-colors"
-					aria-current={Astro.url.pathname === "/contact" ? "page" : undefined}
+					aria-current={Astro.url.pathname === path("/contact")
+						? "page"
+						: undefined}
 				>
-					Contact
+					{t.contact}
 				</a>
 			</li>
 			<li>
@@ -100,7 +116,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
-					aria-label="GitHub (opens in new tab)"
+					aria-label={t.githubLabel}
 				>
 					<Icon name="tabler:brand-github" class="w-4 h-4" aria-hidden="true" />
 					GitHub
@@ -112,31 +128,31 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 	<!-- Mobile menu -->
 	<div
 		id="mobile-menu"
-		class="hidden md:hidden border-t border-gray-200 bg-white"
+		class="hidden lg:hidden border-t border-gray-200 bg-white"
 		role="menu"
 		aria-labelledby="mobile-menu-button"
 	>
 		<ul class="flex flex-col py-4" role="list">
 			<li>
 				<a
-					href="/"
+					href={path("/")}
 					class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
 					role="menuitem"
-					aria-current={Astro.url.pathname === "/" ? "page" : undefined}
+					aria-current={Astro.url.pathname === path("/") ? "page" : undefined}
 				>
-					Home
+					{t.home}
 				</a>
 			</li>
 			<li>
 				<a
-					href="/docs"
+					href={path("/docs")}
 					class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
 					role="menuitem"
-					aria-current={Astro.url.pathname.startsWith("/docs")
+					aria-current={Astro.url.pathname.startsWith(path("/docs"))
 						? "page"
 						: undefined}
 				>
-					Docs
+					{t.docs}
 				</a>
 			</li>
 			<li>
@@ -149,7 +165,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 					aria-expanded="false"
 					aria-controls="mobile-products-menu"
 				>
-					<span>Products</span>
+					<span>{t.products}</span>
 					<Icon
 						name="tabler:chevron-down"
 						class="h-4 w-4 transition-transform"
@@ -166,12 +182,14 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 			</li>
 			<li>
 				<a
-					href="/contact"
+					href={path("/contact")}
 					class="block px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
 					role="menuitem"
-					aria-current={Astro.url.pathname === "/contact" ? "page" : undefined}
+					aria-current={Astro.url.pathname === path("/contact")
+						? "page"
+						: undefined}
 				>
-					Contact
+					{t.contact}
 				</a>
 			</li>
 			<li>
@@ -181,7 +199,7 @@ const isProductsActive = Astro.url.pathname.startsWith("/products");
 					rel="noopener noreferrer"
 					class="flex items-center gap-2 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 transition-colors"
 					role="menuitem"
-					aria-label="GitHub (opens in new tab)"
+					aria-label={t.githubLabel}
 				>
 					<Icon name="tabler:brand-github" class="w-4 h-4" aria-hidden="true" />
 					GitHub

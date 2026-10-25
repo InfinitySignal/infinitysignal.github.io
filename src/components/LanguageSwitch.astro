@@ -1,0 +1,51 @@
+---
+import { localizedPath, getTranslations } from "../i18n";
+import { getLanguageAlternates } from "../utils/language-alternates";
+const { locale, t } = getTranslations(Astro.url);
+const alternates = await getLanguageAlternates(Astro.url);
+---
+
+<nav
+	aria-label={t.language}
+	class="flex shrink-0 items-center gap-2 text-sm whitespace-nowrap"
+>
+	{
+		alternates.some((item) => item.locale === "zh-CN") && (
+			<a
+				href={localizedPath(Astro.url.pathname, "zh-CN")}
+				lang="zh-CN"
+				hreflang="zh-CN"
+				aria-current={locale === "zh-CN" ? "page" : undefined}
+				class:list={[
+					"rounded px-1 py-2 hover:text-black focus-visible:outline-2",
+					locale === "zh-CN" ? "font-semibold text-gray-900" : "text-gray-500",
+				]}
+			>
+				中文
+			</a>
+		)
+	}
+	{
+		alternates.length > 1 && (
+			<span aria-hidden="true" class="text-gray-300">
+				/
+			</span>
+		)
+	}
+	{
+		alternates.some((item) => item.locale === "en") && (
+			<a
+				href={localizedPath(Astro.url.pathname, "en")}
+				lang="en"
+				hreflang="en"
+				aria-current={locale === "en" ? "page" : undefined}
+				class:list={[
+					"rounded px-1 py-2 hover:text-black focus-visible:outline-2",
+					locale === "en" ? "font-semibold text-gray-900" : "text-gray-500",
+				]}
+			>
+				EN
+			</a>
+		)
+	}
+</nav>

@@ -1,40 +1,106 @@
 ---
-import '../styles/global.css';
-import { SITE } from '../config/site.mjs';
-import type { SEOProps } from '../types/seo';
+import "../styles/global.css";
+import { getTranslations } from "../i18n";
+import { getLanguageAlternates } from "../utils/language-alternates";
+const { locale, t, path } = getTranslations(Astro.url);
+import { SITE } from "../config/site.mjs";
+import type { SEOProps } from "../types/seo";
 
 interface Props extends SEOProps {
-  lang?: string;
+	lang?: string;
 }
 
 const {
-  title = SITE.title,
-  description = SITE.description,
-  canonicalURL,
-  ogTitle = title,
-  ogDescription = description,
-  ogImage = SITE.ogImage,
-  ogType = 'website',
-  twitterCard = 'summary_large_image',
-  twitterTitle = ogTitle,
-  twitterDescription = ogDescription,
-  twitterImage = ogImage,
-  noindex = false,
-  nofollow = false,
-  lang = SITE.defaultLanguage,
+	title = SITE.title,
+	description = t.description,
+	canonicalURL,
+	ogTitle = title,
+	ogDescription = description,
+	ogImage = SITE.ogImage,
+	ogType = "website",
+	twitterCard = "summary_large_image",
+	twitterTitle = ogTitle,
+	twitterDescription = ogDescription,
+	twitterImage = ogImage,
+	noindex = false,
+	nofollow = false,
+	lang = locale,
+	structuredData = [],
 } = Astro.props;
+const alternates = await getLanguageAlternates(Astro.url);
 
 // Construct full URLs
 const currentPath = Astro.url.pathname;
 const canonicalPath = canonicalURL || currentPath;
 const siteURL = new URL(canonicalPath, SITE.url);
+const organization = {
+	"@type": "Organization",
+	"@id": `${SITE.url}/#organization`,
+	name: SITE.title,
+	url: `${SITE.url}/`,
+	logo: new URL(SITE.logo, SITE.url).href,
+	email: "official@infinitysignal.cn",
+	sameAs: ["https://github.com/InfinitySignal"],
+};
+const breadcrumbs: { name: string; item: string }[] = [
+	{ name: t.home, item: new URL(path("/"), SITE.url).href },
+];
+const section = currentPath.includes("/docs/")
+	? { name: t.docs, path: "/docs" }
+	: currentPath.includes("/products/")
+		? { name: t.products, path: "/products" }
+		: null;
+if (section && siteURL.pathname !== path(section.path))
+	breadcrumbs.push({
+		name: section.name,
+		item: new URL(path(section.path), SITE.url).href,
+	});
+if (siteURL.pathname !== path("/"))
+	breadcrumbs.push({ name: title.split(" | ")[0], item: siteURL.href });
+const schema = {
+	"@context": "https://schema.org",
+	"@graph": [
+		organization,
+		{
+			"@type": "WebSite",
+			"@id": `${SITE.url}/#website`,
+			url: `${SITE.url}/`,
+			name: SITE.title,
+			inLanguage: ["zh-CN", "en"],
+			publisher: { "@id": organization["@id"] },
+		},
+		{
+			"@type": "WebPage",
+			"@id": `${siteURL.href}#webpage`,
+			url: siteURL.href,
+			name: title,
+			description,
+			inLanguage: lang,
+			isPartOf: { "@id": `${SITE.url}/#website` },
+		},
+		...(breadcrumbs.length > 1
+			? [
+					{
+						"@type": "BreadcrumbList",
+						itemListElement: breadcrumbs.map((item, index) => ({
+							"@type": "ListItem",
+							position: index + 1,
+							name: item.name,
+							item: item.item,
+						})),
+					},
+				]
+			: []),
+		...structuredData,
+	],
+};
 
 // Handle image URLs - support both absolute URLs and relative paths
 const getFullImageUrl = (image: string): string => {
-  if (image.startsWith('http://') || image.startsWith('https://')) {
-    return image;
-  }
-  return new URL(image, SITE.url).href;
+	if (image.startsWith("http://") || image.startsWith("https://")) {
+		return image;
+	}
+	return new URL(image, SITE.url).href;
 };
 
 const fullOgImage = getFullImageUrl(ogImage);
@@ -42,9 +108,9 @@ const fullTwitterImage = getFullImageUrl(twitterImage);
 
 // Build robots meta content
 const robotsContent = [
-  noindex ? 'noindex' : 'index',
-  nofollow ? 'nofollow' : 'follow',
-].join(', ');
+	noindex ? "noindex" : "index",
+	nofollow ? "nofollow" : "follow",
+].join(", ");
 ---
 
 <!doctype html>
@@ -55,28 +121,67 @@ const robotsContent = [
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
 
-		<!-- Resource Hints -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-
 		<!-- Preload Critical Resources -->
-		<link rel="preload" href="/logo.png" as="image" type="image/png" />
-		
+		<link rel="preload" href={SITE.logo} as="image" type="image/webp" />
+
 		<!-- Primary Meta Tags -->
 		<title>{title}</title>
 		<meta name="title" content={title} />
 		<meta name="description" content={description} />
 		<meta name="robots" content={robotsContent} />
 		<link rel="canonical" href={siteURL.href} />
-		
+		{
+			alternates.map((item) => (
+				<link
+					rel="alternate"
+					hreflang={item.locale}
+					href={new URL(item.path, SITE.url).href}
+				/>
+			))
+		}
+		{
+			alternates.length > 0 && (
+				<link
+					rel="alternate"
+					hreflang="x-default"
+					href={
+						new URL(
+							(
+								alternates.find((item) => item.locale === "zh-CN") ||
+								alternates[0]
+							).path,
+							SITE.url
+						).href
+					}
+				/>
+			)
+		}
+		<script
+			type="application/ld+json"
+			set:html={JSON.stringify(schema).replace(/</g, "\\u003c")}
+		/>
+		<meta property="og:locale" content={locale === "en" ? "en_US" : "zh_CN"} />
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={ogType} />
 		<meta property="og:url" content={siteURL.href} />
 		<meta property="og:title" content={ogTitle} />
 		<meta property="og:description" content={ogDescription} />
 		<meta property="og:image" content={fullOgImage} />
+		{
+			ogImage === SITE.ogImage && (
+				<>
+					<meta property="og:image:width" content="1200" />
+					<meta property="og:image:height" content="630" />
+				</>
+			)
+		}
+		<meta
+			property="og:image:alt"
+			content={`${SITE.title} — ${t.ai}, ${t.insights}, ${t.fintech}`}
+		/>
 		<meta property="og:site_name" content={SITE.title} />
-		
+
 		<!-- Twitter -->
 		<meta name="twitter:card" content={twitterCard} />
 		<meta name="twitter:url" content={siteURL.href} />
@@ -89,7 +194,7 @@ const robotsContent = [
 			href="#main-content"
 			class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-black focus:text-white focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
 		>
-			Skip to main content
+			{t.skip}
 		</a>
 		<slot />
 	</body>

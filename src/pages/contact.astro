@@ -1,38 +1,40 @@
 ---
+import { getTranslations } from "../i18n";
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE } from "../config/site.mjs";
+const { t, path } = getTranslations(Astro.url);
 ---
 
 <Layout
-  title={`Contact - ${SITE.title}`}
-  description={`Contact InfinitySignal`}
-  canonicalURL={`${SITE.url}/contact`}
+	title={`${t.contact} | ${SITE.title}`}
+	description={t.contactDescription}
+	canonicalURL={new URL(path("/contact"), SITE.url).href}
 >
-  <Header />
-  <main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
-    <h1 class="text-4xl font-bold text-gray-900 mb-6">Contact Us</h1>
-    <p class="text-lg text-gray-600 mb-8">
-      We would love to hear from you. Please reach out through the channels below.
-    </p>
-    <div class="space-y-6">
-      <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-2">Email</h2>
-        <p class="text-gray-600">official@infinitysignal.cn</p>
-      </div>
-      <div>
-        <h2 class="text-xl font-semibold text-gray-900 mb-2">GitHub</h2>
-        <a
-          href="https://github.com/InfinitySignal"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-blue-600 hover:underline"
-        >
-          https://github.com/InfinitySignal
-        </a>
-      </div>
-    </div>
-  </main>
-  <Footer />
+	<Header />
+	<main id="main-content" role="main" class="max-w-3xl mx-auto px-4 py-16">
+		<h1 class="text-4xl font-bold text-gray-900 mb-6">{t.contactTitle}</h1>
+		<p class="text-lg text-gray-600 mb-8">
+			{t.contactIntroduction}
+		</p>
+		<div class="space-y-6">
+			<div>
+				<h2 class="text-xl font-semibold text-gray-900 mb-2">{t.email}</h2>
+				<p class="text-gray-600">official@infinitysignal.cn</p>
+			</div>
+			<div>
+				<h2 class="text-xl font-semibold text-gray-900 mb-2">GitHub</h2>
+				<a
+					href="https://github.com/InfinitySignal"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-blue-600 hover:underline"
+				>
+					https://github.com/InfinitySignal
+				</a>
+			</div>
+		</div>
+	</main>
+	<Footer />
 </Layout>

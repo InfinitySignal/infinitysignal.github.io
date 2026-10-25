@@ -2,17 +2,25 @@
 	{
 		"slug": "qbao-global-invest",
 		"title": "Q宝全球投",
-		"description": "https://qdii.infinitysignal.cn/",
+		"description": "QDII 基金信息与全球投资工具。",
 		"href": "https://qdii.infinitysignal.cn/",
 		"logo": "/products/qbao-global-invest/logo.png",
-		"order": 0
+		"order": 0,
+		"en": {
+			"title": "Qbao Global Invest",
+			"description": "QDII fund information and tools for global investing."
+		}
 	},
 	{
 		"slug": "us-risk-daily",
 		"title": "美股风控日报",
-		"description": "策略说明: https://infinitysignal.cn/docs/",
+		"description": "跟踪标普500风险指标，查看每日风控报告与策略说明。",
 		"logo": "/products/us-risk-daily/logo.png",
-		"order": 10
+		"order": 10,
+		"en": {
+			"title": "U.S. Market Risk Daily",
+			"description": "Track S&P 500 risk indicators and explore daily risk reports and strategy documentation."
+		}
 	},
 	{
 		"slug": "us-qdii-limit-monitor",
@@ -20,6 +28,10 @@
 		"description": "跟踪美股 QDII 基金各渠道申购状态、限额及公告变更。",
 		"logo": "/products/us-qdii-limit-monitor/logo.png",
 		"landingPage": "/products/us-qdii-limit-monitor/items/monitor.html",
-		"order": 20
+		"order": 20,
+		"en": {
+			"title": "U.S. Equity QDII Subscription Limit Monitor",
+			"description": "Track subscription status, limits, and announcement updates for U.S. equity QDII funds across distribution channels."
+		}
 	}
 ]

@@ -1,9 +1,11 @@
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import type { Locale } from "../i18n";
 import productsData from "../data/products.json";
 
 export interface Product {
 	slug: string;
+	en?: { title: string; description: string };
 	title: string;
 	description: string;
 	logo?: string;
@@ -18,7 +20,7 @@ export interface ProductHtmlFile {
 }
 
 const PRODUCT_SLUG_PATTERN = /^[a-z0-9-]+$/;
-const DEFAULT_PRODUCT_LOGO = "/logo.png";
+const DEFAULT_PRODUCT_LOGO = "/_generated/brand.webp";
 
 function assertValidProduct(product: Product): void {
 	if (!PRODUCT_SLUG_PATTERN.test(product.slug)) {
@@ -28,8 +30,11 @@ function assertValidProduct(product: Product): void {
 	}
 }
 
-export function getProducts(): Product[] {
-	const products = [...(productsData as Product[])];
+export function getProducts(locale: Locale = "zh-CN"): Product[] {
+	const products = (productsData as Product[]).map((product) => ({
+		...product,
+		...(locale === "en" ? product.en : {}),
+	}));
 	products.forEach(assertValidProduct);
 
 	return products.sort((a, b) => {
@@ -39,8 +44,14 @@ export function getProducts(): Product[] {
 	});
 }
 
-export function getProductHref(product: Product): string {
-	return product.href || `/products/${product.slug}/`;
+export function getProductHref(
+	product: Product,
+	locale: Locale = "zh-CN"
+): string {
+	return (
+		product.href ||
+		`${locale === "en" && !product.landingPage ? "/en" : ""}/products/${product.slug}/`
+	);
 }
 
 export function isExternalProduct(product: Product): boolean {
@@ -48,7 +59,12 @@ export function isExternalProduct(product: Product): boolean {
 }
 
 export function getProductLogo(product: Product): string {
-	return product.logo || DEFAULT_PRODUCT_LOGO;
+	return (
+		product.logo?.replace(
+			/^\/products\/([^/]+)\/logo\.png$/,
+			"/_generated/$1.webp"
+		) || DEFAULT_PRODUCT_LOGO
+	);
 }
 
 export function getProductHtmlFiles(slug: string): ProductHtmlFile[] {
