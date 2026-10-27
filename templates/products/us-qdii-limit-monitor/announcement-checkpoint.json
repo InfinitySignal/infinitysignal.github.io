@@ -3,8 +3,8 @@
   "monitor_version": "V1.7",
   "source": "Q宝全球投:list_qdii_announcements",
   "created_at": "2026-10-13T18:20:00+08:00",
-  "last_scan_at": "2026-10-27T13:03:01+08:00",
-  "last_completed_scan_at": "2026-10-27T13:03:01+08:00",
+  "last_scan_at": "2026-10-27T19:02:31+08:00",
+  "last_completed_scan_at": "2026-10-27T19:02:31+08:00",
   "processed_announcements": {
     "AN202610121830361740": {
       "parse_status": "success"
@@ -1040,6 +1040,9 @@
     },
     "AN202610271831011930": {
       "parse_status": "success"
+    },
+    "AN202610271831020985": {
+      "parse_status": "success"
     }
   },
   "pending_announcements": {},
@@ -1458,18 +1461,37 @@
       "termination_time": null,
       "parsed_from_content": true,
       "note": "新增代销机构；正文确认自生效日起可申购，未提供具体申购起点/额度；定投最低扣款金额不低于基金最低申购起点。"
+    },
+    "AN202610271831020985:022664": {
+      "source_announcement_id": "AN202610271831020985:022664",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831020985_1.pdf",
+      "announcement_date": "2026-10-27",
+      "fund_code": "022664",
+      "fund_name": "华泰柏瑞纳斯达克100ETF发起式联接I",
+      "currency": "CNY",
+      "channel": "agency_sales:中泰证券",
+      "business": "purchase",
+      "status": "open",
+      "daily_limit_cny": null,
+      "minimum_subscription_cny": null,
+      "amount_boundary": "未说明",
+      "limit_sharing_scope": "未说明",
+      "effective_date": "2026-10-28",
+      "termination_time": null,
+      "parsed_from_content": true,
+      "note": "新增代销机构；正文确认自生效日起可申购，未提供具体申购起点/额度；定投最低扣款金额不低于基金最低申购起点。"
     }
   },
   "last_scan_summary": {
-    "qbao_queried_at": "2026-10-27 05:03:01 UTC",
+    "qbao_queried_at": "2026-10-27 11:02:31 UTC",
     "last_sync_at": "2026-10-21T01:09:13.541066Z",
-    "raw_items": 840,
+    "raw_items": 841,
     "pages": 5,
-    "unique_documents": 345,
+    "unique_documents": 346,
     "remaining_unparsed": 0,
     "remaining_rule_validation": 0,
-    "future_effective": 1,
-    "new_documents": 1
+    "future_effective": 2,
+    "new_documents": 2
   },
   "rule_validation_pending": [],
   "diagnostic_failures": [
