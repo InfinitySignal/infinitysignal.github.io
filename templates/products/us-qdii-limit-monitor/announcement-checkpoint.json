@@ -1479,8 +1479,8 @@
       "tool_success": true
     },
     "2026-10-28|022664|agency_sales:长城证券|purchase|not_added->open_limit_unreported|AN202610271831011930": {
-      "status": "sending",
-      "attempt_at": "2026-10-28T10:09:04+08:00",
+      "status": "sent",
+      "attempt_at": "2026-10-28T10:10:54+08:00",
       "fund_codes": [
         "022664"
       ],
@@ -1491,11 +1491,13 @@
       "new_rule": "开放申购；申购起点/额度及共享范围未披露，待核",
       "effective_date": "2026-10-28",
       "source_announcement_id": "AN202610271831011930:022664",
-      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831011930_1.pdf"
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831011930_1.pdf",
+      "sent_at": "2026-10-28T10:10:54+08:00",
+      "tool_success": true
     },
     "2026-10-28|022664|agency_sales:中泰证券|purchase|not_added->open_limit_unreported|AN202610271831020985": {
-      "status": "sending",
-      "attempt_at": "2026-10-28T10:09:04+08:00",
+      "status": "sent",
+      "attempt_at": "2026-10-28T10:10:54+08:00",
       "fund_codes": [
         "022664"
       ],
@@ -1506,7 +1508,9 @@
       "new_rule": "开放申购；申购起点/额度及共享范围未披露，待核",
       "effective_date": "2026-10-28",
       "source_announcement_id": "AN202610271831020985:022664",
-      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831020985_1.pdf"
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831020985_1.pdf",
+      "sent_at": "2026-10-28T10:10:54+08:00",
+      "tool_success": true
     }
   },
   "future_effective": {},
