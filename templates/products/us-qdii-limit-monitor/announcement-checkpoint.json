@@ -1587,6 +1587,23 @@
       "retry_result": "缩减核验记录体积后提交成功，commit_sha=5b422a047ae316a3bfd33d0efc56df9b3584c9de",
       "impact": "首次写入未确认，重试成功，14份规则复核已持久化",
       "next_action": "排查大体积工具调用的安全检查触发条件；避免超长字段并保留失败证据，不推断GitHub权限异常"
+    },
+    {
+      "failure_id": "20261101T130525+0800-checkpoint-read-recovered",
+      "stage": "checkpoint_read",
+      "timestamp": "2026-11-01T13:05:25+08:00",
+      "tool": "mcp__codex_apps__ifs_52dee04dbccc_getstoragecontents",
+      "target": "templates/products/us-qdii-limit-monitor/announcement-checkpoint.json",
+      "request_summary": "首次并行读取checkpoint返回isError=true；原始响应正文未保留，随后复读同一路径成功",
+      "request_sent": "true",
+      "error_code": null,
+      "error_message": "首次调用原样错误文本未能恢复；首次结果为isError=true",
+      "category": "工具读取故障",
+      "retry_count": 1,
+      "retry_result": "随后复读成功，内容与本轮已读checkpoint一致",
+      "readback": "成功；47,478 UTF-8字节",
+      "impact": "首次读取未取得checkpoint内容；复读成功后继续处理，未发生覆盖",
+      "next_action": "本轮已恢复并持久记录；后续按既定流程处理"
     }
   ],
   "storage_compaction": {
