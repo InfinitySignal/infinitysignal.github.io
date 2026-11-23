@@ -1046,6 +1046,24 @@
     },
     "AN202610281831063006": {
       "parse_status": "success"
+    },
+    "AN202611221831934228": {
+      "parse_status": "success"
+    },
+    "AN202611191831843431": {
+      "parse_status": "success"
+    },
+    "AN202611131831669694": {
+      "parse_status": "success"
+    },
+    "AN202611121831662102": {
+      "parse_status": "success"
+    },
+    "AN202611111831605448": {
+      "parse_status": "success"
+    },
+    "AN202611101831571600": {
+      "parse_status": "success"
     }
   },
   "pending_announcements": {},
@@ -1396,6 +1414,150 @@
       "verification_level": "body_confirmed",
       "verified_at": "2026-10-28T10:09:04+08:00",
       "note": "正文确认新代销机构自生效日起开放申购；未披露该渠道申购起点/额度及与其他渠道的共享范围。"
+    },
+    "019441|CNY|agency_sales:浦领基金|purchase|not_applicable_terminated": {
+      "fund_code": "019441",
+      "currency": "CNY",
+      "channel": "agency_sales:浦领基金",
+      "business": "purchase",
+      "status": "terminated",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable",
+      "limit_sharing_scope": "not_applicable_terminated",
+      "effective_date": "2026-11-17",
+      "termination_time": null,
+      "source_announcement_id": "AN202611101831571600:019442",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
+      "announcement_date": "2026-11-10",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "该机构终止销售构成针对该机构的明确例外，不覆盖其他直销或代销渠道。"
+    },
+    "019442|CNY|agency_sales:浦领基金|purchase|not_applicable_terminated": {
+      "fund_code": "019442",
+      "currency": "CNY",
+      "channel": "agency_sales:浦领基金",
+      "business": "purchase",
+      "status": "terminated",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable",
+      "limit_sharing_scope": "not_applicable_terminated",
+      "effective_date": "2026-11-17",
+      "termination_time": null,
+      "source_announcement_id": "AN202611101831571600:019442",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
+      "announcement_date": "2026-11-10",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "该机构终止销售构成针对该机构的明确例外，不覆盖其他直销或代销渠道。"
+    },
+    "016452|CNY|agency_sales:深圳富济基金|purchase|not_applicable_terminated": {
+      "fund_code": "016452",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "status": "terminated",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable",
+      "limit_sharing_scope": "not_applicable_terminated",
+      "effective_date": "2026-11-11",
+      "termination_time": null,
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "announcement_date": "2026-11-11",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "该机构终止销售构成针对该机构的明确例外，不覆盖其他直销或代销渠道。"
+    },
+    "016453|CNY|agency_sales:深圳富济基金|purchase|not_applicable_terminated": {
+      "fund_code": "016453",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "status": "terminated",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable",
+      "limit_sharing_scope": "not_applicable_terminated",
+      "effective_date": "2026-11-11",
+      "termination_time": null,
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "announcement_date": "2026-11-11",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "该机构终止销售构成针对该机构的明确例外，不覆盖其他直销或代销渠道。"
+    },
+    "021000|CNY|agency_sales:深圳富济基金|purchase|not_applicable_terminated": {
+      "fund_code": "021000",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "status": "terminated",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable",
+      "limit_sharing_scope": "not_applicable_terminated",
+      "effective_date": "2026-11-11",
+      "termination_time": null,
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "announcement_date": "2026-11-11",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "该机构终止销售构成针对该机构的明确例外，不覆盖其他直销或代销渠道。"
+    },
+    "019524|CNY|agency_sales:广发证券|purchase|unreported": {
+      "fund_code": "019524",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "status": "open",
+      "daily_limit_cny": null,
+      "boundary": "unreported",
+      "limit_sharing_scope": "unreported",
+      "effective_date": "2026-11-13",
+      "termination_time": null,
+      "source_announcement_id": "AN202611121831662102:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
+      "announcement_date": "2026-11-12",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "仅确认该机构申购开放；额度和共享口径不推断、不覆盖原有共享规则。"
+    },
+    "019525|CNY|agency_sales:广发证券|purchase|unreported": {
+      "fund_code": "019525",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "status": "open",
+      "daily_limit_cny": null,
+      "boundary": "unreported",
+      "limit_sharing_scope": "unreported",
+      "effective_date": "2026-11-13",
+      "termination_time": null,
+      "source_announcement_id": "AN202611121831662102:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
+      "announcement_date": "2026-11-12",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "仅确认该机构申购开放；额度和共享口径不推断、不覆盖原有共享规则。"
+    },
+    "019525|CNY|agency_sales:东吴证券|purchase|unreported": {
+      "fund_code": "019525",
+      "currency": "CNY",
+      "channel": "agency_sales:东吴证券",
+      "business": "purchase",
+      "status": "open",
+      "daily_limit_cny": null,
+      "boundary": "unreported",
+      "limit_sharing_scope": "unreported",
+      "effective_date": "2026-11-16",
+      "termination_time": null,
+      "source_announcement_id": "AN202611131831669694:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611131831669694_1.pdf",
+      "announcement_date": "2026-11-13",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-23T09:12:00+08:00",
+      "note": "仅确认该机构申购开放；额度和共享口径不推断、不覆盖原有共享规则。"
     }
   },
   "notification_events": {
@@ -1511,22 +1673,218 @@
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202610271831020985_1.pdf",
       "sent_at": "2026-10-28T10:10:54+08:00",
       "tool_success": true
+    },
+    "019441|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600": {
+      "event_key": "019441|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600",
+      "status": "pending",
+      "fund_codes": [
+        "019441"
+      ],
+      "fund_name": "万家纳斯达克100 A（019441）",
+      "currency": "CNY",
+      "channel": "agency_sales:浦领基金",
+      "business": "purchase",
+      "old_rule": "该机构代理销售（旧额度未重新核实）",
+      "new_rule": "终止该机构申购业务；不影响其他渠道",
+      "effective_date": "2026-11-17",
+      "source_announcement_id": "AN202611101831571600:019442",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "019442|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600": {
+      "event_key": "019442|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600",
+      "status": "pending",
+      "fund_codes": [
+        "019442"
+      ],
+      "fund_name": "万家纳斯达克100 C（019442）",
+      "currency": "CNY",
+      "channel": "agency_sales:浦领基金",
+      "business": "purchase",
+      "old_rule": "该机构代理销售（旧额度未重新核实）",
+      "new_rule": "终止该机构申购业务；不影响其他渠道",
+      "effective_date": "2026-11-17",
+      "source_announcement_id": "AN202611101831571600:019442",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "016452|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
+      "event_key": "016452|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
+      "status": "pending",
+      "fund_codes": [
+        "016452"
+      ],
+      "fund_name": "南方纳斯达克100 A（016452）",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "old_rule": "该机构代理销售（旧额度未重新核实）",
+      "new_rule": "终止该机构申购业务；不影响其他渠道",
+      "effective_date": "2026-11-11",
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "016453|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
+      "event_key": "016453|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
+      "status": "pending",
+      "fund_codes": [
+        "016453"
+      ],
+      "fund_name": "南方纳斯达克100 C（016453）",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "old_rule": "该机构代理销售（旧额度未重新核实）",
+      "new_rule": "终止该机构申购业务；不影响其他渠道",
+      "effective_date": "2026-11-11",
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "021000|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
+      "event_key": "021000|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
+      "status": "pending",
+      "fund_codes": [
+        "021000"
+      ],
+      "fund_name": "南方纳斯达克100 I（021000）",
+      "currency": "CNY",
+      "channel": "agency_sales:深圳富济基金",
+      "business": "purchase",
+      "old_rule": "该机构代理销售（旧额度未重新核实）",
+      "new_rule": "终止该机构申购业务；不影响其他渠道",
+      "effective_date": "2026-11-11",
+      "source_announcement_id": "AN202611111831605448:021000",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "019524|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102": {
+      "event_key": "019524|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102",
+      "status": "pending",
+      "fund_codes": [
+        "019524"
+      ],
+      "fund_name": "华泰柏瑞纳斯达克100ETF联接A（019524）",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "old_rule": "未开通该机构申购渠道",
+      "new_rule": "开放申购；额度、金额边界及共享口径待核",
+      "effective_date": "2026-11-13",
+      "source_announcement_id": "AN202611121831662102:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "019525|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102": {
+      "event_key": "019525|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102",
+      "status": "pending",
+      "fund_codes": [
+        "019525"
+      ],
+      "fund_name": "华泰柏瑞纳斯达克100ETF联接C（019525）",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "old_rule": "未开通该机构申购渠道",
+      "new_rule": "开放申购；额度、金额边界及共享口径待核",
+      "effective_date": "2026-11-13",
+      "source_announcement_id": "AN202611121831662102:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+    },
+    "019525|CNY|agency_sales:东吴证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-16|AN202611131831669694": {
+      "event_key": "019525|CNY|agency_sales:东吴证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-16|AN202611131831669694",
+      "status": "pending",
+      "fund_codes": [
+        "019525"
+      ],
+      "fund_name": "华泰柏瑞纳斯达克100ETF联接C（019525）",
+      "currency": "CNY",
+      "channel": "agency_sales:东吴证券",
+      "business": "purchase",
+      "old_rule": "未开通该机构申购渠道",
+      "new_rule": "开放申购；额度、金额边界及共享口径待核",
+      "effective_date": "2026-11-16",
+      "source_announcement_id": "AN202611131831669694:019525",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611131831669694_1.pdf",
+      "created_at": "2026-11-23T09:12:00+08:00",
+      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
     }
   },
-  "future_effective": {},
+  "future_effective": {
+    "160213|CNY|all_applicable_sales_channels|purchase|holiday_overlay:2026-11-26": {
+      "fund_code": "160213",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "holiday_overlay",
+      "effective_date": "2026-11-26",
+      "termination_time": "2026-11-27T00:00:00+08:00",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "announcement_date": "2026-11-23",
+      "application_status": "unapplied",
+      "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
+    },
+    "017028|CNY|all_applicable_sales_channels|purchase|holiday_overlay:2026-11-26": {
+      "fund_code": "017028",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "holiday_overlay",
+      "effective_date": "2026-11-26",
+      "termination_time": "2026-11-27T00:00:00+08:00",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "announcement_date": "2026-11-23",
+      "application_status": "unapplied",
+      "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
+    },
+    "017030|CNY|all_applicable_sales_channels|purchase|holiday_overlay:2026-11-26": {
+      "fund_code": "017030",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "holiday_overlay",
+      "effective_date": "2026-11-26",
+      "termination_time": "2026-11-27T00:00:00+08:00",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "announcement_date": "2026-11-23",
+      "application_status": "unapplied",
+      "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
+    }
+  },
   "last_scan_summary": {
-    "qbao_queried_at": "2026-10-28T10:05:31.041077+08:00",
-    "last_sync_at": "2026-10-28T01:10:16.700822Z",
-    "raw_items": 843,
+    "qbao_queried_at": "2026-11-23T09:10:42.891355+08:00",
+    "last_sync_at": "2026-11-23T01:07:50.827826Z",
+    "raw_items": 856,
     "pages": 5,
-    "unique_documents": 347,
-    "remaining_unparsed": 0,
-    "remaining_rule_validation": 4,
-    "future_effective": 0,
-    "new_documents": 1,
-    "body_reads_success": 2,
+    "unique_documents": 353,
+    "new_documents": 6,
+    "body_reads_success": 6,
     "body_reads_missing": 0,
-    "applied_rules": 2,
+    "applied_rules": 8,
+    "remaining_unparsed": 0,
+    "remaining_rule_validation": 8,
+    "future_effective": 3,
     "conflicts": 1
   },
   "rule_validation_pending": [
@@ -1569,6 +1927,46 @@
       "field": "fund_code_and_business_scope",
       "reason": "列表把公告关联至012752，但正文代码表仅列023422，且未明确普通申购范围；冲突待核。",
       "checked_at": "2026-10-28T10:09:04+08:00"
+    },
+    {
+      "fund_code": "019524",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "announcement_id": "AN202611121831662102:019525",
+      "field": "amount_boundary_and_sharing_scope",
+      "reason": "正文确认开放申购，但未列该份额普通申购额度、金额边界或共享口径；保留原有历史共享展示，不据此推定新增渠道适用该额度。",
+      "checked_at": "2026-11-23T09:12:00+08:00"
+    },
+    {
+      "fund_code": "019525",
+      "currency": "CNY",
+      "channel": "agency_sales:广发证券",
+      "business": "purchase",
+      "announcement_id": "AN202611121831662102:019525",
+      "field": "amount_boundary_and_sharing_scope",
+      "reason": "正文确认开放申购，但未列该份额普通申购额度、金额边界或共享口径；保留原有历史共享展示，不据此推定新增渠道适用该额度。",
+      "checked_at": "2026-11-23T09:12:00+08:00"
+    },
+    {
+      "fund_code": "019525",
+      "currency": "CNY",
+      "channel": "agency_sales:东吴证券",
+      "business": "purchase",
+      "announcement_id": "AN202611131831669694:019525",
+      "field": "amount_boundary_and_sharing_scope",
+      "reason": "正文确认开放申购，但未列该份额普通申购额度、金额边界或共享口径；保留原有历史共享展示，不据此推定新增渠道适用该额度。",
+      "checked_at": "2026-11-23T09:12:00+08:00"
+    },
+    {
+      "fund_code": "023422",
+      "currency": "CNY",
+      "channel": "agency_sales:长城证券",
+      "business": "purchase",
+      "announcement_id": "AN202611191831843431:023422",
+      "field": "business_scope",
+      "reason": "正文确认新增销售机构并可办理基金业务，未明确普通申购业务范围，不据此认定开放或额度。",
+      "checked_at": "2026-11-23T09:12:00+08:00"
     }
   ],
   "diagnostic_failures": [
