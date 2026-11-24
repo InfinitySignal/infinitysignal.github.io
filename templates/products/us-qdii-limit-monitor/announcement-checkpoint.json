@@ -1064,6 +1064,12 @@
     },
     "AN202611101831571600": {
       "parse_status": "success"
+    },
+    "AN202611241831972542": {
+      "parse_status": "success"
+    },
+    "AN202611231831957399": {
+      "parse_status": "success"
     }
   },
   "pending_announcements": {},
@@ -1558,6 +1564,60 @@
       "verification_level": "body_confirmed",
       "verified_at": "2026-11-23T09:12:00+08:00",
       "note": "仅确认该机构申购开放；额度和共享口径不推断、不覆盖原有共享规则。"
+    },
+    "016532|CNY|all_applicable_sales_channels|purchase|not_applicable_suspended": {
+      "fund_code": "016532",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "effective_date": "2026-02-03",
+      "termination_time": null,
+      "source_announcement_id": "AN202611241831972542:021838",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611241831972542_1.pdf",
+      "announcement_date": "2026-11-24",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-24T09:17:14+08:00",
+      "note": "新增正文明确重申自2026-02-03暂停申购（含定投）；与历史展示一致，不构成新的实际规则变化。"
+    },
+    "016533|CNY|all_applicable_sales_channels|purchase|not_applicable_suspended": {
+      "fund_code": "016533",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "effective_date": "2026-02-03",
+      "termination_time": null,
+      "source_announcement_id": "AN202611241831972542:021838",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611241831972542_1.pdf",
+      "announcement_date": "2026-11-24",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-24T09:17:14+08:00",
+      "note": "新增正文明确重申自2026-02-03暂停申购（含定投）；与历史展示一致，不构成新的实际规则变化。"
+    },
+    "021838|CNY|all_applicable_sales_channels|purchase|not_applicable_suspended": {
+      "fund_code": "021838",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "not_applicable_suspended",
+      "effective_date": "2026-02-03",
+      "termination_time": null,
+      "source_announcement_id": "AN202611241831972542:021838",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611241831972542_1.pdf",
+      "announcement_date": "2026-11-24",
+      "verification_level": "body_confirmed",
+      "verified_at": "2026-11-24T09:17:14+08:00",
+      "note": "新增正文明确重申自2026-02-03暂停申购（含定投）；与历史展示一致，不构成新的实际规则变化。"
     }
   },
   "notification_events": {
@@ -1870,22 +1930,57 @@
       "announcement_date": "2026-11-23",
       "application_status": "unapplied",
       "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
+    },
+    "019547|CNY|all_applicable_sales_channels|purchase|holiday_overlay:2026-11-26": {
+      "fund_code": "019547",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "holiday_overlay",
+      "effective_date": "2026-11-26",
+      "termination_time": "2026-11-27T00:00:00+08:00",
+      "source_announcement_id": "AN202611231831957399:019548",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
+      "announcement_date": "2026-11-24",
+      "application_status": "unapplied",
+      "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
+    },
+    "019548|CNY|all_applicable_sales_channels|purchase|holiday_overlay:2026-11-26": {
+      "fund_code": "019548",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "status": "suspended",
+      "daily_limit_cny": null,
+      "boundary": "not_applicable_suspended",
+      "limit_sharing_scope": "holiday_overlay",
+      "effective_date": "2026-11-26",
+      "termination_time": "2026-11-27T00:00:00+08:00",
+      "source_announcement_id": "AN202611231831957399:019548",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
+      "announcement_date": "2026-11-24",
+      "application_status": "unapplied",
+      "on_expiry": "仅移除本次节假日暂停层；原有暂停、大额限制及其他交易状态继续有效，不产生无限额恢复规则。"
     }
   },
   "last_scan_summary": {
-    "qbao_queried_at": "2026-11-23T09:10:42.891355+08:00",
-    "last_sync_at": "2026-11-23T01:07:50.827826Z",
-    "raw_items": 856,
+    "qbao_queried_at": "2026-11-24T09:17:14.475972+08:00",
+    "last_sync_at": "2026-11-24T01:08:15.746298Z",
+    "raw_items": 861,
     "pages": 5,
-    "unique_documents": 353,
-    "new_documents": 6,
-    "body_reads_success": 6,
+    "unique_documents": 355,
+    "new_documents": 2,
+    "body_reads_success": 2,
     "body_reads_missing": 0,
-    "applied_rules": 8,
+    "applied_rules": 3,
     "remaining_unparsed": 0,
     "remaining_rule_validation": 8,
-    "future_effective": 3,
-    "conflicts": 1
+    "future_effective": 5,
+    "conflicts": 1,
+    "actual_rule_changes": 0
   },
   "rule_validation_pending": [
     {
