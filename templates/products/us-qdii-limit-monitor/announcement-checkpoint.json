@@ -1736,7 +1736,7 @@
     },
     "019441|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600": {
       "event_key": "019441|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "019441"
       ],
@@ -1750,11 +1750,11 @@
       "source_announcement_id": "AN202611101831571600:019442",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "019442|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600": {
       "event_key": "019442|CNY|agency_sales:浦领基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-17|AN202611101831571600",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "019442"
       ],
@@ -1768,11 +1768,11 @@
       "source_announcement_id": "AN202611101831571600:019442",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611101831571600_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "016452|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
       "event_key": "016452|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "016452"
       ],
@@ -1786,11 +1786,11 @@
       "source_announcement_id": "AN202611111831605448:021000",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "016453|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
       "event_key": "016453|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "016453"
       ],
@@ -1804,11 +1804,11 @@
       "source_announcement_id": "AN202611111831605448:021000",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "021000|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448": {
       "event_key": "021000|CNY|agency_sales:深圳富济基金|purchase|该机构代理销售（旧额度未重新核实）->终止该机构申购业务；不影响其他渠道|2026-11-11|AN202611111831605448",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "021000"
       ],
@@ -1822,11 +1822,11 @@
       "source_announcement_id": "AN202611111831605448:021000",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611111831605448_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "019524|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102": {
       "event_key": "019524|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "019524"
       ],
@@ -1840,11 +1840,11 @@
       "source_announcement_id": "AN202611121831662102:019525",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "019525|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102": {
       "event_key": "019525|CNY|agency_sales:广发证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-13|AN202611121831662102",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "019525"
       ],
@@ -1858,11 +1858,11 @@
       "source_announcement_id": "AN202611121831662102:019525",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611121831662102_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     },
     "019525|CNY|agency_sales:东吴证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-16|AN202611131831669694": {
       "event_key": "019525|CNY|agency_sales:东吴证券|purchase|未开通该机构申购渠道->开放申购；额度、金额边界及共享口径待核|2026-11-16|AN202611131831669694",
-      "status": "pending",
+      "status": "sending",
       "fund_codes": [
         "019525"
       ],
@@ -1876,7 +1876,7 @@
       "source_announcement_id": "AN202611131831669694:019525",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611131831669694_1.pdf",
       "created_at": "2026-11-23T09:12:00+08:00",
-      "reason": "通知工具列出两个授权账户，当前任务未指定账户，暂缓以免选错接收通道。"
+      "attempted_at": "2026-11-25T23:24:24+08:00"
     }
   },
   "future_effective": {
