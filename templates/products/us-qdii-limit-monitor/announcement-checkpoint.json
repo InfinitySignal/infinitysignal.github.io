@@ -1983,7 +1983,7 @@
     },
     "160213|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
       "event_key": "160213|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
-      "status": "sending",
+      "status": "sent",
       "attempted_at": "2026-11-26T09:07:30+08:00",
       "fund_codes": [
         "160213"
@@ -1997,11 +1997,12 @@
       "effective_date": "2026-11-26",
       "source_announcement_id": "AN202611221831934228:160213",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
-      "html_status": "保存成功且回读一致"
+      "html_status": "保存成功且回读一致",
+      "sent_at": "2026-11-26T09:08:12+08:00"
     },
     "017028|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
       "event_key": "017028|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
-      "status": "sending",
+      "status": "sent",
       "attempted_at": "2026-11-26T09:07:30+08:00",
       "fund_codes": [
         "017028"
@@ -2015,11 +2016,12 @@
       "effective_date": "2026-11-26",
       "source_announcement_id": "AN202611221831934228:160213",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
-      "html_status": "保存成功且回读一致"
+      "html_status": "保存成功且回读一致",
+      "sent_at": "2026-11-26T09:08:12+08:00"
     },
     "017030|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
       "event_key": "017030|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
-      "status": "sending",
+      "status": "sent",
       "attempted_at": "2026-11-26T09:07:30+08:00",
       "fund_codes": [
         "017030"
@@ -2033,11 +2035,12 @@
       "effective_date": "2026-11-26",
       "source_announcement_id": "AN202611221831934228:160213",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
-      "html_status": "保存成功且回读一致"
+      "html_status": "保存成功且回读一致",
+      "sent_at": "2026-11-26T09:08:12+08:00"
     },
     "019547|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
       "event_key": "019547|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
-      "status": "sending",
+      "status": "sent",
       "attempted_at": "2026-11-26T09:07:30+08:00",
       "fund_codes": [
         "019547"
@@ -2051,11 +2054,12 @@
       "effective_date": "2026-11-26",
       "source_announcement_id": "AN202611231831957399:019548",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
-      "html_status": "保存成功且回读一致"
+      "html_status": "保存成功且回读一致",
+      "sent_at": "2026-11-26T09:08:12+08:00"
     },
     "019548|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
       "event_key": "019548|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
-      "status": "sending",
+      "status": "sent",
       "attempted_at": "2026-11-26T09:07:30+08:00",
       "fund_codes": [
         "019548"
@@ -2069,7 +2073,8 @@
       "effective_date": "2026-11-26",
       "source_announcement_id": "AN202611231831957399:019548",
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
-      "html_status": "保存成功且回读一致"
+      "html_status": "保存成功且回读一致",
+      "sent_at": "2026-11-26T09:08:12+08:00"
     }
   },
   "future_effective": {},
