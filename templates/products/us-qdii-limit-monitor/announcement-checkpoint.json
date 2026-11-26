@@ -1980,6 +1980,96 @@
       "created_at": "2026-11-23T09:12:00+08:00",
       "attempted_at": "2026-11-25T23:24:24+08:00",
       "sent_at": "2026-11-25T23:25:36+08:00"
+    },
+    "160213|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
+      "event_key": "160213|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
+      "status": "sending",
+      "attempted_at": "2026-11-26T09:07:30+08:00",
+      "fund_codes": [
+        "160213"
+      ],
+      "fund_name": "160213",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "old_rule": "原有普通申购状态（保持不变）",
+      "new_rule": "11月26日节假日暂停申购；次日仅移除该暂停层",
+      "effective_date": "2026-11-26",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "html_status": "保存成功且回读一致"
+    },
+    "017028|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
+      "event_key": "017028|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
+      "status": "sending",
+      "attempted_at": "2026-11-26T09:07:30+08:00",
+      "fund_codes": [
+        "017028"
+      ],
+      "fund_name": "017028",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "old_rule": "原有普通申购状态（保持不变）",
+      "new_rule": "11月26日节假日暂停申购；次日仅移除该暂停层",
+      "effective_date": "2026-11-26",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "html_status": "保存成功且回读一致"
+    },
+    "017030|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
+      "event_key": "017030|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
+      "status": "sending",
+      "attempted_at": "2026-11-26T09:07:30+08:00",
+      "fund_codes": [
+        "017030"
+      ],
+      "fund_name": "017030",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "old_rule": "原有普通申购状态（保持不变）",
+      "new_rule": "11月26日节假日暂停申购；次日仅移除该暂停层",
+      "effective_date": "2026-11-26",
+      "source_announcement_id": "AN202611221831934228:160213",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611221831934228_1.pdf",
+      "html_status": "保存成功且回读一致"
+    },
+    "019547|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
+      "event_key": "019547|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
+      "status": "sending",
+      "attempted_at": "2026-11-26T09:07:30+08:00",
+      "fund_codes": [
+        "019547"
+      ],
+      "fund_name": "019547",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "old_rule": "原有普通申购状态（保持不变）",
+      "new_rule": "11月26日节假日暂停申购；次日仅移除该暂停层",
+      "effective_date": "2026-11-26",
+      "source_announcement_id": "AN202611231831957399:019548",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
+      "html_status": "保存成功且回读一致"
+    },
+    "019548|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228": {
+      "event_key": "019548|CNY|all_applicable_sales_channels|purchase|ordinary->holiday_suspended_overlay|2026-11-26|AN202611221831934228",
+      "status": "sending",
+      "attempted_at": "2026-11-26T09:07:30+08:00",
+      "fund_codes": [
+        "019548"
+      ],
+      "fund_name": "019548",
+      "currency": "CNY",
+      "channel": "all_applicable_sales_channels",
+      "business": "purchase",
+      "old_rule": "原有普通申购状态（保持不变）",
+      "new_rule": "11月26日节假日暂停申购；次日仅移除该暂停层",
+      "effective_date": "2026-11-26",
+      "source_announcement_id": "AN202611231831957399:019548",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
+      "html_status": "保存成功且回读一致"
     }
   },
   "future_effective": {},
