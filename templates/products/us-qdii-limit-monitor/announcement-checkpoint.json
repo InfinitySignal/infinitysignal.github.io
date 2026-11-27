@@ -2004,6 +2004,24 @@
       "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611231831957399_1.pdf",
       "html_status": "保存成功且回读一致",
       "sent_at": "2026-11-26T09:08:12+08:00"
+    },
+    "019305|CNY|agency_sales:平安银行行E通|purchase|closed->open_limit_unreported|2026-11-27|AN202611271832088258": {
+      "event_key": "019305|CNY|agency_sales:平安银行行E通|purchase|closed->open_limit_unreported|2026-11-27|AN202611271832088258",
+      "status": "sending",
+      "attempted_at": "2026-11-27T09:12:40+08:00",
+      "fund_codes": [
+        "019305"
+      ],
+      "fund_name": "摩根标普500指数C（019305）",
+      "currency": "CNY",
+      "channel": "agency_sales:平安银行行E通",
+      "business": "purchase",
+      "old_rule": "未确认该代销渠道开放申购",
+      "new_rule": "开放申购；额度、金额边界及共享范围待核",
+      "effective_date": "2026-11-27",
+      "source_announcement_id": "AN202611271832088258:019305",
+      "source_url": "https://pdf.dfcfw.com/pdf/H2_AN202611271832088258_1.pdf",
+      "html_status": "保存成功且回读一致"
     }
   },
   "future_effective": {
